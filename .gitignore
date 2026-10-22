@@ -227,7 +227,7 @@ __pycache__/
 .env
 venv/
 env/
-
+data/
 # Data Folders (Ignore contents, keep folder structure via .gitkeep)
 data/raw/*
 !data/raw/.gitkeep
@@ -254,3 +254,4 @@ checkpoints/
 wandb/
 runs/
 *.log
+models/
