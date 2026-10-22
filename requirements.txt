@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision
+opencv-python
+matplotlib
+numpy
+pandas
+seaborn
+huggingface_hub
+scenedetect>=0.7.2
