@@ -22,8 +22,8 @@ class TokenAligner:
 
         for segment in word_segments:
             word = segment["word"].strip()
-            start_time = segment.get("start", 0.0)
-            end_time = segment.get("end", 0.0)
+            start_time = segment.get("start") if segment.get("start") is not None else 0.0
+            end_time = segment.get("end") if segment.get("end") is not None else start_time # this is to fix the issue of None values for start and end times in whisperX when it gets unknown words like "2019" or "$5". We set the end_time to be the same as start_time in such cases, so that the word is still included in the alignment but with a zero-length span.(sorry for the long comment, but I wanted to explain the reasoning behind this change)
 
             # Convert seconds to discrete frame indices based on clip FPS
             start_frame = int(np.floor(start_time * clip_fps))
