@@ -1,7 +1,3 @@
-"""
-Output per clip: {"clip_id", "status", "duration", "words": [{"word", "start", "end"}]}
-Words WhisperX cannot align (e.g. "2019", "$5") get start = end = None.
-"""
 import json
 import logging
 import math
