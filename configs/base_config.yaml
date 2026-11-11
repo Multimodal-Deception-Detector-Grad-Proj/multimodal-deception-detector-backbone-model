@@ -1,0 +1,12 @@
+transcribe:
+  model_size: medium.en
+  language: en
+  device: auto                  # auto | cuda | cpu
+  compute_type: float16         # forced to int8 on CPU
+  batch_size: 16
+  beam_size: 5
+  condition_on_previous_text: false
+  no_speech_threshold: 0.6
+  initial_prompt: null
+  align_model: null             # null = default wav2vec2 model for the language
+  cache_dir: data/processed/transcripts
