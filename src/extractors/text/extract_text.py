@@ -5,7 +5,7 @@ from typing import Dict, Union
 import torch
 from transformers import AutoModel
 
-from src.common.constants import D_TXT, L_TXT, TARGET_FPS, TEXT_ENCODER
+from src.common.constants import L_TXT, TARGET_FPS, TEXT_ENCODER
 from src.common.contracts import check_text_sample, verify_text_tensors
 from src.extractors.text.text_aligner import TokenAligner
 from src.extractors.text.transcribe import Transcriber
