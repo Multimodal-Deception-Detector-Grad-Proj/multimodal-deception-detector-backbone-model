@@ -6,6 +6,7 @@ from dataclasses import dataclass
 @dataclass
 class ModalityGateOutput:
     P: torch.Tensor
+    natural_mask: torch.Tensor
     active_mask: torch.Tensor
     weights: torch.Tensor
 
@@ -88,6 +89,7 @@ class ModalityDropoutAndGate(nn.Module):
         
         return ModalityGateOutput(
             P=P,
+            natural_mask=natural_mask,
             active_mask=active_mask,
             weights=weights,
         )
