@@ -6,7 +6,7 @@ import torch.nn as nn
 from .encoders import TemporalEncoderBank
 from .modality_dropout import ModalityDropoutAndGate
 from .span_interaction import SpanInteraction
-from .conflict_heads import ConflictHookStub, ConflictOutput
+from .conflict_heads import ConflictHead, ConflictOutput
 
 
 @dataclass
@@ -49,6 +49,11 @@ class MultimodalFusionNet(nn.Module):
         use_span_qkv: bool = False,
         use_attentive_pool: bool = True,
         classifier_dropout: float = 0.2,
+        conflict_d_share: int = 64,
+        conflict_temperature: float = 0.07,
+        conflict_min_shift: int = 30,
+        conflict_detach_inputs: bool = True,
+        conflict_validated: bool = False,
     ):
         super().__init__()
         assert d_model >= 2, "d_model must be at least 2 for D -> D/2 classifier bottleneck."
@@ -98,7 +103,14 @@ class MultimodalFusionNet(nn.Module):
         self.aux_head_t = nn.Linear(d_model, 1)
 
         # Block 10: Conflict hook stub
-        self.conflict_hook = ConflictHookStub()
+        self.conflict_hook = ConflictHead(
+            d_model=d_model,
+            d_share=conflict_d_share,
+            temperature=conflict_temperature,
+            min_shift=conflict_min_shift,
+            detach_inputs=conflict_detach_inputs,
+            validated=conflict_validated,
+        )
 
     def forward(self, batch) -> FusionNetOutput:
         """

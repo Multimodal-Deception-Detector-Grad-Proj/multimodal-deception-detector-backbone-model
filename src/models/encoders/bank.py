@@ -9,12 +9,15 @@ from .pooling import Masked3DPooling
 @dataclass
 class EncoderOutputs:
     """Structured output from Blocks 2 and 3."""
-    H_v: torch.Tensor        # (B, T, D)
-    H_a: torch.Tensor        # (B, T, D)
-    H_t: torch.Tensor        # (B, L, D)
-    P_v_raw: torch.Tensor    # (B, D)
-    P_a_raw: torch.Tensor    # (B, D)
-    P_t_raw: torch.Tensor    # (B, D)
+    H_v: torch.Tensor         # (B, T, D)
+    H_a: torch.Tensor         # (B, T, D)
+    H_t: torch.Tensor         # (B, L, D)
+    P_v_raw: torch.Tensor     # (B, D)
+    P_a_raw: torch.Tensor     # (B, D)
+    P_t_raw: torch.Tensor     # (B, D)
+    vis_mask: torch.Tensor    # (B, T) bool
+    aud_mask: torch.Tensor    # (B, T) bool
+    txt_mask: torch.Tensor    # (B, L) bool
 
 
 class TemporalEncoderBank(nn.Module):
@@ -53,4 +56,7 @@ class TemporalEncoderBank(nn.Module):
             P_v_raw=P_v,
             P_a_raw=P_a,
             P_t_raw=P_t,
+            vis_mask=vis_mask,
+            aud_mask=aud_mask,
+            txt_mask=txt_mask,
         )

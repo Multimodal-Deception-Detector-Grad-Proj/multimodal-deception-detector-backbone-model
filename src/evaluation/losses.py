@@ -10,21 +10,26 @@ from src.models.fusion_net import FusionNetOutput
 @dataclass
 class LossOutput:
     """Structured loss breakdown for backpropagation and metric logging."""
-    total_loss: torch.Tensor    # Scalar tensor with grad_fn for .backward()
-    main_loss: torch.Tensor     # Detached scalar for logging
-    aux_total: torch.Tensor     # Detached unweighted sum of valid aux losses
-    aux_visual: torch.Tensor    # Detached scalar for logging
-    aux_audio: torch.Tensor     # Detached scalar for logging
-    aux_text: torch.Tensor      # Detached scalar for logging
+    total_loss: torch.Tensor     # Scalar tensor with grad_fn for .backward()
+    main_loss: torch.Tensor      # Detached scalar for logging
+    aux_total: torch.Tensor      # Detached unweighted sum of valid aux losses
+    aux_visual: torch.Tensor     # Detached scalar for logging
+    aux_audio: torch.Tensor      # Detached scalar for logging
+    aux_text: torch.Tensor       # Detached scalar for logging
+    conflict_loss: torch.Tensor  # Detached scalar for logging (0.0 in eval or when lambda_conflict=0)
 
 
 class MultimodalDeceptionLoss(nn.Module):
-    
+    """
+    Main label-smoothed BCE loss + lambda_aux * sum(BCE(y_hat_m))
+    filtered by natural_mask, plus Block 10 self-supervised AV synchrony loss.
+    """
     MODALITY_INDEX = (("visual", 0), ("audio", 1), ("text", 2))
 
     def __init__(
         self,
         lambda_aux: float = 0.3,
+        lambda_conflict: float = 0.0,
         label_smoothing: float = 0.05,
         apply_smoothing_to_aux: bool = True,
         pos_weight: Optional[torch.Tensor] = None,
@@ -32,6 +37,7 @@ class MultimodalDeceptionLoss(nn.Module):
         super().__init__()
         assert 0.0 <= label_smoothing < 1.0, "label_smoothing must be in [0.0, 1.0)."
         self.lambda_aux = lambda_aux
+        self.lambda_conflict = lambda_conflict
         self.label_smoothing = label_smoothing
         self.apply_smoothing_to_aux = apply_smoothing_to_aux
 
@@ -47,14 +53,14 @@ class MultimodalDeceptionLoss(nn.Module):
         return targets * (1.0 - self.label_smoothing) + 0.5 * self.label_smoothing
 
     def forward(self, output: FusionNetOutput, labels: torch.Tensor) -> LossOutput:
-        raw_targets = labels.view_as(output.logits).to(
+        raw_targets = labels.reshape_as(output.logits).to(
             dtype=output.logits.dtype,
             device=output.logits.device,
         )
         main_targets = self._smooth_targets(raw_targets)
         aux_targets = main_targets if self.apply_smoothing_to_aux else raw_targets
 
-        # Main classifier loss (Block 9)
+        # 1. Main classifier loss (Block 8)
         main_loss = F.binary_cross_entropy_with_logits(
             output.logits,
             main_targets,
@@ -62,7 +68,7 @@ class MultimodalDeceptionLoss(nn.Module):
             reduction="mean",
         )
 
-        # Unimodal auxiliary losses masked by natural_mask (Block 8)
+        # 2. Unimodal auxiliary losses masked by natural_mask (Block 8)
         aux_losses = {}
         aux_sum = torch.zeros_like(main_loss)
 
@@ -83,7 +89,21 @@ class MultimodalDeceptionLoss(nn.Module):
             aux_losses[mod_name] = mod_loss
             aux_sum = aux_sum + mod_loss
 
-        total_loss = main_loss + (self.lambda_aux * aux_sum)
+        # 3. Block 10 self-supervised AV synchrony loss (trains ConflictHead projections)
+        conflict_loss = torch.zeros_like(main_loss)
+        conflict = getattr(output, "conflict", None)
+        if conflict is not None and self.lambda_conflict > 0.0:
+            if getattr(conflict, "align_loss", None) is not None:
+                conflict_loss = conflict.align_loss.to(
+                    dtype=main_loss.dtype,
+                    device=main_loss.device,
+                )
+
+        total_loss = (
+            main_loss
+            + (self.lambda_aux * aux_sum)
+            + (self.lambda_conflict * conflict_loss)
+        )
 
         return LossOutput(
             total_loss=total_loss,
@@ -92,4 +112,5 @@ class MultimodalDeceptionLoss(nn.Module):
             aux_visual=aux_losses["visual"].detach(),
             aux_audio=aux_losses["audio"].detach(),
             aux_text=aux_losses["text"].detach(),
+            conflict_loss=conflict_loss.detach(),
         )
