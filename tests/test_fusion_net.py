@@ -83,7 +83,10 @@ def test_fusion_net_forward_and_backward(
 
     if use_interaction:
         assert model.span_interaction.out_proj.weight.grad is not None
-        assert model.span_interaction.out_proj.weight.grad.abs().sum() > 0
+        if out.active_mask[:, 2].any():
+            assert model.span_interaction.out_proj.weight.grad.abs().sum() > 0
+        else:
+            assert model.span_interaction.out_proj.weight.grad.abs().sum() == 0
 
 
 def test_fusion_net_natural_vs_active_mask_separation():
