@@ -1,5 +1,32 @@
 # Multimodal Deception Detector Architecture
 
+Simplified multi-modal architecture
+```mermaid
+flowchart LR
+    Inputs["<b>1. Inputs</b><br/>Visual, Audio, Text<br/>+ Alignment & Masks"]
+
+    Enc["<b>2–3. Encoders & Pooling</b><br/>Temporal Encoders (H_m)<br/>Masked Pooling (P_m_raw)"]
+
+    Drop["<b>4. Modality Dropout & Gate</b><br/>Shared Active Mask<br/>Global Path (P)"]
+
+    Span["<b>5. Span Interaction</b><br/>Word-Aligned Frames<br/>Interaction Path (S)"]
+
+    Fuse["<b>6–7. Fusion & Classifier</b><br/>Z = P + g ⊙ S<br/>Deception Logit"]
+
+    Heads["<b>8–10. Losses & Heads</b><br/>Main + Aux BCE Losses<br/>AV Conflict Head"]
+
+    Inputs --> Enc
+    Enc -->|P_m_raw| Drop
+    Enc -->|H_m| Span
+    Enc -->|H_v, H_a| Heads
+    Enc -->|P_m_raw| Heads
+
+    Drop -->|active_mask| Span
+    Drop -->|P| Fuse
+    Span -->|S| Fuse
+    Fuse -->|Logits| Heads
+```
+---
 Comprehensive architecture specification and data flow diagram for `src/models` and `src/evaluation`.
 
 ```mermaid
