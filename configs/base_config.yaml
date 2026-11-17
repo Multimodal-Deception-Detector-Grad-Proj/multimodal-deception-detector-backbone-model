@@ -1,0 +1,22 @@
+audio:
+  data_dir: data/processed/audio
+  stats_path: configs/audio_normalization_stats.json
+  checkpoint_dir: checkpoints
+  predictions_dir: outputs
+  model:
+    prosody_only: true
+    d_hidden: 48
+    dropout: 0.4
+    d_latent: 256        # provisional: must match the fusion latent
+  train:
+    epochs: 60
+    patience: 12
+    batch_size: 32
+    lr: 3.0e-4
+    weight_decay: 5.0e-2
+    smoothing_window: 3
+    seeds: [0, 1, 2, 3, 4]
+  augment:
+    noise: 0.1
+    max_time_mask: 20
+    max_freq_mask: 8

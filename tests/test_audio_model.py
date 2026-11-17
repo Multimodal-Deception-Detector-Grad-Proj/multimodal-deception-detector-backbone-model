@@ -1,6 +1,6 @@
 import torch
 from src.common.constants import D_AUD, TARGET_T, AUDIO_CHANNEL_INDEX
-from src.models.audio.audio_cnn import AudioCNN, AudioClassifier, D_LATENT
+from src.extractors.audio.audio_cnn import AudioCNN, AudioClassifier, D_LATENT
 
 
 def _batch(n_valid=(200, 120, 40)):

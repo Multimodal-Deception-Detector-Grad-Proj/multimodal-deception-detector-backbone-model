@@ -1,7 +1,7 @@
 """Frozen evaluation of the audio branch: CNN seed-ensemble + logistic-regression reference.
 Defaults to VAL. The test split needs --final, so it is not touched by accident; run it once, after everything is frozen.
-python -m src.models.audio.evaluate_audio                     # val
-python -m src.models.audio.evaluate_audio --split test --final
+python -m src.evaluation.evaluate_audio                     # val
+python -m src.evaluation.evaluate_audio --split test --final
 """
 import argparse, glob, os
 import numpy as np, pandas as pd, torch
@@ -10,9 +10,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
-from src.models.audio.audio_cnn import AudioClassifier
-from src.models.audio.baseline_audio import boot_ci, summary_feats
-from src.models.audio.train_audio_cnn import load_split, predict
+from src.extractors.audio.audio_cnn import AudioClassifier
+from src.evaluation.baseline_audio import boot_ci, summary_feats
+from src.dataset.audio_data import load_split, predict
 
 
 def report(name, y, p):

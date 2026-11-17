@@ -2,7 +2,7 @@
 import glob, os
 import torch
 import pytest
-from src.models.audio.audio_cnn import AudioClassifier
+from src.extractors.audio.audio_cnn import AudioClassifier
 
 ROOT = os.environ.get("AUDIO_PT_DIR", "data/processed/audio/train")
 

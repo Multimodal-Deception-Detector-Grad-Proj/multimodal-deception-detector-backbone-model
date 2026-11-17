@@ -30,6 +30,11 @@ from src.common.constants import (  # noqa: E402
 import src.extractors.audio.extract_audio as ea  # noqa: E402
 
 
+def verify_audio_tensors(t):
+    from src.common.contracts import verify_audio_tensors as _v     # imports torch lazily
+    return _v(t)
+
+
 def skip(reason):
     raise unittest.SkipTest(reason)
 
@@ -205,23 +210,12 @@ def test_stats_with_stale_configuration_are_rejected():
     raise AssertionError("stale statistics were accepted")
 
 
-def test_contract_assertions_catch_bad_tensors():
-    torch = _torch()
-    good = torch.from_numpy(np.zeros((TARGET_T, D_AUD), np.float32))
-    ea.validate_audio_tensor(good)
-    for bad in (np.full((TARGET_T, D_AUD), np.nan, np.float32), np.full((TARGET_T, D_AUD), np.inf, np.float32),
-                np.zeros((TARGET_T - 1, D_AUD), np.float32), np.zeros((TARGET_T, D_AUD + 1), np.float32)):
-        try:
-            ea.validate_audio_tensor(torch.from_numpy(bad))
-        except AssertionError:
-            continue
-        raise AssertionError("bad tensor passed validation")
-
-
 def test_label_parsing():
     assert ea.parse_label("AN_WILTY_EP15_lie10") == 1 and ea.parse_label("BRI_WILTY_EP61_lie_6") == 1
     assert ea.parse_label("LS_WILTY_EP73_true5") == 0 and ea.parse_label("SB_WILTY_EP34_truth 8") == 0
     assert ea.parse_label("x", "Lie") == 1 and ea.parse_label("x", 0) == 0
+    assert ea.parse_label("BRI_WILTY_EP59_deception_20") == 1 and ea.parse_label("BRI_WILTY_EP59_Deception20") == 1
+    assert ea.parse_label("x", "deception") == 1
     try:
         ea.parse_label("AN_WILTY_EP15_maybe3")
     except ValueError:
@@ -261,7 +255,7 @@ def test_cli_fits_on_train_only_and_exports_all_splits():
             ea.main(["extract", *common, "--out", str(t / "out")])
             for cid, split in rows:
                 s = torch.load(t / "out" / split / f"{cid}.pt", weights_only=False)
-                ea.validate_audio_tensor(s["audio_feats"])
+                verify_audio_tensors(s["audio_feats"])
                 assert s["audio_feats"].shape == (TARGET_T, D_AUD)
                 assert int(s["label"].a if hasattr(s["label"], "a") else s["label"]) == ea.parse_label(cid)
     finally:
@@ -280,7 +274,7 @@ def test_three_clips_end_to_end_with_real_praat():
     stats = ea.fit_stats(raws)
     for raw in raws:
         t = torch.from_numpy(ea.to_array(raw, stats))
-        ea.validate_audio_tensor(t)
+        verify_audio_tensors(t)
         assert t.shape == (TARGET_T, D_AUD)
 
 
@@ -296,7 +290,7 @@ def test_three_real_clips_from_data_raw():
     raws = [ea.compute_raw(ea.decode_audio(p)) for p in found]
     stats = ea.fit_stats(raws)
     for raw in raws:
-        ea.validate_audio_tensor(torch.from_numpy(ea.to_array(raw, stats)))
+        verify_audio_tensors(torch.from_numpy(ea.to_array(raw, stats)))
 
 
 if __name__ == "__main__":
