@@ -227,7 +227,19 @@ __pycache__/
 .env
 venv/
 env/
-data/
+# Keep raw and processed data private; track only subject-level split manifests.
+data/*
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
+!data/processed/
+data/processed/*
+!data/processed/.gitkeep
+!data/splits/
+data/splits/*
+!data/splits/train_subjects.csv
+!data/splits/val_subjects.csv
+!data/splits/test_subjects.csv
 # Data Folders (Ignore contents, keep folder structure via .gitkeep)
 data/raw/*
 !data/raw/.gitkeep
