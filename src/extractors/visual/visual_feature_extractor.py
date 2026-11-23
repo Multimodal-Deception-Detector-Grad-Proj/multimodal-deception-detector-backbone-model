@@ -16,8 +16,7 @@ from PIL import Image
 
 logger = logging.getLogger(__name__)
 
-# --- CUSTOM MODEL EDIT HERE (1/3): Import your custom model architecture ---
-# from my_custom_models import MyEmotionRecognizer
+
 # -------------------------------------------------------------------------
 
 class VisualFeatureExtractor:
