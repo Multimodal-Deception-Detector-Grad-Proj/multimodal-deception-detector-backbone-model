@@ -2,6 +2,8 @@
 
 Input : audio_feats (B, T, D_AUD)  -- channel AUDIO_CHANNEL_INDEX["valid"] marks real frames.
 Output: pooled (B, d_latent) for late fusion, and seq (B, T, d_hidden) for cross-attention fusion.
+A clip without any valid frame (audio_present=False, all-zero features) gives an exactly-zero pooled vector and sequence;
+fusion should still use the `audio_present` flag as the modality mask.
 GroupNorm (not BatchNorm) so zero-padded frames never contaminate the statistics; features are
 re-masked after every block so padding stays exactly zero.
 """
@@ -10,7 +12,34 @@ import torch.nn as nn
 
 from src.common.constants import AUDIO_CHANNEL_INDEX, AUDIO_EXTRA_CHANNELS, D_AUD, TARGET_T
 
-D_LATENT = 256          # PLACEHOLDER: must equal the fusion latent size agreed with the multimodal head
+D_LATENT = 256          # PLACEHOLDER default; the value actually used comes from configs/base_config.yaml (audio.model.d_latent)
+
+# yaml key (audio.model.*) -> constructor argument
+_MODEL_CFG_TO_ARG = {"d_hidden": "d_hidden", "dropout": "p_drop", "d_latent": "d_latent", "prosody_only": "prosody_only"}
+
+
+def audio_model_kwargs(path=None) -> dict:
+    """Constructor arguments from configs/base_config.yaml -> audio.model. All four keys are required, so a model built
+    for fusion can never silently differ from the one the checkpoints were trained with."""
+    from src.extractors.audio.extract_audio import load_audio_settings      # lazy: the model stays importable on its own
+    section = load_audio_settings(path).get("model")
+    if not isinstance(section, dict):
+        raise KeyError("configs/base_config.yaml has no 'audio.model' section")
+    unknown = set(section) - set(_MODEL_CFG_TO_ARG)
+    if unknown:
+        raise ValueError(f"unknown audio.model settings {sorted(unknown)}; allowed: {sorted(_MODEL_CFG_TO_ARG)}")
+    missing = set(_MODEL_CFG_TO_ARG) - set(section)
+    if missing:
+        raise KeyError(f"missing audio.model settings {sorted(missing)} in configs/base_config.yaml")
+    if not isinstance(section["prosody_only"], bool):
+        raise ValueError("audio.model.prosody_only must be true or false")
+    if not (isinstance(section["d_hidden"], int) and section["d_hidden"] > 0 and section["d_hidden"] % 8 == 0):
+        raise ValueError("audio.model.d_hidden must be a positive multiple of 8 (GroupNorm uses 8 groups)")
+    if not (isinstance(section["d_latent"], int) and section["d_latent"] > 0):
+        raise ValueError("audio.model.d_latent must be a positive integer")
+    if not (isinstance(section["dropout"], (int, float)) and 0 <= section["dropout"] < 1):
+        raise ValueError("audio.model.dropout must be in [0, 1)")
+    return {_MODEL_CFG_TO_ARG[k]: section[k] for k in _MODEL_CFG_TO_ARG}
 
 
 class _Block(nn.Module):
@@ -45,6 +74,11 @@ class AudioCNN(nn.Module):
         self.proj = nn.Sequential(nn.Linear(2 * d_hidden, d_latent), nn.GELU(), nn.Dropout(p_drop))
         self.d_hidden = d_hidden
 
+    @classmethod
+    def from_config(cls, path=None, **overrides):
+        """AudioCNN with the architecture in configs/base_config.yaml (audio.model); keyword arguments override it."""
+        return cls(**{**audio_model_kwargs(path), **overrides})
+
     def forward(self, audio_feats):
         assert audio_feats.ndim == 3 and audio_feats.shape[-1] == D_AUD, audio_feats.shape
         m = audio_feats[..., self.valid_idx].unsqueeze(1)                  # (B,1,T)
@@ -52,10 +86,12 @@ class AudioCNN(nn.Module):
         x = self.stem(x) * m
         for b in self.blocks:
             x = b(x, m)
-        n = m.sum(-1).clamp(min=1)                                         # (B,1)
+        n_raw = m.sum(-1)                                                  # (B,1) real frames per clip
+        n = n_raw.clamp(min=1)
         mean = x.sum(-1) / n
         var = (((x - mean.unsqueeze(-1)) * m) ** 2).sum(-1) / n
         pooled = self.proj(torch.cat([mean, var.add(1e-6).sqrt()], dim=-1))  # masked mean + std
+        pooled = pooled * (n_raw > 0).to(pooled.dtype)                     # no valid frame (audio_present=False) -> zero latent
         return pooled, x.transpose(1, 2)
 
 
@@ -65,6 +101,10 @@ class AudioClassifier(nn.Module):
         super().__init__()
         self.encoder = AudioCNN(**kw)
         self.head = nn.Linear(self.encoder.proj[0].out_features, 1)
+
+    @classmethod
+    def from_config(cls, path=None, **overrides):
+        return cls(**{**audio_model_kwargs(path), **overrides})
 
     def forward(self, audio_feats):
         z, _ = self.encoder(audio_feats)

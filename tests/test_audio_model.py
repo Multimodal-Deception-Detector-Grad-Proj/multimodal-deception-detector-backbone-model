@@ -39,6 +39,12 @@ def test_prosody_only_variant():
     assert torch.allclose(m(x)[0], m(y)[0], atol=1e-5)
 
 
+def test_absent_audio_gives_a_zero_latent():
+    x = torch.zeros(2, TARGET_T, D_AUD)                 # no valid frame at all
+    z, seq = AudioCNN(prosody_only=True).eval()(x)
+    assert float(z.abs().sum()) == 0.0 and float(seq.abs().sum()) == 0.0
+
+
 if __name__ == "__main__":
     for k, f in list(globals().items()):
         if k.startswith("test_"):

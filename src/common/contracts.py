@@ -34,15 +34,24 @@ def verify_text_tensors(text_feats: torch.Tensor, alignment_indices: torch.Tenso
     assert (alignment_indices[:, 0] <= alignment_indices[:, 1]).all(), "Start frames cannot occur after end frames"
 
 
+
 def check_audio_sample(d: dict):
     # 1. Verify that the label is a scalar long tensor
     assert "label" in d, "Missing 'label' in sample dictionary"
     assert d["label"].shape == (), f"label shape {tuple(d['label'].shape)} != ()"
     assert d["label"].dtype == torch.long, f"label dtype {d['label'].dtype} != torch.long"
 
-    # 2. Verify features (and the valid mask that lives inside them)
+    # 2. Verify the modality flag: a scalar bool tensor. False = the audio is unusable and fusion must ignore it
+    assert "audio_present" in d, "Missing 'audio_present' in sample dictionary"
+    assert d["audio_present"].shape == (), f"audio_present shape {tuple(d['audio_present'].shape)} != ()"
+    assert d["audio_present"].dtype == torch.bool, f"audio_present dtype {d['audio_present'].dtype} != torch.bool"
+
+    # 3. Verify features (usable audio: full checks; unusable audio: exact zeros)
     assert "audio_feats" in d, "Missing 'audio_feats' in sample dictionary"
-    verify_audio_tensors(d["audio_feats"])
+    if bool(d["audio_present"]):
+        verify_audio_tensors(d["audio_feats"])
+    else:
+        verify_absent_audio_tensors(d["audio_feats"])
 
 
 def verify_audio_tensors(audio_feats: torch.Tensor):
@@ -65,3 +74,13 @@ def verify_audio_tensors(audio_feats: torch.Tensor):
     assert n_valid >= 1, "Sample has no valid audio frames"
     assert (valid[:n_valid] == 1).all(), "valid frames must come first, padding after"
     assert (audio_feats[n_valid:] == 0).all(), "Padded frames must be exactly zero"
+
+
+def verify_absent_audio_tensors(audio_feats: torch.Tensor):
+    # Unusable audio is stored as exact zeros, so a fusion model that ignores the flag still sees no garbage
+    assert not torch.isnan(audio_feats).any(), "NaN values detected in absent-audio sample!"
+    assert not torch.isinf(audio_feats).any(), "Inf values detected in absent-audio sample!"
+    assert audio_feats.ndim == 2 and audio_feats.shape == (TARGET_T, D_AUD), \
+        f"Expected {(TARGET_T, D_AUD)}, got {tuple(audio_feats.shape)}"
+    assert audio_feats.dtype == torch.float32, f"audio_feats must be torch.float32, got {audio_feats.dtype}"
+    assert (audio_feats == 0).all(), "audio_present is False, so audio_feats must be exactly zero"
