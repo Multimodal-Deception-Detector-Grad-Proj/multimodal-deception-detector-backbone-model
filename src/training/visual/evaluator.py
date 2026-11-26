@@ -13,15 +13,21 @@ from .dataset import ID_TO_LABEL, SequenceData
 
 
 class Evaluator:
-    def __init__(self, device: str):
+    def __init__(self, device: str, use_mask: bool = True):
         self.device = torch.device(device)
+        self.use_mask = use_mask          # keep equal to cfg.use_mask used in training
 
     @torch.no_grad()
     def predict(self, model: torch.nn.Module, loader: DataLoader) -> np.ndarray:
         model.eval()
         probs = []
-        for x, _, _ in loader:
-            probs.append(torch.softmax(model(x.to(self.device)).float(), -1).cpu().numpy())
+        for x, _, _, *rest in loader:
+            x = x.to(self.device)
+            if self.use_mask and rest:
+                logits = model(x, rest[0].to(self.device))
+            else:
+                logits = model(x)
+            probs.append(torch.softmax(logits.float(), -1).cpu().numpy())
         return np.concatenate(probs)
 
     @staticmethod
@@ -45,7 +51,8 @@ class Evaluator:
             preds.append(pd.DataFrame({
                 "split": name, "video_id": d.video_ids, "speaker": d.speakers,
                 "label": [ID_TO_LABEL[i] for i in d.y], "pred": [ID_TO_LABEL[i] for i in probs.argmax(1)],
-                "p_lie": probs[:, 1], "correct": probs.argmax(1) == d.y}))
+                "p_lie": probs[:, 1], "correct": probs.argmax(1) == d.y,
+                "valid_frac": d.mask.mean(axis=1)}))
         return pd.DataFrame(rows).T.round(4), pd.concat(preds, ignore_index=True)
 
     @staticmethod
@@ -60,3 +67,12 @@ class Evaluator:
         d = pred_df[pred_df["split"] == split]
         return (d.groupby("speaker")["correct"].agg(videos="size", accuracy="mean").round(3)
                 .sort_values("accuracy"))
+
+    @staticmethod
+    def by_validity(pred_df: pd.DataFrame, split: str = "test",
+                    bins=(0.0, 0.25, 0.5, 0.75, 1.0)) -> pd.DataFrame:
+        """Accuracy by fraction of valid face frames per clip (where visual features are reliable)."""
+        d = pred_df[pred_df["split"] == split].copy()
+        d["valid_bin"] = pd.cut(d["valid_frac"], bins=list(bins), include_lowest=True)
+        return (d.groupby("valid_bin", observed=True)["correct"].agg(videos="size", accuracy="mean")
+                .round(3))

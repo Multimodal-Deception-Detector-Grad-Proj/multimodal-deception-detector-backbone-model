@@ -1,8 +1,13 @@
-"""Combine OpenFace AUs/pose/gaze with ViT emotion probabilities."""
+"""Combine OpenFace AUs/pose/gaze with ViT emotion probabilities.
+
+Fusion-ready: ``extract_features_with_mask`` returns the feature tensor plus a
+boolean per-frame validity mask (True = real face observation).
+``extract_features`` is unchanged for backward compatibility.
+"""
 
 import logging
 import tempfile
-from typing import List, Optional, Sequence
+from typing import List, Optional, Sequence, Tuple
 
 import numpy as np
 import torch
@@ -91,14 +96,38 @@ class VisualFeatureExtractor:
     ) -> torch.Tensor:
         return self.emotion.predict(video_path, frame_indices, boxes)
 
-    # -- main entry point --------------------------------------------------
+    # -- main entry points -------------------------------------------------
 
-    def extract_features(self, video_path: str, target_t: int = 90, openface_df: Optional[pd.DataFrame] = None,) -> torch.FloatTensor:
+    def extract_features(
+        self,
+        video_path: str,
+        target_t: int = 90,
+        openface_df: Optional[pd.DataFrame] = None,
+    ) -> torch.FloatTensor:
         """Return visual features with shape (1, target_t, feature_dim)."""
+        features, _ = self.extract_features_with_mask(video_path, target_t, openface_df)
+        return features
+
+    def extract_features_with_mask(
+        self,
+        video_path: str,
+        target_t: int = 90,
+        openface_df: Optional[pd.DataFrame] = None,
+    ) -> Tuple[torch.FloatTensor, torch.BoolTensor]:
+        """Return ``(features, mask)``.
+
+        features: (1, target_t, feature_dim) float32
+        mask:     (1, target_t) bool, True where the frame has a valid face
+                  observation (passed the confidence/validity check AND all
+                  features were finite). Use it for masked attention/pooling
+                  in fusion; zeroed frames are NOT real "neutral" readings.
+        """
+        # FIX: only run OpenFace when no cached table was supplied.
         if openface_df is not None:
             df = openface_df
-        with tempfile.TemporaryDirectory() as tmp:
-            df = self.run_openface(video_path, tmp, landmarks=self.crop_faces)
+        else:
+            with tempfile.TemporaryDirectory() as tmp:
+                df = self.run_openface(video_path, tmp, landmarks=self.crop_faces)
 
         if len(df):
             valid = compute_validity(df, self.min_confidence)
@@ -108,7 +137,7 @@ class VisualFeatureExtractor:
             cleaned = clean_openface(df, valid, self.scale_features)
             rows = np.linspace(0, len(df) - 1, target_t).round().astype(int)
             of_feats = cleaned[rows]
-            valid_s = valid[rows].astype(np.float32)
+            valid_s = np.asarray(valid)[rows].astype(np.float32)
             conf_s = np.clip(df["confidence"].to_numpy(np.float32)[rows], 0, 1)
             frame_idx = (
                 df["frame"].to_numpy(dtype=int)[rows] - 1 if "frame" in df
@@ -120,7 +149,9 @@ class VisualFeatureExtractor:
         else:
             logger.warning("%s: OpenFace returned no rows", video_path)
             of_feats = np.zeros((target_t, len(self.OPENFACE_COLS)), dtype=np.float32)
-            valid_s = conf_s = np.zeros(target_t, dtype=np.float32)
+            # FIX: separate arrays (previously aliased via chained assignment).
+            valid_s = np.zeros(target_t, dtype=np.float32)
+            conf_s = np.zeros(target_t, dtype=np.float32)
             total = video_frame_count(video_path)
             frame_idx = (
                 np.linspace(0, total - 1, target_t).round().astype(int)
@@ -140,11 +171,18 @@ class VisualFeatureExtractor:
         emotion = self.extract_emotion_probs(video_path, frame_idx, boxes)
         features = torch.cat((tabular, emotion), dim=-1).unsqueeze(0)
 
-        if not torch.isfinite(features).all():
+        # Frame mask: valid face AND finite features. Computed BEFORE nan_to_num
+        # so bad frames are flagged, not silently turned into zeros.
+        mask = torch.from_numpy(valid_s > 0.5).unsqueeze(0)          # (1, T) bool
+        finite_frame = torch.isfinite(features).all(dim=-1)          # (1, T) bool
+        if not finite_frame.all():
             logger.warning("%s: replacing non-finite features with zero", video_path)
             features = torch.nan_to_num(features, nan=0.0, posinf=0.0, neginf=0.0)
+        mask = mask & finite_frame
 
         expected = (1, target_t, self.feature_dim)
         if tuple(features.shape) != expected:
             raise ValueError(f"Expected shape {expected}, got {tuple(features.shape)}")
-        return features
+        if tuple(mask.shape) != (1, target_t):
+            raise ValueError(f"Expected mask shape {(1, target_t)}, got {tuple(mask.shape)}")
+        return features, mask

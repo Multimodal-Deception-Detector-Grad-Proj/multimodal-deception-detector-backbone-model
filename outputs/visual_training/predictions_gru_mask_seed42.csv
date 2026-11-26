@@ -1,0 +1,1194 @@
+split,video_id,speaker,label,pred,p_lie,correct,valid_frac
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_022.mp4,Jodi_Arias,Lie,Lie,0.50124896,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP52_truth7.mp4,Lee,Truth,Lie,0.50801706,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Jamie_Hood/trial_truth_040.mp4,Jamie_Hood,Truth,Truth,0.34486258,True,1.0
+train,truth/DOLOS/Male/Shawn/LS_WILTY_EP76_truth7.mp4,Shawn,Truth,Truth,0.2112797,True,1.0
+train,deception/DOLOS/Male/Xander/YW_WILTY_EP56_lie9.mp4,Xander,Lie,Lie,0.564668,True,1.0
+train,truth/DOLOS/Male/Bill/YW_WILTY_EP45_truth6.mp4,Bill,Truth,Truth,0.4841234,True,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP50_truth5.mp4,Richard,Truth,Truth,0.45280206,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP53_lie7.mp4,David,Lie,Lie,0.55663276,True,1.0
+train,truth/DOLOS/Female/Alex/YW_WILTY_EP48_truth2.mp4,Alex,Truth,Truth,0.47669277,True,1.0
+train,deception/DOLOS/Female/Diane/YW_WILTY_EP52_lie3.mp4,Diane,Lie,Lie,0.54091644,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Jodi_Arias/trial_truth_055.mp4,Jodi_Arias,Truth,Truth,0.43675917,True,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth2.mp4,Charlie,Truth,Truth,0.49653557,True,0.99
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_014.mp4,Jodi_Arias,Lie,Lie,0.5334633,True,1.0
+train,deception/DOLOS/Male/David/SB_WILTY_EP32_lie10.mp4,David,Lie,Lie,0.52664626,True,1.0
+train,deception/DOLOS/Female/Kate/YW_WILTY_EP49_lie4.mp4,Kate,Lie,Lie,0.5316805,True,1.0
+train,deception/DOLOS/Male/Rob Brydon/SB_WILTY_EP41_lie15.mp4,Rob Brydon,Lie,Truth,0.39770895,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_028.mp4,Jodi_Arias,Lie,Lie,0.5526215,True,1.0
+train,deception/DOLOS/Male/Robert Webb/LS_WILTY_EP7_lie13.mp4,Robert Webb,Lie,Truth,0.48035422,False,0.94
+train,truth/DOLOS/Male/Gok Wan/BRI_WILTY_EP58_truth_13.mp4,Gok Wan,Truth,Truth,0.4690041,True,1.0
+train,deception/DOLOS/Male/Reginald D. Hunter/AN_WILTY_EP16_lie4.mp4,Reginald D. Hunter,Lie,Truth,0.4288454,False,1.0
+train,deception/DOLOS/Female/Deborah Meaden/SB_WILTY_EP35_lie4.mp4,Deborah Meaden,Lie,Lie,0.52373576,True,1.0
+train,deception/DOLOS/Male/Eamonn Holmes/LS_WILTY_EP3_lie14.mp4,Eamonn Holmes,Lie,Lie,0.51556057,True,0.995
+train,deception/DOLOS/Female/Fern Britton/AN_WILTY_EP24_lie14.mp4,Fern Britton,Lie,Truth,0.46520737,False,1.0
+train,truth/DOLOS/Male/Andy/YW_WILTY_EP52_truth6.mp4,Andy,Truth,Truth,0.48736033,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP42_lie8.mp4,Lee,Lie,Lie,0.5380704,True,0.905
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_8.mp4,Bob Mortimer,Truth,Truth,0.48050007,True,1.0
+train,truth/DOLOS/Male/Robert Webb/SB_WILTY_EP42_truth4.mp4,Robert Webb,Truth,Lie,0.5003069,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP51_lie6.mp4,David,Lie,Lie,0.54415965,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Crystal_Mangum/trial_lie_040.mp4,Crystal_Mangum,Lie,Truth,0.43064612,False,1.0
+train,deception/DOLOS/Male/Chris/YW_WILTY_EP46_lie7.mp4,Chris,Lie,Truth,0.32925642,False,1.0
+train,deception/DOLOS/Male/Frank/YW_WILTY_EP45_lie4.mp4,Frank,Lie,Lie,0.508076,True,1.0
+train,deception/DOLOS/Male/Adam Buxton/BRI_WILTY_EP65_lie_12.mp4,Adam Buxton,Lie,Truth,0.40144643,False,1.0
+train,truth/DOLOS/Male/Jon Richardson/BRI_WILTY_EP62_truth_11.mp4,Jon Richardson,Truth,Truth,0.45980698,True,1.0
+train,deception/DOLOS/Male/Bob/YW_WILTY_EP56_lie5.mp4,Bob,Lie,Lie,0.50890416,True,1.0
+train,truth/DOLOS/Female/Square/LS_WILTY_EP75_true3.mp4,Square,Truth,Lie,0.5064452,False,1.0
+train,truth/RealLife-Deception-Detection/Male/James_Boyd/trial_truth_043.mp4,James_Boyd,Truth,Truth,0.23110744,True,1.0
+train,truth/RealLife-Deception-Detection/Male/Fernando_Bermudez/trial_truth_016.mp4,Fernando_Bermudez,Truth,Truth,0.2279695,True,0.875
+train,truth/DOLOS/Male/Gok Wan/BRI_WILTY_EP58_truth_14.mp4,Gok Wan,Truth,Lie,0.51313126,False,1.0
+train,deception/DOLOS/Male/Jimmy Carr/AN_WILTY_EP17_lie1.mp4,Jimmy Carr,Lie,Lie,0.54063857,True,0.905
+train,deception/DOLOS/Male/Frank/YW_WILTY_EP45_lie7.mp4,Frank,Lie,Truth,0.44482812,False,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth12.mp4,Greg,Truth,Truth,0.44270697,True,1.0
+train,deception/DOLOS/Male/David/SB_WILTY_EP34_lie12.mp4,David,Lie,Lie,0.5738157,True,1.0
+train,truth/DOLOS/Male/Len Goodman/LS_WILTY_EP5_truth10.mp4,Len Goodman,Truth,Lie,0.521317,False,1.0
+train,deception/DOLOS/Male/Kevin Bridges/SB_WILTY_EP29_lie9.mp4,Kevin Bridges,Lie,Lie,0.5504188,True,1.0
+train,truth/DOLOS/Male/Henning/LS_WILTY_EP76_true2.mp4,Henning,Truth,Lie,0.5323711,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP48_lie5.mp4,David,Lie,Lie,0.5576236,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_lie_010.mp4,Andrea_Sneiderman,Lie,Truth,0.44357827,False,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP29_truth5.mp4,David,Truth,Lie,0.52485186,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie13.mp4,David,Lie,Lie,0.5877936,True,1.0
+train,deception/DOLOS/Female/Miranda/YW_WILTY_EP50_lie13.mp4,Miranda,Lie,Lie,0.5496983,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP42_lie5.mp4,Lee,Lie,Lie,0.54383945,True,1.0
+train,deception/DOLOS/Male/Nick Hewer/SB_WILTY_EP41_lie3.mp4,Nick Hewer,Lie,Lie,0.5024275,True,0.995
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP48_lie11.mp4,Lee,Lie,Lie,0.5023402,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP50_truth10.mp4,Lee,Truth,Lie,0.56012845,False,1.0
+train,truth/DOLOS/Male/Stephen Mangan/AN_WILTY_EP16_truth11.mp4,Stephen Mangan,Truth,Truth,0.41265687,True,1.0
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP9_lie9.mp4,Jimmy Carr,Lie,Lie,0.5132853,True,1.0
+train,truth/DOLOS/Male/Des/YW_WILTY_EP51_truth1.mp4,Des,Truth,Lie,0.51588494,False,1.0
+train,deception/DOLOS/Male/Frank/YW_WILTY_EP45_lie5.mp4,Frank,Lie,Lie,0.5330293,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP48_lie9.mp4,David,Lie,Lie,0.54880995,True,1.0
+train,deception/DOLOS/Male/Dale/YW_WILTY_EP50_lie1.mp4,Dale,Lie,Lie,0.51991194,True,1.0
+train,deception/DOLOS/Female/Joan Bakewell/BRI_WILTY_EP59_deception_21.mp4,Joan Bakewell,Lie,Truth,0.3637914,False,1.0
+train,deception/DOLOS/Female/Kirsty Young/BRI_WILTY_EP63_lie_29.mp4,Kirsty Young,Lie,Truth,0.47733772,False,1.0
+train,truth/DOLOS/Female/Leslie Ash/LS_WILTY_EP4_truth8.mp4,Leslie Ash,Truth,Truth,0.49074945,True,0.885
+train,deception/DOLOS/Male/Reginald D. Hunter/AN_WILTY_EP16_lie5.mp4,Reginald D. Hunter,Lie,Truth,0.45637214,False,1.0
+train,deception/DOLOS/Female/Maureen Lipman/LS_WILTY_EP9_lie1.mp4,Maureen Lipman,Lie,Truth,0.49073818,False,1.0
+train,deception/DOLOS/Male/Russell Howard/LS_WILTY_EP5_lie2.mp4,Russell Howard,Lie,Truth,0.36532435,False,1.0
+train,deception/DOLOS/Male/Martin Clunes/AN_WILTY_EP24_lie4.mp4,Martin Clunes,Lie,Lie,0.54794073,True,1.0
+train,deception/DOLOS/Male/Russell Howard/LS_WILTY_EP12_lie6.mp4,Russell Howard,Lie,Lie,0.5397665,True,1.0
+train,deception/DOLOS/Female/Sally/YW_WILTY_EP51_lie9.mp4,Sally,Lie,Truth,0.40753502,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_truth_057.mp4,Amanda_Hayes,Truth,Truth,0.4416049,True,1.0
+train,deception/DOLOS/Female/Trinny Woodall/AN_WILTY_EP22_lie5.mp4,Trinny Woodall,Lie,Lie,0.53906816,True,1.0
+train,truth/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP31_truth5.mp4,Ronnie Corbert,Truth,Truth,0.49561954,True,1.0
+train,deception/DOLOS/Male/Richard/YW_WILTY_EP53_lie12.mp4,Richard,Lie,Lie,0.5269593,True,1.0
+train,truth/DOLOS/Male/Ken Livingstone/AN_WILTY_EP16_truth13.mp4,Ken Livingstone,Truth,Truth,0.45928866,True,1.0
+train,truth/DOLOS/Male/Charlie Brooker/AN_WILTY_EP22_truth14.mp4,Charlie Brooker,Truth,Lie,0.58632106,False,1.0
+train,deception/DOLOS/Female/Kirsty Wark/BRI_WILTY_EP65_lie_17.mp4,Kirsty Wark,Lie,Truth,0.42481562,False,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP32_truth3.mp4,David,Truth,Lie,0.50448215,False,1.0
+train,deception/DOLOS/Male/Nick Hewer/SB_WILTY_EP41_lie6.mp4,Nick Hewer,Lie,Truth,0.46352357,False,1.0
+train,deception/DOLOS/Male/John/YW_WILTY_EP45_lie12.mp4,John,Lie,Truth,0.49205634,False,1.0
+train,truth/DOLOS/Male/Rufus Hound/SB_WILTY_EP34_truth2.mp4,Rufus Hound,Truth,Lie,0.55353945,False,1.0
+train,deception/DOLOS/Male/Stephen Mangan/AN_WILTY_EP28_lie5.mp4,Stephen Mangan,Lie,Lie,0.5314147,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP53_lie8.mp4,David,Lie,Lie,0.5960733,True,1.0
+train,truth/DOLOS/Male/Mark Watson/SB_WILTY_EP35_truth10.mp4,Mark Watson,Truth,Truth,0.44288957,True,0.99
+train,deception/DOLOS/Male/Hugh Fearnley-Whittingstall/SB_WILTY_EP34_lie7.mp4,Hugh Fearnley-Whittingstall,Lie,Truth,0.47557423,False,0.985
+train,deception/DOLOS/Male/Stephen Mangan/BRI_WILTY_EP58_lie_3.mp4,Stephen Mangan,Lie,Lie,0.5067807,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP45_lie19.mp4,Lee,Lie,Lie,0.5633954,True,1.0
+train,truth/DOLOS/Female/Leslie Ash/LS_WILTY_EP4_truth7.mp4,Leslie Ash,Truth,Lie,0.5312481,False,1.0
+train,deception/DOLOS/Male/Charlie Brooker/AN_WILTY_EP22_lie23.mp4,Charlie Brooker,Lie,Lie,0.53725535,True,0.885
+train,deception/DOLOS/Male/Danny/LS_WILTY_EP75_lie1.mp4,Danny,Lie,Truth,0.49178416,False,1.0
+train,truth/DOLOS/Male/Mark Watson/SB_WILTY_EP36_truth1.mp4,Mark Watson,Truth,Truth,0.39532346,True,1.0
+train,deception/DOLOS/Male/Jason Manford/LS_WILTY_EP10_lie15.mp4,Jason Manford,Lie,Truth,0.46627355,False,1.0
+train,deception/DOLOS/Male/Martin Clunes/AN_WILTY_EP24_lie2.mp4,Martin Clunes,Lie,Lie,0.552424,True,1.0
+train,truth/RealLife-Deception-Detection/Male/Charles_and_Kimberly_Matthews/trial_truth_045.mp4,Charles_and_Kimberly_Matthews,Truth,Truth,0.39717278,True,1.0
+train,deception/DOLOS/Male/Reece Shearsmith/AN_WILTY_EP22_lie10.mp4,Reece Shearsmith,Lie,Truth,0.44821167,False,1.0
+train,deception/DOLOS/Male/David/SB_WILTY_EP34_lie11.mp4,David,Lie,Lie,0.5693865,True,1.0
+train,deception/DOLOS/Male/Nick Hewer/SB_WILTY_EP41_lie9.mp4,Nick Hewer,Lie,Truth,0.48266265,False,1.0
+train,deception/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_lie5.mp4,David O_Doherty,Lie,Lie,0.5448635,True,1.0
+train,truth/DOLOS/Female/Alex/LS_WILTY_EP73_ true18.mp4,Alex,Truth,Truth,0.46148843,True,1.0
+train,deception/DOLOS/Male/David O_Doherty/BRI_WILTY_EP61_lie_24.mp4,David O_Doherty,Lie,Lie,0.5501198,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP53_lie6.mp4,David,Lie,Lie,0.54051036,True,1.0
+train,truth/DOLOS/Female/Alex/LS_WILTY_EP73_ true5.mp4,Alex,Truth,Truth,0.3762634,True,1.0
+train,deception/DOLOS/Male/Christian/YW_WILTY_EP52_lie2.mp4,Christian,Lie,Truth,0.44910586,False,0.995
+train,deception/RealLife-Deception-Detection/Male/Candace_Conti/trial_lie_059.mp4,Candace_Conti,Lie,Lie,0.6004488,True,0.99
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie8.mp4,David,Lie,Lie,0.5613885,True,1.0
+train,truth/DOLOS/Male/Vernon Kay/BRI_WILTY_EP57_truth_9.mp4,Vernon Kay,Truth,Truth,0.3955915,True,1.0
+train,deception/DOLOS/Female/Maureen Lipman/LS_WILTY_EP9_lie3.mp4,Maureen Lipman,Lie,Lie,0.51571405,True,1.0
+train,deception/DOLOS/Male/Reece Shearsmith/AN_WILTY_EP22_lie9.mp4,Reece Shearsmith,Lie,Truth,0.43586788,False,1.0
+train,truth/DOLOS/Male/Robert Webb/SB_WILTY_EP42_truth6.mp4,Robert Webb,Truth,Truth,0.34756723,True,1.0
+train,truth/DOLOS/Female/Ruth Jones/AN_WILTY_EP27_truth8.mp4,Ruth Jones,Truth,Truth,0.43409526,True,1.0
+train,deception/DOLOS/Female/Davina McCall/LS_WILTY_EP10_lie12.mp4,Davina McCall,Lie,Truth,0.4617792,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP47_lie17.mp4,Lee,Lie,Lie,0.5799469,True,1.0
+train,deception/DOLOS/Male/Jason Manford/AN_WILTY_EP26_lie14.mp4,Jason Manford,Lie,Truth,0.33713958,False,1.0
+train,deception/DOLOS/Male/Frank/YW_WILTY_EP45_lie6.mp4,Frank,Lie,Lie,0.5171566,True,1.0
+train,truth/DOLOS/Male/Bill/YW_WILTY_EP45_truth5.mp4,Bill,Truth,Truth,0.406533,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP44_lie7.mp4,Lee,Lie,Lie,0.5362583,True,1.0
+train,deception/DOLOS/Male/Rhys Thomas/LS_WILTY_EP13_lie1.mp4,Rhys Thomas,Lie,Truth,0.4968232,False,0.91
+train,deception/DOLOS/Male/Danny/LS_WILTY_EP75_lie2.mp4,Danny,Lie,Truth,0.4761191,False,0.99
+train,truth/DOLOS/Male/David/SB_WILTY_EP29_truth6.mp4,David,Truth,Lie,0.5081975,False,1.0
+train,deception/DOLOS/Male/David O_Doherty/BRI_WILTY_EP61_lie_27.mp4,David O_Doherty,Lie,Lie,0.5448643,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_018.mp4,Jodi_Arias,Lie,Lie,0.555443,True,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth2.mp4,Greg,Truth,Truth,0.43929344,True,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth8.mp4,Charlie,Truth,Lie,0.51500064,False,1.0
+train,truth/DOLOS/Female/Leslie Ash/LS_WILTY_EP4_truth11.mp4,Leslie Ash,Truth,Lie,0.5032294,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP41_lie10.mp4,Lee,Lie,Truth,0.49965665,False,1.0
+train,deception/DOLOS/Female/Lauren Laverne/LS_WILTY_EP14_lie5.mp4,Lauren Laverne,Lie,Lie,0.5195875,True,0.88
+train,deception/DOLOS/Male/Jim/YW_WILTY_EP55_lie1.mp4,Jim,Lie,Lie,0.5675533,True,1.0
+train,deception/DOLOS/Female/Gabby Logan/AN_WILTY_EP21_lie22.mp4,Gabby Logan,Lie,Truth,0.46832305,False,0.95
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP29_lie4.mp4,Lee,Lie,Truth,0.46854317,False,1.0
+train,deception/DOLOS/Male/Hugh Fearnley-Whittingstall/SB_WILTY_EP34_lie8.mp4,Hugh Fearnley-Whittingstall,Lie,Lie,0.5111574,True,0.995
+train,deception/DOLOS/Female/Miranda/YW_WILTY_EP50_lie9.mp4,Miranda,Lie,Lie,0.5186384,True,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP53_truth5.mp4,Richard,Truth,Lie,0.54281634,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_truth_004.mp4,Andrea_Sneiderman,Truth,Truth,0.44528767,True,1.0
+train,truth/DOLOS/Female/Gabby/YW_WILTY_EP52_truth1.mp4,Gabby,Truth,Truth,0.43074992,True,1.0
+train,truth/DOLOS/Male/Barry/YW_WILTY_EP47_truth5.mp4,Barry,Truth,Truth,0.45467496,True,1.0
+train,truth/DOLOS/Male/Rhod Gilbert/SB_WILTY_EP33_truth2.mp4,Rhod Gilbert,Truth,Truth,0.4198962,True,1.0
+train,deception/DOLOS/Male/Dom Joly/LS_WILTY_EP1_lie7.mp4,Dom Joly,Lie,Truth,0.45610657,False,1.0
+train,truth/DOLOS/Male/Michael Buerk/LS_WILTY_EP12_truth5.mp4,Michael Buerk,Truth,Lie,0.6083515,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP47_lie18.mp4,Lee,Lie,Lie,0.5275443,True,1.0
+train,truth/DOLOS/Male/Michael Buerk/LS_WILTY_EP12_truth2.mp4,Michael Buerk,Truth,Lie,0.5408177,False,1.0
+train,deception/DOLOS/Male/Hugh Dennis/LS_WILTY_EP11_lie16.mp4,Hugh Dennis,Lie,Lie,0.58688986,True,1.0
+train,deception/DOLOS/Male/Greg/YW_WILTY_EP44_lie3.mp4,Greg,Lie,Truth,0.48465565,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP53_lie9.mp4,David,Lie,Lie,0.5668294,True,1.0
+train,truth/DOLOS/Female/Alex/LS_WILTY_EP73_ true2.mp4,Alex,Truth,Truth,0.3982906,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP54_lie7.mp4,Lee,Lie,Truth,0.49637645,False,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP49_truth3.mp4,Richard,Truth,Truth,0.44564164,True,1.0
+train,truth/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP60_truth_5.mp4,Mel Giedroyc,Truth,Truth,0.3504756,True,1.0
+train,truth/DOLOS/Female/Ruth Jones/AN_WILTY_EP27_truth10.mp4,Ruth Jones,Truth,Truth,0.33697784,True,0.995
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP37_lie7.mp4,Lee,Lie,Lie,0.503557,True,0.945
+train,truth/DOLOS/Male/Harry Enfield/LS_WILTY_EP6_truth7.mp4,Harry Enfield,Truth,Truth,0.43648133,True,1.0
+train,truth/DOLOS/Male/Andy/YW_WILTY_EP52_truth4.mp4,Andy,Truth,Truth,0.49428305,True,1.0
+train,truth/DOLOS/Male/Jack Whitehall/SB_WILTY_EP41_truth1.mp4,Jack Whitehall,Truth,Truth,0.33264983,True,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP36_truth4.mp4,David,Truth,Truth,0.45585826,True,1.0
+train,deception/DOLOS/Male/Stephen Mangan/BRI_WILTY_EP58_lie_27.mp4,Stephen Mangan,Lie,Truth,0.44467536,False,1.0
+train,truth/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP60_truth_3.mp4,Mel Giedroyc,Truth,Truth,0.40573335,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_truth_005.mp4,Andrea_Sneiderman,Truth,Truth,0.46841982,True,1.0
+train,deception/DOLOS/Male/Richard/YW_WILTY_EP53_lie13.mp4,Richard,Lie,Lie,0.53274614,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP45_lie18.mp4,Lee,Lie,Lie,0.5499946,True,1.0
+train,truth/DOLOS/Male/Josh Widdicombe/BRI_WILTY_EP60_truth_1.mp4,Josh Widdicombe,Truth,Truth,0.40897438,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_truth_006.mp4,Andrea_Sneiderman,Truth,Truth,0.4287791,True,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth5.mp4,Charlie,Truth,Lie,0.5467582,False,1.0
+train,deception/DOLOS/Male/Julian Clary/SB_WILTY_EP31_lie4.mp4,Julian Clary,Lie,Lie,0.5891012,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_lie_004.mp4,Amanda_Hayes,Lie,Truth,0.45185435,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP45_lie14.mp4,Lee,Lie,Lie,0.51956487,True,0.985
+train,truth/RealLife-Deception-Detection/Female/Crystal_Mangum/trial_truth_060.mp4,Crystal_Mangum,Truth,Truth,0.40024528,True,1.0
+train,deception/DOLOS/Male/Kevin Bridges/SB_WILTY_EP42_lie3.mp4,Kevin Bridges,Lie,Lie,0.55760586,True,1.0
+train,truth/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_truth7.mp4,David O_Doherty,Truth,Lie,0.5199657,False,0.985
+train,deception/DOLOS/Male/Jimmy Carr/AN_WILTY_EP17_lie9.mp4,Jimmy Carr,Lie,Lie,0.5578869,True,0.92
+train,truth/DOLOS/Male/John Bishop/SB_WILTY_EP37_truth12.mp4,John Bishop,Truth,Truth,0.41210455,True,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_15.mp4,Henning Wehn,Truth,Truth,0.41525143,True,1.0
+train,truth/DOLOS/Male/Henning/LS_WILTY_EP76_true10.mp4,Henning,Truth,Truth,0.40599746,True,1.0
+train,truth/RealLife-Deception-Detection/Male/Carlos_Riley/trial_truth_050.mp4,Carlos_Riley,Truth,Truth,0.18774489,True,1.0
+train,deception/DOLOS/Male/Jason Manford/LS_WILTY_EP4_lie3.mp4,Jason Manford,Lie,Truth,0.34285527,False,0.97
+train,deception/DOLOS/Male/Julian Clary/SB_WILTY_EP31_lie2.mp4,Julian Clary,Lie,Lie,0.58240867,True,1.0
+train,deception/DOLOS/Female/Kate/YW_WILTY_EP49_lie2.mp4,Kate,Lie,Truth,0.49196157,False,1.0
+train,deception/DOLOS/Male/Dom Joly/LS_WILTY_EP1_lie9.mp4,Dom Joly,Lie,Truth,0.47439522,False,1.0
+train,truth/DOLOS/Male/Jack/YW_WILTY_EP55_truth2.mp4,Jack,Truth,Truth,0.44943097,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP56_truth6.mp4,Lee,Truth,Lie,0.5488695,False,1.0
+train,truth/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP66_truth_2.mp4,Mel Giedroyc,Truth,Truth,0.3496616,True,1.0
+train,truth/DOLOS/Male/Rhod Gilbert/SB_WILTY_EP33_truth1.mp4,Rhod Gilbert,Truth,Truth,0.41141784,True,1.0
+train,truth/DOLOS/Female/Carol Kirkwood/BRI_WILTY_EP61_truth_10.mp4,Carol Kirkwood,Truth,Truth,0.42262104,True,1.0
+train,truth/DOLOS/Male/Robert Webb/SB_WILTY_EP42_truth9.mp4,Robert Webb,Truth,Truth,0.363532,True,1.0
+train,truth/DOLOS/Male/Ken Livingstone/AN_WILTY_EP16_truth15.mp4,Ken Livingstone,Truth,Lie,0.5313343,False,1.0
+train,truth/DOLOS/Male/Lee/SB_WILTY_EP34_truth5.mp4,Lee,Truth,Truth,0.41683984,True,1.0
+train,deception/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP60_lie_14.mp4,Mel Giedroyc,Lie,Truth,0.37565073,False,1.0
+train,truth/DOLOS/Male/Shane Richie/LS_WILTY_EP13_truth10.mp4,Shane Richie,Truth,Truth,0.44612873,True,1.0
+train,deception/DOLOS/Male/Jack/YW_WILTY_EP55_lie12.mp4,Jack,Lie,Truth,0.44789085,False,1.0
+train,deception/DOLOS/Female/Patsy Palmer/SB_WILTY_EP37_lie3.mp4,Patsy Palmer,Lie,Truth,0.38750234,False,1.0
+train,truth/DOLOS/Female/Claudia Winkleman/LS_WILTY_EP6_truth11.mp4,Claudia Winkleman,Truth,Truth,0.23038119,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP47_truth7.mp4,Lee,Truth,Truth,0.4051522,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP46_truth9.mp4,Lee,Truth,Truth,0.47650605,True,1.0
+train,deception/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP31_lie7.mp4,Ronnie Corbert,Lie,Truth,0.43465522,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP38_lie5.mp4,Lee,Lie,Lie,0.5241454,True,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP53_truth6.mp4,Richard,Truth,Lie,0.5384196,False,1.0
+train,truth/RealLife-Deception-Detection/Male/Donna_Scrivo/trial_truth_028.mp4,Donna_Scrivo,Truth,Truth,0.49138123,True,1.0
+train,truth/DOLOS/Male/David Baddiel/LS_WILTY_EP9_truth2.mp4,David Baddiel,Truth,Lie,0.5233105,False,1.0
+train,deception/DOLOS/Male/Vic Reeves/LS_WILTY_EP5_lie4.mp4,Vic Reeves,Lie,Truth,0.42569146,False,1.0
+train,truth/DOLOS/Female/Kirsty Young/BRI_WILTY_EP63_truth_5.mp4,Kirsty Young,Truth,Truth,0.40801543,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP42_lie13.mp4,Lee,Lie,Truth,0.49595055,False,1.0
+train,deception/DOLOS/Male/Stephen Mangan/AN_WILTY_EP28_lie3.mp4,Stephen Mangan,Lie,Truth,0.49581665,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Jodi_Arias/trial_truth_015.mp4,Jodi_Arias,Truth,Truth,0.3656101,True,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth3.mp4,Greg,Truth,Truth,0.4504975,True,1.0
+train,deception/DOLOS/Male/David/SB_WILTY_EP32_lie13.mp4,David,Lie,Truth,0.476969,False,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP42_truth16.mp4,David,Truth,Truth,0.4416836,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_019.mp4,Jodi_Arias,Lie,Lie,0.56563765,True,1.0
+train,truth/DOLOS/Male/Charles Dance/BRI_WILTY_EP58_truth_8.mp4,Charles Dance,Truth,Lie,0.5113282,False,1.0
+train,truth/RealLife-Deception-Detection/Male/Steven_Barnes/trial_truth_020.mp4,Steven_Barnes,Truth,Truth,0.42971042,True,1.0
+train,truth/DOLOS/Male/Eamonn Holmes/LS_WILTY_EP3_truth7.mp4,Eamonn Holmes,Truth,Lie,0.5233362,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Jodi_Arias/trial_truth_056.mp4,Jodi_Arias,Truth,Truth,0.42909515,True,1.0
+train,deception/DOLOS/Female/Mel/YW_WILTY_EP48_lie4.mp4,Mel,Lie,Truth,0.48165825,False,1.0
+train,truth/DOLOS/Male/Steve Jones/BRI_WILTY_EP64_truth_7.mp4,Steve Jones,Truth,Lie,0.52527744,False,1.0
+train,truth/RealLife-Deception-Detection/Male/Charles_and_Kimberly_Matthews/trial_truth_047.mp4,Charles_and_Kimberly_Matthews,Truth,Truth,0.47533807,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie5.mp4,David,Lie,Lie,0.5838715,True,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth1.mp4,Greg,Truth,Truth,0.48369384,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP46_truth10.mp4,Lee,Truth,Lie,0.503164,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP36_lie8.mp4,Lee,Lie,Lie,0.5258961,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_020.mp4,Jodi_Arias,Lie,Lie,0.532052,True,1.0
+train,deception/DOLOS/Female/Patsy Palmer/SB_WILTY_EP37_lie5.mp4,Patsy Palmer,Lie,Truth,0.404987,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP54_lie6.mp4,Lee,Lie,Lie,0.50387174,True,1.0
+train,deception/DOLOS/Male/Chris/YW_WILTY_EP48_lie6.mp4,Chris,Lie,Truth,0.4649422,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP38_lie1.mp4,Lee,Lie,Lie,0.5668842,True,1.0
+train,deception/DOLOS/Male/Jason Manford/LS_WILTY_EP4_lie4.mp4,Jason Manford,Lie,Truth,0.27888122,False,0.885
+train,truth/DOLOS/Female/Myleene Klass/LS_WILTY_EP4_truth5.mp4,Myleene Klass,Truth,Truth,0.37503445,True,1.0
+train,truth/DOLOS/Female/Fay Ripley/LS_WILTY_EP2_truth5.mp4,Fay Ripley,Truth,Truth,0.43735316,True,1.0
+train,truth/DOLOS/Male/Jason Manford/BRI_WILTY_EP59_truth_8.mp4,Jason Manford,Truth,Lie,0.5218086,False,1.0
+train,deception/DOLOS/Female/Fern Britton/AN_WILTY_EP24_lie13.mp4,Fern Britton,Lie,Truth,0.4952714,False,1.0
+train,truth/DOLOS/Male/Stephen Mangan/AN_WILTY_EP16_truth9.mp4,Stephen Mangan,Truth,Lie,0.5042368,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP47_lie19.mp4,Lee,Lie,Lie,0.5130027,True,1.0
+train,deception/DOLOS/Male/Dale/YW_WILTY_EP50_lie4.mp4,Dale,Lie,Lie,0.51131827,True,1.0
+train,truth/DOLOS/Male/Michael Ball/AN_WILTY_EP22_truth19.mp4,Michael Ball,Truth,Truth,0.47754094,True,0.92
+train,deception/DOLOS/Male/David/YW_WILTY_EP48_lie8.mp4,David,Lie,Lie,0.58622557,True,1.0
+train,deception/DOLOS/Male/Barry/YW_WILTY_EP47_lie11.mp4,Barry,Lie,Lie,0.53050786,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_lie_011.mp4,Andrea_Sneiderman,Lie,Truth,0.49011144,False,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth13.mp4,Greg,Truth,Truth,0.42222184,True,1.0
+train,deception/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP60_lie_16.mp4,Mel Giedroyc,Lie,Truth,0.4593042,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_030.mp4,Jodi_Arias,Lie,Lie,0.516307,True,1.0
+train,deception/DOLOS/Female/Isy Suttie/BRI_WILTY_EP58_lie_17.mp4,Isy Suttie,Lie,Truth,0.39254767,False,1.0
+train,deception/DOLOS/Male/Bernard Cribbins/SB_WILTY_EP35_lie6.mp4,Bernard Cribbins,Lie,Truth,0.4989551,False,1.0
+train,truth/DOLOS/Male/Grey/LS_WILTY_EP73_ true12.mp4,Grey,Truth,Truth,0.34661868,True,1.0
+train,truth/RealLife-Deception-Detection/Male/Charles_and_Kimberly_Matthews/trial_truth_044.mp4,Charles_and_Kimberly_Matthews,Truth,Truth,0.34126237,True,1.0
+train,deception/DOLOS/Male/Christian/YW_WILTY_EP52_lie7.mp4,Christian,Lie,Truth,0.44273207,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Jodi_Arias/trial_truth_014.mp4,Jodi_Arias,Truth,Truth,0.2990589,True,1.0
+train,truth/DOLOS/Female/Gabby Logan/LS_WILTY_EP7_truth5.mp4,Gabby Logan,Truth,Truth,0.33658317,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP56_lie12.mp4,David,Lie,Lie,0.5709902,True,1.0
+train,deception/DOLOS/Male/Jason Manford/LS_WILTY_EP10_lie14.mp4,Jason Manford,Lie,Truth,0.4817876,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP51_lie8.mp4,David,Lie,Lie,0.574562,True,1.0
+train,deception/DOLOS/Male/Lee/LS_WILTY_EP76_lie13.mp4,Lee,Lie,Lie,0.53426415,True,1.0
+train,deception/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP32_lie3.mp4,Ronnie Corbert,Lie,Truth,0.25249222,False,0.86
+train,deception/DOLOS/Male/Richard/YW_WILTY_EP53_lie11.mp4,Richard,Lie,Lie,0.5003142,True,1.0
+train,truth/DOLOS/Male/Richard Wilson/LS_WILTY_EP9_truth8.mp4,Richard Wilson,Truth,Truth,0.40881953,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP38_lie6.mp4,Lee,Lie,Lie,0.5037725,True,1.0
+train,truth/DOLOS/Female/Alex/LS_WILTY_EP73_ true3.mp4,Alex,Truth,Truth,0.4761888,True,1.0
+train,deception/DOLOS/Male/Jim/YW_WILTY_EP55_lie3.mp4,Jim,Lie,Lie,0.573154,True,1.0
+train,truth/DOLOS/Male/Steve Jones/BRI_WILTY_EP64_truth_6.mp4,Steve Jones,Truth,Lie,0.5488766,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP42_lie6.mp4,Lee,Lie,Lie,0.5400906,True,0.94
+train,deception/DOLOS/Male/David O_Doherty/BRI_WILTY_EP61_lie_26.mp4,David O_Doherty,Lie,Truth,0.49388435,False,0.915
+train,truth/DOLOS/Male/David/SB_WILTY_EP42_truth17.mp4,David,Truth,Truth,0.47547162,True,1.0
+train,deception/DOLOS/Male/Jason Manford/LS_WILTY_EP4_lie7.mp4,Jason Manford,Lie,Truth,0.42390904,False,1.0
+train,truth/DOLOS/Female/Sarah/YW_WILTY_EP45_truth1.mp4,Sarah,Truth,Truth,0.48381668,True,1.0
+train,deception/DOLOS/Male/Grey/LS_WILTY_EP75_lie8.mp4,Grey,Lie,Lie,0.5402748,True,0.94
+train,deception/DOLOS/Male/Jason Manford/AN_WILTY_EP26_lie16.mp4,Jason Manford,Lie,Truth,0.36811855,False,1.0
+train,deception/DOLOS/Male/Dominic Wood/LS_WILTY_EP2_lie4.mp4,Dominic Wood,Lie,Truth,0.33063567,False,1.0
+train,deception/DOLOS/Female/Joan Bakewell/BRI_WILTY_EP59_deception_24.mp4,Joan Bakewell,Lie,Truth,0.37836558,False,1.0
+train,truth/DOLOS/Female/Alex/LS_WILTY_EP73_ true17.mp4,Alex,Truth,Truth,0.41868562,True,0.88
+train,truth/DOLOS/Male/Henning/LS_WILTY_EP76_true5.mp4,Henning,Truth,Truth,0.3907947,True,1.0
+train,deception/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_lie1.mp4,David O_Doherty,Lie,Lie,0.5225642,True,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_6.mp4,Bob Mortimer,Truth,Lie,0.537056,False,1.0
+train,deception/DOLOS/Female/Miranda/YW_WILTY_EP50_lie8.mp4,Miranda,Lie,Lie,0.54530466,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP34_lie4.mp4,Lee,Lie,Truth,0.46486458,False,1.0
+train,deception/DOLOS/Male/Stephen Mangan/AN_WILTY_EP28_lie4.mp4,Stephen Mangan,Lie,Truth,0.46150088,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP34_lie6.mp4,Lee,Lie,Truth,0.49272949,False,1.0
+train,truth/DOLOS/Male/Bob/LS_WILTY_EP72_true3.mp4,Bob,Truth,Lie,0.5117407,False,1.0
+train,deception/DOLOS/Male/Vic Reeves/LS_WILTY_EP5_lie8.mp4,Vic Reeves,Lie,Lie,0.5228756,True,0.97
+train,deception/DOLOS/Male/Frank/YW_WILTY_EP45_lie1.mp4,Frank,Lie,Truth,0.4497449,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_015.mp4,Jodi_Arias,Lie,Lie,0.5307681,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie14.mp4,David,Lie,Lie,0.5895404,True,1.0
+train,truth/DOLOS/Male/Kevin Bridges/AN_WILTY_EP28_truth14.mp4,Kevin Bridges,Truth,Lie,0.56417304,False,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP29_truth4.mp4,David,Truth,Truth,0.4856863,True,1.0
+train,truth/DOLOS/Male/Jack Whitehall/SB_WILTY_EP41_truth2.mp4,Jack Whitehall,Truth,Truth,0.3517044,True,1.0
+train,deception/DOLOS/Female/Claire/YW_WILTY_EP56_lie17.mp4,Claire,Lie,Lie,0.5267058,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Carlos_Miller/trial_lie_047.mp4,Carlos_Miller,Lie,Truth,0.43889436,False,1.0
+train,deception/DOLOS/Female/Sue/YW_WILTY_EP47_lie12.mp4,Sue,Lie,Truth,0.43793133,False,0.96
+train,deception/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_lie_008.mp4,Andrea_Sneiderman,Lie,Truth,0.46305564,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_029.mp4,Jodi_Arias,Lie,Lie,0.5223725,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP47_lie16.mp4,Lee,Lie,Lie,0.5493177,True,1.0
+train,deception/DOLOS/Male/Lee/LS_WILTY_EP73_ lie1.mp4,Lee,Lie,Lie,0.531842,True,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_23.mp4,Bob Mortimer,Truth,Truth,0.45532715,True,1.0
+train,deception/DOLOS/Male/Louis/YW_WILTY_EP43_lie13.mp4,Louis,Lie,Lie,0.5624885,True,1.0
+train,deception/DOLOS/Male/Lee/LS_WILTY_EP72_lie12.mp4,Lee,Lie,Lie,0.57052886,True,1.0
+train,deception/DOLOS/Male/Hugh Dennis/LS_WILTY_EP11_lie7.mp4,Hugh Dennis,Lie,Lie,0.5539764,True,1.0
+train,deception/DOLOS/Female/Miranda/YW_WILTY_EP50_lie10.mp4,Miranda,Lie,Truth,0.4467905,False,1.0
+train,truth/RealLife-Deception-Detection/Male/Charles_and_Kimberly_Matthews/trial_truth_046.mp4,Charles_and_Kimberly_Matthews,Truth,Truth,0.24206038,True,1.0
+train,truth/DOLOS/Male/Charles Dance/BRI_WILTY_EP58_truth_5.mp4,Charles Dance,Truth,Lie,0.58883053,False,1.0
+train,deception/DOLOS/Male/Bernard Cribbins/SB_WILTY_EP35_lie7.mp4,Bernard Cribbins,Lie,Truth,0.40134707,False,1.0
+train,deception/DOLOS/Male/Jack/YW_WILTY_EP55_lie11.mp4,Jack,Lie,Lie,0.50991327,True,1.0
+train,deception/DOLOS/Male/Robert Webb/LS_WILTY_EP7_lie5.mp4,Robert Webb,Lie,Lie,0.516486,True,1.0
+train,truth/DOLOS/Male/Bob/LS_WILTY_EP72_true1.mp4,Bob,Truth,Truth,0.49001193,True,1.0
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP9_lie12.mp4,Jimmy Carr,Lie,Truth,0.48540786,False,1.0
+train,deception/DOLOS/Male/Reginald D. Hunter/AN_WILTY_EP16_lie3.mp4,Reginald D. Hunter,Lie,Truth,0.46447334,False,0.89
+train,deception/DOLOS/Male/Christian/YW_WILTY_EP52_lie6.mp4,Christian,Lie,Lie,0.50061446,True,1.0
+train,truth/DOLOS/Male/Steve/LS_WILTY_EP72_true7.mp4,Steve,Truth,Lie,0.5055732,False,1.0
+train,truth/DOLOS/Male/Michael Ball/AN_WILTY_EP22_truth4.mp4,Michael Ball,Truth,Lie,0.54993355,False,1.0
+train,deception/DOLOS/Male/Xander/YW_WILTY_EP56_lie6.mp4,Xander,Lie,Lie,0.5169323,True,1.0
+train,truth/DOLOS/Male/Henning/LS_WILTY_EP76_true3.mp4,Henning,Truth,Truth,0.27969828,True,1.0
+train,truth/DOLOS/Male/Jason Manford/AN_WILTY_EP26_truth11.mp4,Jason Manford,Truth,Truth,0.3727492,True,1.0
+train,truth/DOLOS/Male/Micky Flanagan/BRI_WILTY_EP64_truth_3.mp4,Micky Flanagan,Truth,Truth,0.409649,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP45_lie17.mp4,Lee,Lie,Lie,0.5517495,True,1.0
+train,truth/DOLOS/Female/Patsy Palmer/SB_WILTY_EP37_truth14.mp4,Patsy Palmer,Truth,Truth,0.4356964,True,1.0
+train,deception/DOLOS/Female/Miranda Hart/AN_WILTY_EP18_lie14.mp4,Miranda Hart,Lie,Truth,0.4707057,False,1.0
+train,deception/DOLOS/Female/Gabbie/LS_WILTY_EP72_lie6.mp4,Gabbie,Lie,Truth,0.4717861,False,1.0
+train,deception/DOLOS/Female/Sue/YW_WILTY_EP47_lie15.mp4,Sue,Lie,Truth,0.46627742,False,1.0
+train,deception/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP32_lie5.mp4,Ronnie Corbert,Lie,Truth,0.37406206,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_031.mp4,Jodi_Arias,Lie,Lie,0.5599442,True,1.0
+train,truth/DOLOS/Male/Stephen Mangan/AN_WILTY_EP16_truth8.mp4,Stephen Mangan,Truth,Truth,0.4855824,True,1.0
+train,truth/DOLOS/Male/Dermot O_Leary/BRI_WILTY_EP60_truth_11.mp4,Dermot O_Leary,Truth,Truth,0.30312368,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP53_lie4.mp4,David,Lie,Lie,0.5427349,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP29_lie5.mp4,Lee,Lie,Truth,0.46944398,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_lie_003.mp4,Amanda_Hayes,Lie,Truth,0.41974664,False,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP49_truth1.mp4,Richard,Truth,Truth,0.3851767,True,1.0
+train,truth/DOLOS/Male/Dom Joly/LS_WILTY_EP1_truth2.mp4,Dom Joly,Truth,Truth,0.45693496,True,1.0
+train,deception/DOLOS/Male/Eamonn Holmes/LS_WILTY_EP3_lie8.mp4,Eamonn Holmes,Lie,Lie,0.53671104,True,1.0
+train,deception/DOLOS/Male/David/SB_WILTY_EP41_lie13.mp4,David,Lie,Truth,0.47543043,False,1.0
+train,truth/DOLOS/Male/Grey/LS_WILTY_EP73_ true13.mp4,Grey,Truth,Truth,0.4085555,True,1.0
+train,deception/DOLOS/Male/Reginald D. Hunter/AN_WILTY_EP16_lie6.mp4,Reginald D. Hunter,Lie,Truth,0.45848364,False,0.99
+train,deception/DOLOS/Male/David/SB_WILTY_EP32_lie14.mp4,David,Lie,Lie,0.54848486,True,1.0
+train,deception/DOLOS/Male/David/LS_WILTY_EP72_lie10.mp4,David,Lie,Truth,0.48989236,False,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth7.mp4,Charlie,Truth,Lie,0.58223075,False,1.0
+train,deception/DOLOS/Male/Charlie Brooker/AN_WILTY_EP22_lie22.mp4,Charlie Brooker,Lie,Lie,0.60950315,True,1.0
+train,deception/DOLOS/Female/Claire/YW_WILTY_EP56_lie19.mp4,Claire,Lie,Truth,0.44638672,False,1.0
+train,truth/DOLOS/Female/Leslie Ash/LS_WILTY_EP4_truth9.mp4,Leslie Ash,Truth,Truth,0.47023132,True,1.0
+train,truth/DOLOS/Female/Carol Kirkwood/BRI_WILTY_EP61_truth_19.mp4,Carol Kirkwood,Truth,Truth,0.46328527,True,1.0
+train,deception/DOLOS/Male/Adam Buxton/BRI_WILTY_EP65_lie_10.mp4,Adam Buxton,Lie,Truth,0.4426987,False,1.0
+train,truth/DOLOS/Female/Patsy Palmer/SB_WILTY_EP38_truth2.mp4,Patsy Palmer,Truth,Truth,0.40725777,True,1.0
+train,deception/DOLOS/Male/Hugh Dennis/LS_WILTY_EP11_lie5.mp4,Hugh Dennis,Lie,Lie,0.63019824,True,0.99
+train,truth/DOLOS/Male/Len Goodman/LS_WILTY_EP5_truth3.mp4,Len Goodman,Truth,Truth,0.41066673,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_024.mp4,Jodi_Arias,Lie,Lie,0.5594363,True,0.985
+train,truth/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP31_truth2.mp4,Ronnie Corbert,Truth,Truth,0.45812726,True,1.0
+train,deception/DOLOS/Male/Danny Baker/LS_WILTY_EP12_lie17.mp4,Danny Baker,Lie,Truth,0.43625617,False,1.0
+train,truth/DOLOS/Female/Patsy Palmer/SB_WILTY_EP38_truth1.mp4,Patsy Palmer,Truth,Truth,0.37185386,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP29_lie7.mp4,Lee,Lie,Lie,0.50761986,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP44_lie14.mp4,Lee,Lie,Lie,0.5286682,True,1.0
+train,deception/DOLOS/Male/Kevin Bridges/SB_WILTY_EP29_lie8.mp4,Kevin Bridges,Lie,Lie,0.5371137,True,1.0
+train,deception/DOLOS/Male/David/LS_WILTY_EP72_lie8.mp4,David,Lie,Truth,0.42797124,False,1.0
+train,deception/DOLOS/Female/Gabbie/LS_WILTY_EP72_lie3.mp4,Gabbie,Lie,Truth,0.4111138,False,1.0
+train,deception/DOLOS/Female/Trinny Woodall/AN_WILTY_EP22_lie6.mp4,Trinny Woodall,Lie,Truth,0.49727088,False,1.0
+train,truth/DOLOS/Male/Jack Whitehall/AN_WILTY_EP19_truth6.mp4,Jack Whitehall,Truth,Truth,0.43157798,True,0.99
+train,deception/DOLOS/Male/Omid Djalili/AN_WILTY_EP20_lie8.mp4,Omid Djalili,Lie,Lie,0.5107367,True,1.0
+train,deception/DOLOS/Male/Stephen Mangan/AN_WILTY_EP28_lie1.mp4,Stephen Mangan,Lie,Truth,0.42643067,False,1.0
+train,truth/DOLOS/Male/Des/YW_WILTY_EP51_truth3.mp4,Des,Truth,Truth,0.49418113,True,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP50_truth4.mp4,Richard,Truth,Lie,0.53378904,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP36_lie7.mp4,Lee,Lie,Lie,0.5113143,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Mitchelle_Blair/trial_truth_026.mp4,Mitchelle_Blair,Truth,Truth,0.4748199,True,1.0
+train,deception/DOLOS/Male/Omid Djalili/AN_WILTY_EP20_lie9.mp4,Omid Djalili,Lie,Lie,0.5597984,True,0.875
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP50_truth1.mp4,Richard,Truth,Lie,0.5072595,False,1.0
+train,deception/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_lie3.mp4,David O_Doherty,Lie,Lie,0.529561,True,1.0
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP3_lie3.mp4,Jimmy Carr,Lie,Lie,0.5393503,True,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth11.mp4,Greg,Truth,Truth,0.4330968,True,1.0
+train,deception/DOLOS/Male/Jason Manford/AN_WILTY_EP26_lie17.mp4,Jason Manford,Lie,Truth,0.38040006,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP42_lie11.mp4,Lee,Lie,Lie,0.5280865,True,0.955
+train,truth/DOLOS/Male/Charles Dance/BRI_WILTY_EP58_truth_7.mp4,Charles Dance,Truth,Lie,0.5692846,False,1.0
+train,truth/DOLOS/Male/Kevin Bridges/AN_WILTY_EP28_truth12.mp4,Kevin Bridges,Truth,Lie,0.5422778,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_lie_005.mp4,Amanda_Hayes,Lie,Truth,0.42975074,False,0.985
+train,truth/DOLOS/Female/Gabby Logan/AN_WILTY_EP21_truth2.mp4,Gabby Logan,Truth,Truth,0.43608835,True,0.93
+train,deception/DOLOS/Male/Greg/YW_WILTY_EP44_lie2.mp4,Greg,Lie,Lie,0.54857445,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP36_lie2.mp4,Lee,Lie,Lie,0.5177379,True,1.0
+train,deception/DOLOS/Female/Deborah Meaden/SB_WILTY_EP36_lie1.mp4,Deborah Meaden,Lie,Truth,0.4697081,False,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_22.mp4,Henning Wehn,Truth,Truth,0.47063878,True,0.945
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP52_truth11.mp4,Lee,Truth,Truth,0.48756686,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_lie_009.mp4,Andrea_Sneiderman,Lie,Truth,0.47183418,False,1.0
+train,deception/DOLOS/Male/Russell Howard/LS_WILTY_EP12_lie3.mp4,Russell Howard,Lie,Lie,0.5433158,True,1.0
+train,deception/DOLOS/Female/Mel/YW_WILTY_EP48_lie3.mp4,Mel,Lie,Truth,0.4606186,False,1.0
+train,truth/DOLOS/Male/Rhod Gilbert/SB_WILTY_EP33_truth4.mp4,Rhod Gilbert,Truth,Truth,0.37607995,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP46_truth5.mp4,Lee,Truth,Lie,0.51107883,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie9.mp4,David,Lie,Lie,0.5336842,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP49_lie3.mp4,Lee,Lie,Lie,0.52349716,True,1.0
+train,deception/DOLOS/Female/Claire/YW_WILTY_EP50_lie14.mp4,Claire,Lie,Truth,0.47966716,False,1.0
+train,deception/DOLOS/Male/Paul Hollywood/BRI_WILTY_EP59_lie_11.mp4,Paul Hollywood,Lie,Lie,0.5040917,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP56_lie13.mp4,David,Lie,Lie,0.56541973,True,1.0
+train,truth/RealLife-Deception-Detection/Female/The_innocence_project/trial_truth_001.mp4,The_innocence_project,Truth,Truth,0.49523604,True,1.0
+train,deception/DOLOS/Female/Deborah Meaden/SB_WILTY_EP36_lie5.mp4,Deborah Meaden,Lie,Lie,0.5132838,True,1.0
+train,truth/DOLOS/Female/Myleene Klass/LS_WILTY_EP4_truth4.mp4,Myleene Klass,Truth,Truth,0.34101266,True,1.0
+train,truth/DOLOS/Male/Rob Brydon/AN_WILTY_EP27_truth13.mp4,Rob Brydon,Truth,Truth,0.43859622,True,1.0
+train,truth/RealLife-Deception-Detection/Male/James_Boyd/trial_truth_030.mp4,James_Boyd,Truth,Truth,0.36148632,True,1.0
+train,deception/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP32_lie17.mp4,Ronnie Corbert,Lie,Truth,0.40695214,False,0.97
+train,deception/DOLOS/Male/Richard Osman/BRI_WILTY_EP61_lie_8.mp4,Richard Osman,Lie,Lie,0.51127917,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP49_lie7.mp4,Lee,Lie,Lie,0.5225433,True,1.0
+train,truth/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP60_truth_4.mp4,Mel Giedroyc,Truth,Truth,0.35989314,True,0.97
+train,deception/DOLOS/Female/Deborah Meaden/SB_WILTY_EP36_lie3.mp4,Deborah Meaden,Lie,Truth,0.4892695,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP46_lie5.mp4,David,Lie,Lie,0.5292732,True,1.0
+train,deception/DOLOS/Female/Isy Suttie/BRI_WILTY_EP58_lie_16.mp4,Isy Suttie,Lie,Truth,0.36484528,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP53_lie5.mp4,David,Lie,Lie,0.59472734,True,1.0
+train,truth/DOLOS/Male/Dermot O_Leary/BRI_WILTY_EP60_truth_12.mp4,Dermot O_Leary,Truth,Truth,0.4332663,True,1.0
+train,deception/DOLOS/Female/Lauren Laverne/LS_WILTY_EP14_lie4.mp4,Lauren Laverne,Lie,Truth,0.46458226,False,1.0
+train,truth/DOLOS/Male/Mark Watson/SB_WILTY_EP35_truth8.mp4,Mark Watson,Truth,Truth,0.37484998,True,1.0
+train,truth/DOLOS/Female/Carol Kirkwood/BRI_WILTY_EP61_truth_21.mp4,Carol Kirkwood,Truth,Lie,0.5344966,False,0.88
+train,truth/DOLOS/Male/Harry Enfield/LS_WILTY_EP6_truth8.mp4,Harry Enfield,Truth,Truth,0.46944,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP46_truth7.mp4,Lee,Truth,Truth,0.46977192,True,1.0
+train,truth/DOLOS/Female/Olivia Colman/LS_WILTY_EP11_truth8.mp4,Olivia Colman,Truth,Truth,0.39339384,True,1.0
+train,truth/DOLOS/Female/Claudia Winkleman/LS_WILTY_EP6_truth10.mp4,Claudia Winkleman,Truth,Truth,0.2846927,True,1.0
+train,truth/DOLOS/Female/Denise van Outen/BRI_WILTY_EP57_truth_4.mp4,Denise van Outen,Truth,Truth,0.4768873,True,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth4.mp4,Greg,Truth,Truth,0.47600207,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP44_lie12.mp4,Lee,Lie,Truth,0.48435774,False,1.0
+train,truth/DOLOS/Female/Gabby Logan/LS_WILTY_EP7_truth3.mp4,Gabby Logan,Truth,Truth,0.35663095,True,0.92
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP52_truth9.mp4,Lee,Truth,Truth,0.48231348,True,1.0
+train,truth/DOLOS/Female/Carol Kirkwood/BRI_WILTY_EP61_truth_17.mp4,Carol Kirkwood,Truth,Truth,0.47355384,True,0.94
+train,truth/DOLOS/Male/Bob/LS_WILTY_EP72_true5.mp4,Bob,Truth,Lie,0.56819105,False,1.0
+train,deception/DOLOS/Female/Kate/YW_WILTY_EP49_lie5.mp4,Kate,Lie,Truth,0.48501766,False,1.0
+train,deception/DOLOS/Female/Miranda Hart/AN_WILTY_EP18_lie18.mp4,Miranda Hart,Lie,Truth,0.4923628,False,1.0
+train,deception/DOLOS/Male/Paul Hollywood/BRI_WILTY_EP59_lie_16.mp4,Paul Hollywood,Lie,Lie,0.53037626,True,1.0
+train,deception/DOLOS/Male/Xander/YW_WILTY_EP56_lie10.mp4,Xander,Lie,Lie,0.5642734,True,1.0
+train,deception/DOLOS/Male/Richard/YW_WILTY_EP53_lie3.mp4,Richard,Lie,Truth,0.45091555,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie6.mp4,David,Lie,Lie,0.588745,True,1.0
+train,deception/DOLOS/Male/Clive Anderson/AN_WILTY_EP18_lie6.mp4,Clive Anderson,Lie,Truth,0.4559893,False,1.0
+train,deception/DOLOS/Female/Patsy Palmer/SB_WILTY_EP37_lie2.mp4,Patsy Palmer,Lie,Truth,0.4547893,False,1.0
+train,deception/DOLOS/Male/Stephen Mangan/AN_WILTY_EP28_lie6.mp4,Stephen Mangan,Lie,Truth,0.4811554,False,1.0
+train,truth/DOLOS/Female/Janet Street-Porter/AN_WILTY_EP20_truth1.mp4,Janet Street-Porter,Truth,Truth,0.4168787,True,1.0
+train,deception/DOLOS/Female/Joan Bakewell/BRI_WILTY_EP59_deception_22.mp4,Joan Bakewell,Lie,Truth,0.4488836,False,1.0
+train,deception/DOLOS/Female/Kirsty Wark/BRI_WILTY_EP65_lie_18.mp4,Kirsty Wark,Lie,Truth,0.33176434,False,1.0
+train,truth/DOLOS/Male/Henning/LS_WILTY_EP76_true12.mp4,Henning,Truth,Truth,0.3868393,True,1.0
+train,deception/DOLOS/Male/Clive Anderson/AN_WILTY_EP18_lie7.mp4,Clive Anderson,Lie,Lie,0.5468952,True,1.0
+train,deception/DOLOS/Female/Trinny Woodall/AN_WILTY_EP22_lie7.mp4,Trinny Woodall,Lie,Truth,0.47244877,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Crystal_Mangum/trial_lie_038.mp4,Crystal_Mangum,Lie,Truth,0.37048066,False,1.0
+train,deception/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP60_lie_13.mp4,Mel Giedroyc,Lie,Truth,0.4255689,False,1.0
+train,truth/DOLOS/Male/Ken Livingstone/AN_WILTY_EP16_truth12.mp4,Ken Livingstone,Truth,Lie,0.54266614,False,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_8.mp4,Henning Wehn,Truth,Truth,0.4797573,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_025.mp4,Jodi_Arias,Lie,Lie,0.5605168,True,1.0
+train,deception/DOLOS/Male/Charlie Brooker/AN_WILTY_EP22_lie16.mp4,Charlie Brooker,Lie,Lie,0.5601169,True,1.0
+train,deception/DOLOS/Male/David O_Doherty/BRI_WILTY_EP61_lie_25.mp4,David O_Doherty,Lie,Lie,0.5014298,True,1.0
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP9_lie11.mp4,Jimmy Carr,Lie,Lie,0.51396346,True,1.0
+train,truth/DOLOS/Male/Kevin Bridges/SB_WILTY_EP42_truth13.mp4,Kevin Bridges,Truth,Lie,0.57567835,False,0.88
+train,truth/DOLOS/Female/Gabby/YW_WILTY_EP52_truth2.mp4,Gabby,Truth,Truth,0.46646264,True,1.0
+train,deception/DOLOS/Female/Miranda/YW_WILTY_EP50_lie11.mp4,Miranda,Lie,Lie,0.59525776,True,1.0
+train,truth/DOLOS/Female/Alex/LS_WILTY_EP73_ true1.mp4,Alex,Truth,Truth,0.3545687,True,1.0
+train,truth/RealLife-Deception-Detection/Female/The_innocence_project/trial_truth_002.mp4,The_innocence_project,Truth,Truth,0.45473585,True,1.0
+train,truth/DOLOS/Female/Ruth Jones/AN_WILTY_EP27_truth7.mp4,Ruth Jones,Truth,Truth,0.35998076,True,1.0
+train,truth/DOLOS/Male/Robert Webb/SB_WILTY_EP42_truth11.mp4,Robert Webb,Truth,Truth,0.38401446,True,1.0
+train,deception/DOLOS/Male/Jack/YW_WILTY_EP55_lie4.mp4,Jack,Lie,Truth,0.49842685,False,1.0
+train,deception/DOLOS/Female/Natalie Cassidy/LS_WILTY_EP1_lie1.mp4,Natalie Cassidy,Lie,Truth,0.41428187,False,0.91
+train,deception/DOLOS/Male/Jim/YW_WILTY_EP55_lie2.mp4,Jim,Lie,Lie,0.58179194,True,1.0
+train,deception/DOLOS/Female/Lauren Laverne/LS_WILTY_EP14_lie6.mp4,Lauren Laverne,Lie,Truth,0.38015905,False,1.0
+train,truth/DOLOS/Male/Andy/YW_WILTY_EP52_truth3.mp4,Andy,Truth,Lie,0.52518576,False,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP49_truth2.mp4,Richard,Truth,Truth,0.3748252,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP46_truth6.mp4,Lee,Truth,Truth,0.45314056,True,1.0
+train,truth/DOLOS/Male/Kevin Bridges/SB_WILTY_EP42_truth12.mp4,Kevin Bridges,Truth,Lie,0.5635684,False,0.88
+train,deception/DOLOS/Male/Vic Reeves/LS_WILTY_EP13_lie5.mp4,Vic Reeves,Lie,Truth,0.46081537,False,0.95
+train,deception/DOLOS/Male/Shane Richie/LS_WILTY_EP13_lie7.mp4,Shane Richie,Lie,Truth,0.4482081,False,0.915
+train,deception/DOLOS/Male/Frankie Boyle/AN_WILTY_EP19_lie9.mp4,Frankie Boyle,Lie,Truth,0.45247236,False,1.0
+train,deception/DOLOS/Male/David O_Doherty/BRI_WILTY_EP61_lie_23.mp4,David O_Doherty,Lie,Lie,0.5684701,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP50_truth6.mp4,Lee,Truth,Lie,0.5433378,False,1.0
+train,deception/DOLOS/Male/Reece Shearsmith/AN_WILTY_EP22_lie8.mp4,Reece Shearsmith,Lie,Truth,0.49636352,False,1.0
+train,deception/DOLOS/Female/Kirsty Young/BRI_WILTY_EP63_lie_30.mp4,Kirsty Young,Lie,Truth,0.33721232,False,1.0
+train,deception/DOLOS/Female/Fern Britton/AN_WILTY_EP24_lie9.mp4,Fern Britton,Lie,Truth,0.47457457,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Donna_Scrivo/trial_lie_032.mp4,Donna_Scrivo,Lie,Truth,0.3893778,False,1.0
+train,truth/DOLOS/Male/David/YW_WILTY_EP49_truth10.mp4,David,Truth,Lie,0.5397274,False,1.0
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP9_lie10.mp4,Jimmy Carr,Lie,Lie,0.56093925,True,1.0
+train,deception/DOLOS/Male/Xander/YW_WILTY_EP48_lie2.mp4,Xander,Lie,Lie,0.5386444,True,1.0
+train,deception/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP32_lie15.mp4,Ronnie Corbert,Lie,Truth,0.33318734,False,1.0
+train,truth/DOLOS/Male/Henning/LS_WILTY_EP76_true1.mp4,Henning,Truth,Truth,0.478325,True,1.0
+train,truth/DOLOS/Male/Andy/YW_WILTY_EP52_truth5.mp4,Andy,Truth,Lie,0.5019155,False,1.0
+train,deception/DOLOS/Female/Maureen Lipman/LS_WILTY_EP9_lie2.mp4,Maureen Lipman,Lie,Truth,0.45513663,False,0.99
+train,deception/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP60_lie_8.mp4,Mel Giedroyc,Lie,Truth,0.40214586,False,1.0
+train,deception/DOLOS/Male/Reginald D. Hunter/AN_WILTY_EP16_lie2.mp4,Reginald D. Hunter,Lie,Truth,0.4862418,False,1.0
+train,truth/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_truth4.mp4,David O_Doherty,Truth,Lie,0.53128433,False,1.0
+train,deception/DOLOS/Male/Jim/YW_WILTY_EP56_lie14.mp4,Jim,Lie,Lie,0.62048626,True,1.0
+train,deception/DOLOS/Male/Xander/YW_WILTY_EP48_lie1.mp4,Xander,Lie,Lie,0.5885311,True,1.0
+train,truth/DOLOS/Female/Claudia Winkleman/AN_WILTY_EP18_truth2.mp4,Claudia Winkleman,Truth,Truth,0.45073986,True,1.0
+train,deception/DOLOS/Male/Micky Flanagan/BRI_WILTY_EP64_lie_14.mp4,Micky Flanagan,Lie,Truth,0.3760591,False,1.0
+train,truth/DOLOS/Female/Carol Kirkwood/BRI_WILTY_EP61_truth_9.mp4,Carol Kirkwood,Truth,Truth,0.47678292,True,1.0
+train,truth/DOLOS/Male/Bill/YW_WILTY_EP45_truth2.mp4,Bill,Truth,Truth,0.372333,True,0.995
+train,truth/DOLOS/Male/Jason Manford/AN_WILTY_EP26_truth10.mp4,Jason Manford,Truth,Truth,0.43494165,True,0.96
+train,truth/DOLOS/Male/Frankie Boyle/LS_WILTY_EP1_truth8.mp4,Frankie Boyle,Truth,Truth,0.28943658,True,0.945
+train,deception/DOLOS/Male/Hugh Dennis/LS_WILTY_EP11_lie15.mp4,Hugh Dennis,Lie,Lie,0.5358261,True,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP66_truth_9.mp4,Bob Mortimer,Truth,Lie,0.5029207,False,1.0
+train,truth/DOLOS/Male/Jason Manford/AN_WILTY_EP18_truth23.mp4,Jason Manford,Truth,Truth,0.4517266,True,0.89
+train,deception/DOLOS/Female/Natalie Cassidy/LS_WILTY_EP1_lie3.mp4,Natalie Cassidy,Lie,Truth,0.3484732,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP45_lie10.mp4,Lee,Lie,Lie,0.5184739,True,1.0
+train,truth/DOLOS/Male/Grey/LS_WILTY_EP73_ true8.mp4,Grey,Truth,Truth,0.4188715,True,1.0
+train,truth/DOLOS/Female/Alex/YW_WILTY_EP48_truth5.mp4,Alex,Truth,Truth,0.4382406,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_lie_001.mp4,Amanda_Hayes,Lie,Truth,0.45335245,False,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_9.mp4,Henning Wehn,Truth,Truth,0.49590707,True,0.93
+train,deception/DOLOS/Male/Anton Du Beke/LS_WILTY_EP12_lie2.mp4,Anton Du Beke,Lie,Lie,0.51150554,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_truth_058.mp4,Amanda_Hayes,Truth,Truth,0.47679827,True,1.0
+train,truth/DOLOS/Male/Jon Richardson/BRI_WILTY_EP62_truth_12.mp4,Jon Richardson,Truth,Truth,0.32082036,True,1.0
+train,deception/DOLOS/Female/Claire/YW_WILTY_EP56_lie16.mp4,Claire,Lie,Truth,0.4515313,False,1.0
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP9_lie6.mp4,Jimmy Carr,Lie,Truth,0.4877442,False,1.0
+train,truth/DOLOS/Female/Sarah/YW_WILTY_EP45_truth7.mp4,Sarah,Truth,Lie,0.56582564,False,1.0
+train,truth/DOLOS/Female/Denise van Outen/BRI_WILTY_EP57_truth_7.mp4,Denise van Outen,Truth,Lie,0.5112568,False,1.0
+train,deception/DOLOS/Male/Frankie Boyle/LS_WILTY_EP1_lie8.mp4,Frankie Boyle,Lie,Truth,0.44402927,False,0.98
+train,truth/DOLOS/Male/John Bishop/SB_WILTY_EP37_truth10.mp4,John Bishop,Truth,Truth,0.37340164,True,1.0
+train,deception/DOLOS/Male/Rufus Hound/SB_WILTY_EP34_lie1.mp4,Rufus Hound,Lie,Lie,0.5376861,True,0.925
+train,truth/DOLOS/Male/Robert Webb/SB_WILTY_EP42_truth5.mp4,Robert Webb,Truth,Truth,0.2756218,True,0.995
+train,deception/DOLOS/Male/Anton Du Beke/LS_WILTY_EP12_lie1.mp4,Anton Du Beke,Lie,Lie,0.5251323,True,1.0
+train,truth/DOLOS/Male/David/YW_WILTY_EP44_truth12.mp4,David,Truth,Truth,0.49459162,True,1.0
+train,truth/DOLOS/Male/Robert Webb/SB_WILTY_EP42_truth8.mp4,Robert Webb,Truth,Truth,0.3521158,True,1.0
+train,truth/DOLOS/Female/Claudia Winkleman/AN_WILTY_EP18_truth1.mp4,Claudia Winkleman,Truth,Truth,0.38548058,True,1.0
+train,deception/DOLOS/Male/Russell Howard/LS_WILTY_EP5_lie3.mp4,Russell Howard,Lie,Truth,0.4067133,False,1.0
+train,deception/DOLOS/Male/Christian/YW_WILTY_EP52_lie5.mp4,Christian,Lie,Truth,0.49950466,False,0.99
+train,truth/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_truth_003.mp4,Andrea_Sneiderman,Truth,Truth,0.4399137,True,1.0
+train,deception/DOLOS/Male/Richard/YW_WILTY_EP56_lie2.mp4,Richard,Lie,Lie,0.5129579,True,1.0
+train,truth/DOLOS/Male/Rufus Hound/SB_WILTY_EP34_truth1.mp4,Rufus Hound,Truth,Lie,0.54773086,False,1.0
+train,truth/RealLife-Deception-Detection/Male/Ken_Wyniemko/trial_truth_024.mp4,Ken_Wyniemko,Truth,Truth,0.4924449,True,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_12.mp4,Henning Wehn,Truth,Lie,0.5110963,False,1.0
+train,deception/DOLOS/Female/Claire/YW_WILTY_EP50_lie15.mp4,Claire,Lie,Truth,0.49513283,False,1.0
+train,truth/DOLOS/Female/Miranda/YW_WILTY_EP50_truth13.mp4,Miranda,Truth,Lie,0.54343647,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie16.mp4,David,Lie,Lie,0.59692615,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_lie_006.mp4,Amanda_Hayes,Lie,Truth,0.46082804,False,1.0
+train,deception/DOLOS/Male/David/SB_WILTY_EP32_lie8.mp4,David,Lie,Truth,0.49593458,False,1.0
+train,truth/DOLOS/Female/Mel/YW_WILTY_EP48_truth8.mp4,Mel,Truth,Truth,0.42819256,True,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_11.mp4,Henning Wehn,Truth,Lie,0.540219,False,1.0
+train,truth/DOLOS/Male/Eamonn Holmes/LS_WILTY_EP11_truth7.mp4,Eamonn Holmes,Truth,Lie,0.5489349,False,1.0
+train,truth/DOLOS/Male/Henning/LS_WILTY_EP76_true9.mp4,Henning,Truth,Truth,0.38725135,True,1.0
+train,deception/DOLOS/Male/Eamonn Holmes/LS_WILTY_EP11_lie1.mp4,Eamonn Holmes,Lie,Lie,0.52919054,True,1.0
+train,truth/DOLOS/Male/David/YW_WILTY_EP51_truth5.mp4,David,Truth,Lie,0.5272302,False,1.0
+train,deception/DOLOS/Male/Hugh Fearnley-Whittingstall/SB_WILTY_EP34_lie10.mp4,Hugh Fearnley-Whittingstall,Lie,Truth,0.45936972,False,1.0
+train,deception/DOLOS/Male/Adam Buxton/BRI_WILTY_EP65_lie_8.mp4,Adam Buxton,Lie,Truth,0.44326153,False,0.99
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth9.mp4,Greg,Truth,Truth,0.49718812,True,1.0
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP3_lie1.mp4,Jimmy Carr,Lie,Lie,0.545975,True,0.93
+train,truth/DOLOS/Male/John Bishop/SB_WILTY_EP37_truth11.mp4,John Bishop,Truth,Truth,0.4652192,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Jodi_Arias/trial_truth_012.mp4,Jodi_Arias,Truth,Truth,0.29730397,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP56_truth2.mp4,Lee,Truth,Lie,0.51801515,False,1.0
+train,truth/DOLOS/Male/Mark Watson/SB_WILTY_EP35_truth5.mp4,Mark Watson,Truth,Truth,0.3718283,True,0.91
+train,deception/DOLOS/Male/Barry/YW_WILTY_EP47_lie4.mp4,Barry,Lie,Lie,0.5562171,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_026.mp4,Jodi_Arias,Lie,Lie,0.55447066,True,1.0
+train,truth/DOLOS/Male/Barry/YW_WILTY_EP47_truth4.mp4,Barry,Truth,Lie,0.583137,False,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_19.mp4,Bob Mortimer,Truth,Lie,0.56379193,False,1.0
+train,deception/DOLOS/Male/Reece Shearsmith/AN_WILTY_EP22_lie11.mp4,Reece Shearsmith,Lie,Truth,0.41240218,False,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_18.mp4,Henning Wehn,Truth,Lie,0.5280204,False,1.0
+train,truth/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP31_truth4.mp4,Ronnie Corbert,Truth,Truth,0.45815104,True,1.0
+train,truth/DOLOS/Female/Kirsty Young/BRI_WILTY_EP63_truth_6.mp4,Kirsty Young,Truth,Truth,0.43090314,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP50_truth9.mp4,Lee,Truth,Lie,0.5146663,False,1.0
+train,deception/DOLOS/Male/Dominic Wood/LS_WILTY_EP2_lie1.mp4,Dominic Wood,Lie,Lie,0.5058493,True,0.93
+train,deception/DOLOS/Male/David/YW_WILTY_EP53_lie10.mp4,David,Lie,Lie,0.5784505,True,1.0
+train,deception/DOLOS/Male/Frankie Boyle/AN_WILTY_EP19_lie7.mp4,Frankie Boyle,Lie,Lie,0.5049975,True,0.9
+train,truth/DOLOS/Male/Kevin Bridges/AN_WILTY_EP28_truth11.mp4,Kevin Bridges,Truth,Truth,0.47468626,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie7.mp4,David,Lie,Lie,0.55706537,True,1.0
+train,truth/DOLOS/Female/Fern Britton/AN_WILTY_EP23_truth6.mp4,Fern Britton,Truth,Truth,0.39542046,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Mitchelle_Blair/trial_lie_035.mp4,Mitchelle_Blair,Lie,Truth,0.36145648,False,1.0
+train,truth/DOLOS/Male/Stephen Mangan/AN_WILTY_EP16_truth10.mp4,Stephen Mangan,Truth,Truth,0.42339078,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP56_truth3.mp4,Lee,Truth,Lie,0.55823904,False,1.0
+train,deception/DOLOS/Female/Kate/YW_WILTY_EP49_lie1.mp4,Kate,Lie,Lie,0.545683,True,1.0
+train,truth/DOLOS/Male/McKinsey/YW_WILTY_EP46_truth4.mp4,McKinsey,Truth,Truth,0.42698023,True,1.0
+train,deception/DOLOS/Male/Nick Hewer/SB_WILTY_EP41_lie7.mp4,Nick Hewer,Lie,Truth,0.3922349,False,1.0
+train,deception/DOLOS/Male/Chris/YW_WILTY_EP46_lie6.mp4,Chris,Lie,Truth,0.43311232,False,1.0
+train,deception/DOLOS/Female/Gabbie/LS_WILTY_EP72_lie2.mp4,Gabbie,Lie,Truth,0.415442,False,1.0
+train,truth/DOLOS/Female/Carol Kirkwood/BRI_WILTY_EP61_truth_12.mp4,Carol Kirkwood,Truth,Truth,0.46565282,True,1.0
+train,deception/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP31_lie5.mp4,Ronnie Corbert,Lie,Lie,0.5246444,True,1.0
+train,deception/DOLOS/Female/Miranda Hart/AN_WILTY_EP18_lie16.mp4,Miranda Hart,Lie,Truth,0.44893923,False,1.0
+train,deception/DOLOS/Male/Clive Anderson/AN_WILTY_EP18_lie12.mp4,Clive Anderson,Lie,Truth,0.41714284,False,1.0
+train,truth/DOLOS/Female/Claudia Winkleman/LS_WILTY_EP6_truth9.mp4,Claudia Winkleman,Truth,Truth,0.21965869,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Jodi_Arias/trial_truth_011.mp4,Jodi_Arias,Truth,Truth,0.35241652,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP48_lie10.mp4,David,Lie,Lie,0.5845102,True,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP49_truth4.mp4,Richard,Truth,Truth,0.40893817,True,1.0
+train,deception/DOLOS/Male/Charlie Brooker/AN_WILTY_EP22_lie24.mp4,Charlie Brooker,Lie,Lie,0.5105152,True,0.87
+train,truth/DOLOS/Female/Mel/YW_WILTY_EP48_truth9.mp4,Mel,Truth,Lie,0.50221467,False,1.0
+train,truth/DOLOS/Male/Bob/YW_WILTY_EP53_truth14.mp4,Bob,Truth,Lie,0.50387603,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP38_lie4.mp4,Lee,Lie,Lie,0.53639334,True,1.0
+train,deception/DOLOS/Male/Stephen Mangan/BRI_WILTY_EP58_lie_25.mp4,Stephen Mangan,Lie,Truth,0.4798619,False,1.0
+train,deception/DOLOS/Male/Omid Djalili/AN_WILTY_EP20_lie5.mp4,Omid Djalili,Lie,Lie,0.6110054,True,1.0
+train,deception/DOLOS/Male/Russell Howard/LS_WILTY_EP5_lie5.mp4,Russell Howard,Lie,Truth,0.3628492,False,0.99
+train,truth/DOLOS/Male/David/YW_WILTY_EP51_truth6.mp4,David,Truth,Lie,0.52423304,False,1.0
+train,truth/DOLOS/Female/Lauren Laverne/LS_WILTY_EP14_truth10.mp4,Lauren Laverne,Truth,Truth,0.4373573,True,1.0
+train,truth/DOLOS/Female/Fay Ripley/LS_WILTY_EP2_truth6.mp4,Fay Ripley,Truth,Truth,0.380835,True,1.0
+train,truth/DOLOS/Female/Mel Giedroyc/BRI_WILTY_EP66_truth_3.mp4,Mel Giedroyc,Truth,Truth,0.44583887,True,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth1.mp4,Charlie,Truth,Lie,0.50520706,False,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP46_truth8.mp4,Lee,Truth,Truth,0.4969603,True,1.0
+train,truth/DOLOS/Female/Alex/YW_WILTY_EP48_truth3.mp4,Alex,Truth,Lie,0.548343,False,1.0
+train,deception/DOLOS/Male/Shane Richie/LS_WILTY_EP13_lie8.mp4,Shane Richie,Lie,Truth,0.38060865,False,1.0
+train,deception/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP32_lie16.mp4,Ronnie Corbert,Lie,Truth,0.31966054,False,1.0
+train,deception/DOLOS/Male/John/YW_WILTY_EP45_lie13.mp4,John,Lie,Truth,0.48583755,False,1.0
+train,deception/DOLOS/Female/Leslie Ash/LS_WILTY_EP4_lie16.mp4,Leslie Ash,Lie,Lie,0.50768214,True,0.92
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP3_lie5.mp4,Jimmy Carr,Lie,Lie,0.5764301,True,1.0
+train,deception/DOLOS/Male/Greg/YW_WILTY_EP44_lie4.mp4,Greg,Lie,Truth,0.4851191,False,1.0
+train,deception/DOLOS/Male/Christian/YW_WILTY_EP52_lie4.mp4,Christian,Lie,Truth,0.4948954,False,1.0
+train,truth/DOLOS/Male/Shane Richie/LS_WILTY_EP13_truth2.mp4,Shane Richie,Truth,Truth,0.40922898,True,1.0
+train,deception/DOLOS/Female/Fiona Bruce/BRI_WILTY_EP64_lie_21.mp4,Fiona Bruce,Lie,Lie,0.5146632,True,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP32_truth2.mp4,David,Truth,Truth,0.4695063,True,1.0
+train,deception/DOLOS/Male/Reginald D. Hunter/AN_WILTY_EP16_lie1.mp4,Reginald D. Hunter,Lie,Lie,0.5045439,True,0.935
+train,deception/DOLOS/Male/Russell Howard/LS_WILTY_EP12_lie8.mp4,Russell Howard,Lie,Lie,0.5556692,True,0.93
+train,deception/DOLOS/Male/Hugh Fearnley-Whittingstall/SB_WILTY_EP33_lie2.mp4,Hugh Fearnley-Whittingstall,Lie,Lie,0.51452065,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Marissa_Devault/trial_lie_036.mp4,Marissa_Devault,Lie,Truth,0.39563513,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP47_lie13.mp4,Lee,Lie,Truth,0.47845432,False,1.0
+train,deception/DOLOS/Female/Patsy Palmer/SB_WILTY_EP37_lie6.mp4,Patsy Palmer,Lie,Truth,0.4586041,False,0.995
+train,deception/DOLOS/Male/Hugh Fearnley-Whittingstall/SB_WILTY_EP34_lie9.mp4,Hugh Fearnley-Whittingstall,Lie,Truth,0.47780076,False,1.0
+train,truth/DOLOS/Female/Ruth Jones/AN_WILTY_EP26_truth13.mp4,Ruth Jones,Truth,Truth,0.43006292,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP44_lie13.mp4,Lee,Lie,Lie,0.5088916,True,1.0
+train,deception/DOLOS/Female/Miranda Hart/AN_WILTY_EP18_lie15.mp4,Miranda Hart,Lie,Lie,0.5164246,True,1.0
+train,truth/DOLOS/Female/Alex/YW_WILTY_EP48_truth1.mp4,Alex,Truth,Truth,0.49705285,True,1.0
+train,truth/DOLOS/Male/Grey/LS_WILTY_EP73_ true9.mp4,Grey,Truth,Truth,0.39479455,True,1.0
+train,truth/DOLOS/Male/Vernon Kay/BRI_WILTY_EP57_truth_14.mp4,Vernon Kay,Truth,Truth,0.46517438,True,1.0
+train,deception/DOLOS/Male/Stephen Mangan/BRI_WILTY_EP58_lie_28.mp4,Stephen Mangan,Lie,Truth,0.45939517,False,1.0
+train,deception/DOLOS/Female/Claire/YW_WILTY_EP56_lie18.mp4,Claire,Lie,Lie,0.5234915,True,1.0
+train,deception/DOLOS/Male/Grey/LS_WILTY_EP75_lie6.mp4,Grey,Lie,Truth,0.39952496,False,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth6.mp4,Charlie,Truth,Lie,0.5872162,False,1.0
+train,truth/DOLOS/Male/Michael Ball/AN_WILTY_EP22_truth18.mp4,Michael Ball,Truth,Lie,0.5368212,False,1.0
+train,deception/DOLOS/Male/Richard Osman/BRI_WILTY_EP61_lie_6.mp4,Richard Osman,Lie,Lie,0.57433206,True,0.99
+train,truth/DOLOS/Female/Alex/YW_WILTY_EP48_truth4.mp4,Alex,Truth,Truth,0.39136425,True,1.0
+train,deception/DOLOS/Male/Bob/LS_WILTY_EP75_lie5.mp4,Bob,Lie,Lie,0.5445587,True,1.0
+train,truth/DOLOS/Female/Fern Britton/AN_WILTY_EP23_truth7.mp4,Fern Britton,Truth,Truth,0.30245927,True,1.0
+train,truth/DOLOS/Male/McKinsey/YW_WILTY_EP46_truth1.mp4,McKinsey,Truth,Lie,0.5436543,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP46_lie4.mp4,David,Lie,Lie,0.5208621,True,1.0
+train,truth/DOLOS/Male/Shane Richie/LS_WILTY_EP13_truth3.mp4,Shane Richie,Truth,Truth,0.37302414,True,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_20.mp4,Bob Mortimer,Truth,Lie,0.50970083,False,1.0
+train,truth/DOLOS/Male/Michael Ball/AN_WILTY_EP22_truth2.mp4,Michael Ball,Truth,Lie,0.5555141,False,1.0
+train,deception/DOLOS/Male/Vic Reeves/LS_WILTY_EP13_lie4.mp4,Vic Reeves,Lie,Truth,0.46310914,False,1.0
+train,truth/DOLOS/Male/David/YW_WILTY_EP49_truth14.mp4,David,Truth,Lie,0.56243163,False,1.0
+train,truth/RealLife-Deception-Detection/Male/Chris_Ochoa/trial_truth_018.mp4,Chris_Ochoa,Truth,Truth,0.48987004,True,1.0
+train,deception/DOLOS/Female/Deborah Meaden/SB_WILTY_EP35_lie3.mp4,Deborah Meaden,Lie,Truth,0.4839161,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP55_lie15.mp4,David,Lie,Lie,0.57559544,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP50_truth8.mp4,Lee,Truth,Lie,0.570399,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP48_lie7.mp4,David,Lie,Lie,0.5600753,True,1.0
+train,deception/DOLOS/Male/Jason Manford/LS_WILTY_EP4_lie8.mp4,Jason Manford,Lie,Truth,0.38243458,False,1.0
+train,truth/DOLOS/Female/Janet Street-Porter/AN_WILTY_EP20_truth11.mp4,Janet Street-Porter,Truth,Lie,0.54575604,False,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_1.mp4,Bob Mortimer,Truth,Truth,0.47668102,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Crystal_Mangum/trial_truth_053.mp4,Crystal_Mangum,Truth,Truth,0.38289824,True,1.0
+train,deception/DOLOS/Female/Miranda Hart/AN_WILTY_EP18_lie9.mp4,Miranda Hart,Lie,Truth,0.49513134,False,1.0
+train,truth/DOLOS/Male/Bill/YW_WILTY_EP45_truth4.mp4,Bill,Truth,Truth,0.36115867,True,1.0
+train,truth/DOLOS/Male/Christian/YW_WILTY_EP52_truth12.mp4,Christian,Truth,Truth,0.47792983,True,1.0
+train,deception/DOLOS/Male/Richard/YW_WILTY_EP56_lie1.mp4,Richard,Lie,Truth,0.48270252,False,1.0
+train,deception/DOLOS/Male/Barry/YW_WILTY_EP47_lie9.mp4,Barry,Lie,Truth,0.48061606,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_lie_012.mp4,Andrea_Sneiderman,Lie,Lie,0.5016312,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP36_lie6.mp4,Lee,Lie,Truth,0.4856285,False,1.0
+train,deception/DOLOS/Male/Robert Webb/LS_WILTY_EP7_lie12.mp4,Robert Webb,Lie,Lie,0.5251937,True,0.85
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP47_truth6.mp4,Lee,Truth,Truth,0.4771876,True,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP36_truth5.mp4,David,Truth,Lie,0.56459415,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Jamie_Hood/trial_lie_034.mp4,Jamie_Hood,Lie,Truth,0.46461812,False,1.0
+train,deception/DOLOS/Male/Martin Clunes/AN_WILTY_EP24_lie1.mp4,Martin Clunes,Lie,Lie,0.54949665,True,1.0
+train,truth/DOLOS/Male/Des/YW_WILTY_EP51_truth2.mp4,Des,Truth,Lie,0.50757617,False,1.0
+train,truth/DOLOS/Male/David/YW_WILTY_EP44_truth13.mp4,David,Truth,Lie,0.5100672,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_lie_013.mp4,Andrea_Sneiderman,Lie,Truth,0.4799918,False,1.0
+train,deception/DOLOS/Female/Ruth Jones/AN_WILTY_EP26_lie1.mp4,Ruth Jones,Lie,Truth,0.45872933,False,1.0
+train,truth/DOLOS/Male/Steve/LS_WILTY_EP72_true8.mp4,Steve,Truth,Truth,0.49552685,True,1.0
+train,deception/DOLOS/Male/Dominic Wood/LS_WILTY_EP2_lie2.mp4,Dominic Wood,Lie,Truth,0.46781582,False,1.0
+train,deception/DOLOS/Male/Omid Djalili/AN_WILTY_EP20_lie12.mp4,Omid Djalili,Lie,Lie,0.5875157,True,1.0
+train,truth/DOLOS/Female/Davina McCall/AN_WILTY_EP20_truth2.mp4,Davina McCall,Truth,Truth,0.43183014,True,0.88
+train,deception/DOLOS/Male/Xander/YW_WILTY_EP56_lie11.mp4,Xander,Lie,Lie,0.54770136,True,1.0
+train,truth/DOLOS/Male/Barry/YW_WILTY_EP47_truth3.mp4,Barry,Truth,Lie,0.55732924,False,1.0
+train,truth/DOLOS/Male/Mark Watson/SB_WILTY_EP35_truth9.mp4,Mark Watson,Truth,Truth,0.37039766,True,0.975
+train,truth/DOLOS/Male/Jack Whitehall/AN_WILTY_EP19_truth3.mp4,Jack Whitehall,Truth,Lie,0.53200096,False,0.89
+train,truth/DOLOS/Male/Anton Du Beke/LS_WILTY_EP12_truth6.mp4,Anton Du Beke,Truth,Truth,0.46468434,True,1.0
+train,deception/DOLOS/Male/David O_Doherty/BRI_WILTY_EP61_lie_18.mp4,David O_Doherty,Lie,Truth,0.49918792,False,0.92
+train,deception/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_lie2.mp4,David O_Doherty,Lie,Truth,0.46302065,False,1.0
+train,deception/DOLOS/Male/Barry/YW_WILTY_EP47_lie5.mp4,Barry,Lie,Lie,0.5692382,True,1.0
+train,truth/DOLOS/Male/David/YW_WILTY_EP44_truth11.mp4,David,Truth,Lie,0.5079916,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP34_lie2.mp4,Lee,Lie,Truth,0.43002605,False,1.0
+train,deception/DOLOS/Male/Russell Howard/LS_WILTY_EP12_lie5.mp4,Russell Howard,Lie,Lie,0.53829765,True,1.0
+train,deception/RealLife-Deception-Detection/Male/Lance_Armstrong/trial_lie_058.mp4,Lance_Armstrong,Lie,Truth,0.49729136,False,1.0
+train,truth/DOLOS/Male/Dom Joly/LS_WILTY_EP1_truth1.mp4,Dom Joly,Truth,Truth,0.47620127,True,1.0
+train,deception/DOLOS/Male/Kevin Bridges/SB_WILTY_EP42_lie2.mp4,Kevin Bridges,Lie,Lie,0.5846103,True,1.0
+train,truth/DOLOS/Female/Ruth Jones/AN_WILTY_EP27_truth5.mp4,Ruth Jones,Truth,Truth,0.4407514,True,1.0
+train,deception/DOLOS/Male/Nick Hewer/SB_WILTY_EP41_lie8.mp4,Nick Hewer,Lie,Lie,0.5394865,True,1.0
+train,deception/DOLOS/Male/Grey/LS_WILTY_EP75_lie9.mp4,Grey,Lie,Lie,0.500417,True,0.88
+train,deception/DOLOS/Male/David/LS_WILTY_EP72_lie5.mp4,David,Lie,Truth,0.37878954,False,1.0
+train,deception/DOLOS/Female/Davina McCall/LS_WILTY_EP10_lie4.mp4,Davina McCall,Lie,Lie,0.55953026,True,1.0
+train,deception/DOLOS/Male/Richard Osman/BRI_WILTY_EP61_lie_1.mp4,Richard Osman,Lie,Lie,0.5104696,True,1.0
+train,deception/DOLOS/Female/Fiona Bruce/BRI_WILTY_EP64_lie_15.mp4,Fiona Bruce,Lie,Truth,0.494438,False,1.0
+train,truth/DOLOS/Female/Gabby Logan/LS_WILTY_EP7_truth2.mp4,Gabby Logan,Truth,Truth,0.31412446,True,1.0
+train,truth/DOLOS/Male/Rhod Gilbert/BRI_WILTY_EP57_truth_31.mp4,Rhod Gilbert,Truth,Lie,0.5103975,False,1.0
+train,deception/DOLOS/Male/Hugh Dennis/LS_WILTY_EP11_lie3.mp4,Hugh Dennis,Lie,Lie,0.59277236,True,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth10.mp4,Charlie,Truth,Lie,0.55608326,False,1.0
+train,truth/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_truth6.mp4,David O_Doherty,Truth,Truth,0.48726672,True,0.96
+train,deception/RealLife-Deception-Detection/Female/Andrea_Sneiderman/trial_lie_007.mp4,Andrea_Sneiderman,Lie,Truth,0.4321376,False,0.985
+train,deception/DOLOS/Male/Bernard Cribbins/SB_WILTY_EP35_lie5.mp4,Bernard Cribbins,Lie,Lie,0.581027,True,1.0
+train,truth/DOLOS/Female/Myleene Klass/LS_WILTY_EP4_truth3.mp4,Myleene Klass,Truth,Truth,0.4544909,True,1.0
+train,truth/DOLOS/Female/Alex/YW_WILTY_EP48_truth6.mp4,Alex,Truth,Truth,0.46107525,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP49_lie8.mp4,Lee,Lie,Lie,0.54829293,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP29_lie3.mp4,Lee,Lie,Truth,0.45872137,False,1.0
+train,truth/DOLOS/Male/Steve/LS_WILTY_EP72_true9.mp4,Steve,Truth,Truth,0.4286302,True,1.0
+train,deception/DOLOS/Female/Davina McCall/LS_WILTY_EP10_lie2.mp4,Davina McCall,Lie,Lie,0.51114976,True,1.0
+train,truth/DOLOS/Female/Sarah/YW_WILTY_EP54_truth1.mp4,Sarah,Truth,Truth,0.4237093,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Jodi_Arias/trial_truth_054.mp4,Jodi_Arias,Truth,Truth,0.46842733,True,1.0
+train,deception/DOLOS/Male/Dale/YW_WILTY_EP50_lie6.mp4,Dale,Lie,Truth,0.45051008,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP44_lie15.mp4,Lee,Lie,Lie,0.5620632,True,1.0
+train,deception/DOLOS/Male/Clive Anderson/AN_WILTY_EP18_lie11.mp4,Clive Anderson,Lie,Lie,0.5112547,True,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth9.mp4,Charlie,Truth,Lie,0.5511493,False,1.0
+train,deception/DOLOS/Male/Bernard Cribbins/SB_WILTY_EP35_lie8.mp4,Bernard Cribbins,Lie,Truth,0.49549112,False,1.0
+train,truth/DOLOS/Male/Jack Whitehall/AN_WILTY_EP19_truth4.mp4,Jack Whitehall,Truth,Truth,0.47932774,True,1.0
+train,deception/DOLOS/Female/Davina McCall/LS_WILTY_EP10_lie13.mp4,Davina McCall,Lie,Lie,0.55980045,True,0.99
+train,truth/DOLOS/Female/Miranda/YW_WILTY_EP50_truth14.mp4,Miranda,Truth,Lie,0.5446695,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Crystal_Mangum/trial_lie_039.mp4,Crystal_Mangum,Lie,Truth,0.47688642,False,1.0
+train,deception/DOLOS/Female/Deborah Meaden/SB_WILTY_EP36_lie4.mp4,Deborah Meaden,Lie,Lie,0.5088695,True,0.975
+train,deception/DOLOS/Male/Jim/YW_WILTY_EP56_lie15.mp4,Jim,Lie,Lie,0.5929658,True,1.0
+train,deception/DOLOS/Male/Stephen Mangan/BRI_WILTY_EP58_lie_2.mp4,Stephen Mangan,Lie,Truth,0.46436566,False,1.0
+train,deception/DOLOS/Male/Kevin Bridges/SB_WILTY_EP42_lie1.mp4,Kevin Bridges,Lie,Lie,0.56160414,True,0.95
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP56_truth1.mp4,Lee,Truth,Lie,0.5036866,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Jonathan_Santillan/trial_truth_037.mp4,Jonathan_Santillan,Truth,Lie,0.52183837,False,1.0
+train,deception/DOLOS/Male/Martin Clunes/AN_WILTY_EP24_lie7.mp4,Martin Clunes,Lie,Lie,0.5325427,True,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_24.mp4,Henning Wehn,Truth,Lie,0.50212395,False,1.0
+train,truth/DOLOS/Male/Dermot O_Leary/BRI_WILTY_EP60_truth_10.mp4,Dermot O_Leary,Truth,Truth,0.27121037,True,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP50_truth2.mp4,Richard,Truth,Lie,0.5321772,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Jamie_Hood/trial_lie_033.mp4,Jamie_Hood,Lie,Truth,0.2504301,False,1.0
+train,truth/DOLOS/Female/Miranda Hart/SB_WILTY_EP41_truth5.mp4,Miranda Hart,Truth,Lie,0.5587575,False,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP53_truth10.mp4,Greg,Truth,Truth,0.46635783,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_055.mp4,Jodi_Arias,Lie,Lie,0.6407937,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP50_truth7.mp4,Lee,Truth,Truth,0.49477208,True,1.0
+train,truth/DOLOS/Female/Davina McCall/AN_WILTY_EP20_truth3.mp4,Davina McCall,Truth,Truth,0.3660029,True,0.935
+train,deception/DOLOS/Male/Barry/YW_WILTY_EP47_lie8.mp4,Barry,Lie,Lie,0.57290035,True,1.0
+train,truth/DOLOS/Male/Rob Brydon/AN_WILTY_EP27_truth15.mp4,Rob Brydon,Truth,Truth,0.477952,True,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP31_truth8.mp4,David,Truth,Lie,0.51603144,False,1.0
+train,truth/DOLOS/Male/Jack/YW_WILTY_EP55_truth3.mp4,Jack,Truth,Truth,0.3918724,True,1.0
+train,truth/DOLOS/Male/Lee/SB_WILTY_EP34_truth3.mp4,Lee,Truth,Truth,0.44606578,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP38_lie3.mp4,Lee,Lie,Truth,0.489454,False,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP38_truth3.mp4,David,Truth,Truth,0.49378675,True,1.0
+train,deception/DOLOS/Female/Joan Bakewell/BRI_WILTY_EP59_deception_23.mp4,Joan Bakewell,Lie,Truth,0.39874518,False,1.0
+train,deception/DOLOS/Male/Barry/YW_WILTY_EP47_lie7.mp4,Barry,Lie,Lie,0.556302,True,1.0
+train,deception/DOLOS/Male/Hugh Dennis/LS_WILTY_EP11_lie14.mp4,Hugh Dennis,Lie,Lie,0.5646834,True,1.0
+train,truth/DOLOS/Male/Stephen Mangan/AN_WILTY_EP16_truth16.mp4,Stephen Mangan,Truth,Truth,0.41375297,True,1.0
+train,deception/DOLOS/Female/Claire/YW_WILTY_EP50_lie7.mp4,Claire,Lie,Truth,0.48644873,False,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_2.mp4,Bob Mortimer,Truth,Truth,0.45127633,True,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth0.mp4,Charlie,Truth,Truth,0.49120942,True,0.995
+train,deception/DOLOS/Male/John/YW_WILTY_EP45_lie11.mp4,John,Lie,Lie,0.52285177,True,1.0
+train,truth/DOLOS/Female/Denise van Outen/BRI_WILTY_EP57_truth_5.mp4,Denise van Outen,Truth,Lie,0.5163368,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP49_lie6.mp4,Lee,Lie,Lie,0.53581595,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP51_lie7.mp4,David,Lie,Lie,0.5487766,True,1.0
+train,truth/DOLOS/Male/Lee/SB_WILTY_EP34_truth4.mp4,Lee,Truth,Lie,0.5021074,False,1.0
+train,deception/DOLOS/Male/Barry/YW_WILTY_EP47_lie6.mp4,Barry,Lie,Lie,0.5058783,True,1.0
+train,deception/DOLOS/Male/McKinsey/YW_WILTY_EP46_lie3.mp4,McKinsey,Lie,Truth,0.474366,False,0.94
+train,truth/RealLife-Deception-Detection/Male/Charles_and_Kimberly_Matthews/trial_truth_048.mp4,Charles_and_Kimberly_Matthews,Truth,Truth,0.3060086,True,0.945
+train,truth/DOLOS/Male/Vic Reeves/LS_WILTY_EP13_truth5.mp4,Vic Reeves,Truth,Truth,0.46837747,True,1.0
+train,truth/DOLOS/Male/Eamonn Holmes/LS_WILTY_EP11_truth6.mp4,Eamonn Holmes,Truth,Lie,0.56079954,False,1.0
+train,deception/DOLOS/Male/Barry/YW_WILTY_EP47_lie10.mp4,Barry,Lie,Truth,0.49978375,False,1.0
+train,deception/DOLOS/Male/Hugh Dennis/LS_WILTY_EP11_lie10.mp4,Hugh Dennis,Lie,Lie,0.52000356,True,1.0
+train,truth/DOLOS/Female/Miranda Hart/SB_WILTY_EP41_truth3.mp4,Miranda Hart,Truth,Lie,0.5107626,False,1.0
+train,deception/DOLOS/Male/Omid Djalili/AN_WILTY_EP20_lie7.mp4,Omid Djalili,Lie,Lie,0.5663319,True,0.915
+train,deception/DOLOS/Male/Julian Clary/SB_WILTY_EP31_lie3.mp4,Julian Clary,Lie,Lie,0.60165215,True,1.0
+train,deception/DOLOS/Male/Dale/YW_WILTY_EP50_lie2.mp4,Dale,Lie,Truth,0.4939268,False,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP42_truth18.mp4,David,Truth,Truth,0.4668004,True,1.0
+train,truth/DOLOS/Male/Henning/LS_WILTY_EP76_true11.mp4,Henning,Truth,Truth,0.33327976,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP44_lie8.mp4,Lee,Lie,Lie,0.5376803,True,1.0
+train,deception/DOLOS/Male/Adam Buxton/BRI_WILTY_EP65_lie_9.mp4,Adam Buxton,Lie,Truth,0.4564617,False,1.0
+train,deception/DOLOS/Male/Stephen Mangan/BRI_WILTY_EP58_lie_26.mp4,Stephen Mangan,Lie,Truth,0.44878888,False,0.98
+train,truth/DOLOS/Female/Sarah/YW_WILTY_EP54_truth2.mp4,Sarah,Truth,Truth,0.4210139,True,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP50_truth3.mp4,Richard,Truth,Truth,0.4720931,True,1.0
+train,deception/DOLOS/Male/Harry Enfield/LS_WILTY_EP6_lie1.mp4,Harry Enfield,Lie,Truth,0.4342364,False,1.0
+train,deception/DOLOS/Female/Sally/YW_WILTY_EP51_lie5.mp4,Sally,Lie,Lie,0.51213616,True,1.0
+train,truth/DOLOS/Male/Henning Wehn/BRI_WILTY_EP63_truth_13.mp4,Henning Wehn,Truth,Truth,0.42017576,True,1.0
+train,truth/DOLOS/Male/Steve Jones/BRI_WILTY_EP64_truth_8.mp4,Steve Jones,Truth,Lie,0.5857306,False,1.0
+train,truth/DOLOS/Male/David/YW_WILTY_EP49_truth12.mp4,David,Truth,Truth,0.4932554,True,1.0
+train,deception/DOLOS/Male/Frank/YW_WILTY_EP45_lie8.mp4,Frank,Lie,Lie,0.5188396,True,1.0
+train,truth/DOLOS/Male/Michael Buerk/LS_WILTY_EP12_truth3.mp4,Michael Buerk,Truth,Truth,0.49827102,True,1.0
+train,truth/DOLOS/Female/Alex/YW_WILTY_EP48_truth7.mp4,Alex,Truth,Truth,0.3752911,True,1.0
+train,deception/DOLOS/Male/David Baddiel/LS_WILTY_EP9_lie21.mp4,David Baddiel,Lie,Lie,0.53190744,True,1.0
+train,deception/DOLOS/Male/Michael Buerk/LS_WILTY_EP12_lie14.mp4,Michael Buerk,Lie,Lie,0.54023725,True,1.0
+train,deception/DOLOS/Female/Patsy Palmer/SB_WILTY_EP37_lie4.mp4,Patsy Palmer,Lie,Truth,0.44055718,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Jodi_Arias/trial_truth_010.mp4,Jodi_Arias,Truth,Truth,0.26884064,True,1.0
+train,truth/DOLOS/Male/Michael Ball/AN_WILTY_EP22_truth20.mp4,Michael Ball,Truth,Truth,0.33785823,True,0.88
+train,deception/DOLOS/Male/Jimmy Carr/LS_WILTY_EP3_lie2.mp4,Jimmy Carr,Lie,Lie,0.55006903,True,1.0
+train,truth/DOLOS/Male/David/SB_WILTY_EP32_truth1.mp4,David,Truth,Lie,0.5238608,False,1.0
+train,truth/DOLOS/Male/Jason Manford/BRI_WILTY_EP59_truth_9.mp4,Jason Manford,Truth,Truth,0.40808603,True,1.0
+train,truth/DOLOS/Male/Rob Brydon/AN_WILTY_EP27_truth14.mp4,Rob Brydon,Truth,Truth,0.3757699,True,0.885
+train,truth/RealLife-Deception-Detection/Male/Chris_Ochoa/trial_truth_019.mp4,Chris_Ochoa,Truth,Truth,0.42052117,True,1.0
+train,deception/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_lie6.mp4,David O_Doherty,Lie,Lie,0.52541673,True,1.0
+train,deception/DOLOS/Male/Nick Hewer/SB_WILTY_EP41_lie2.mp4,Nick Hewer,Lie,Truth,0.4695858,False,1.0
+train,deception/DOLOS/Male/Robert Webb/LS_WILTY_EP7_lie7.mp4,Robert Webb,Lie,Truth,0.47334185,False,1.0
+train,truth/DOLOS/Male/Kevin Bridges/AN_WILTY_EP28_truth16.mp4,Kevin Bridges,Truth,Lie,0.56561804,False,1.0
+train,truth/DOLOS/Female/Ruth Jones/AN_WILTY_EP27_truth6.mp4,Ruth Jones,Truth,Truth,0.45069733,True,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP54_lie5.mp4,Lee,Lie,Lie,0.5912922,True,1.0
+train,deception/DOLOS/Male/Louis/YW_WILTY_EP43_lie14.mp4,Louis,Lie,Truth,0.48671162,False,1.0
+train,truth/DOLOS/Male/Jack/YW_WILTY_EP55_truth1.mp4,Jack,Truth,Truth,0.4482399,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Jamie_Hood/trial_truth_039.mp4,Jamie_Hood,Truth,Lie,0.50491506,False,1.0
+train,truth/DOLOS/Male/Vic Reeves/LS_WILTY_EP13_truth4.mp4,Vic Reeves,Truth,Truth,0.45255733,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Crystal_Mangum/trial_lie_037.mp4,Crystal_Mangum,Lie,Truth,0.33593348,False,0.975
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_13.mp4,Bob Mortimer,Truth,Truth,0.4918054,True,0.945
+train,deception/DOLOS/Male/Reginald D. Hunter/AN_WILTY_EP16_lie7.mp4,Reginald D. Hunter,Lie,Truth,0.45940098,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP34_lie5.mp4,Lee,Lie,Truth,0.4336795,False,1.0
+train,truth/DOLOS/Male/John Bishop/SB_WILTY_EP37_truth9.mp4,John Bishop,Truth,Truth,0.42323953,True,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP44_truth14.mp4,Greg,Truth,Truth,0.46836746,True,1.0
+train,truth/DOLOS/Male/Charlie Brooker/AN_WILTY_EP22_truth15.mp4,Charlie Brooker,Truth,Lie,0.5292095,False,1.0
+train,truth/DOLOS/Male/Grey/LS_WILTY_EP73_ true10.mp4,Grey,Truth,Truth,0.3445896,True,1.0
+train,deception/DOLOS/Male/Stephen Mangan/BRI_WILTY_EP58_lie_19.mp4,Stephen Mangan,Lie,Truth,0.48421785,False,1.0
+train,deception/DOLOS/Female/Miranda Hart/SB_WILTY_EP33_lie5.mp4,Miranda Hart,Lie,Truth,0.47135875,False,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_4.mp4,Bob Mortimer,Truth,Lie,0.55964243,False,1.0
+train,deception/DOLOS/Male/Lee/LS_WILTY_EP73_ lie8.mp4,Lee,Lie,Lie,0.54017556,True,1.0
+train,truth/DOLOS/Male/John Bishop/SB_WILTY_EP37_truth13.mp4,John Bishop,Truth,Truth,0.4249212,True,1.0
+train,truth/DOLOS/Female/Carol Voderman/AN_WILTY_EP15_truth1.mp4,Carol Voderman,Truth,Truth,0.4627116,True,1.0
+train,truth/DOLOS/Female/Fay Ripley/LS_WILTY_EP2_truth7.mp4,Fay Ripley,Truth,Truth,0.3189424,True,1.0
+train,deception/DOLOS/Male/Greg/YW_WILTY_EP44_lie1.mp4,Greg,Lie,Lie,0.50195193,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Carlos_Miller/trial_lie_049.mp4,Carlos_Miller,Lie,Lie,0.5797388,True,1.0
+train,deception/DOLOS/Male/Grey/LS_WILTY_EP75_lie7.mp4,Grey,Lie,Truth,0.35786852,False,1.0
+train,deception/DOLOS/Male/Lee/YW_WILTY_EP45_lie16.mp4,Lee,Lie,Lie,0.5476565,True,1.0
+train,truth/DOLOS/Female/Miranda/YW_WILTY_EP50_truth15.mp4,Miranda,Truth,Lie,0.5751197,False,1.0
+train,deception/DOLOS/Female/Miranda/YW_WILTY_EP50_lie12.mp4,Miranda,Lie,Lie,0.54071194,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_016.mp4,Jodi_Arias,Lie,Lie,0.5397244,True,1.0
+train,truth/DOLOS/Male/Charles Dance/BRI_WILTY_EP58_truth_9.mp4,Charles Dance,Truth,Lie,0.509429,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_lie_002.mp4,Amanda_Hayes,Lie,Truth,0.4917644,False,1.0
+train,deception/DOLOS/Male/Danny/LS_WILTY_EP75_lie3.mp4,Danny,Lie,Lie,0.54207516,True,1.0
+train,deception/DOLOS/Female/Gabbie/LS_WILTY_EP72_lie4.mp4,Gabbie,Lie,Truth,0.42657918,False,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_22.mp4,Bob Mortimer,Truth,Lie,0.5151256,False,1.0
+train,deception/DOLOS/Male/Frank/YW_WILTY_EP45_lie2.mp4,Frank,Lie,Lie,0.5291868,True,1.0
+train,deception/DOLOS/Male/Jack/YW_WILTY_EP55_lie10.mp4,Jack,Lie,Truth,0.44945994,False,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP41_lie12.mp4,Lee,Lie,Lie,0.5117226,True,1.0
+train,deception/DOLOS/Male/Nick Hewer/SB_WILTY_EP41_lie1.mp4,Nick Hewer,Lie,Truth,0.48262656,False,0.96
+train,truth/DOLOS/Male/David/YW_WILTY_EP49_truth11.mp4,David,Truth,Lie,0.5577041,False,1.0
+train,truth/DOLOS/Male/Mark Watson/SB_WILTY_EP36_truth2.mp4,Mark Watson,Truth,Truth,0.40938193,True,1.0
+train,truth/DOLOS/Male/Charlie/YW_WILTY_EP44_truth4.mp4,Charlie,Truth,Truth,0.49007753,True,1.0
+train,deception/DOLOS/Male/Frank/YW_WILTY_EP45_lie3.mp4,Frank,Lie,Truth,0.4998572,False,1.0
+train,deception/DOLOS/Male/Dale/YW_WILTY_EP50_lie3.mp4,Dale,Lie,Truth,0.4109703,False,1.0
+train,deception/DOLOS/Male/Vic Reeves/LS_WILTY_EP13_lie6.mp4,Vic Reeves,Lie,Truth,0.46820295,False,1.0
+train,deception/RealLife-Deception-Detection/Female/Carlos_Miller/trial_lie_046.mp4,Carlos_Miller,Lie,Truth,0.39791086,False,1.0
+train,truth/DOLOS/Male/David Baddiel/LS_WILTY_EP9_truth3.mp4,David Baddiel,Truth,Truth,0.49624962,True,1.0
+train,truth/DOLOS/Female/Davina McCall/AN_WILTY_EP20_truth4.mp4,Davina McCall,Truth,Truth,0.41088277,True,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP47_lie20.mp4,David,Lie,Lie,0.56404066,True,1.0
+train,deception/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP32_lie2.mp4,Ronnie Corbert,Lie,Truth,0.3224443,False,1.0
+train,truth/DOLOS/Male/Ken Livingstone/AN_WILTY_EP16_truth14.mp4,Ken Livingstone,Truth,Lie,0.50098467,False,0.905
+train,deception/DOLOS/Male/John/YW_WILTY_EP45_lie9.mp4,John,Lie,Lie,0.52828676,True,1.0
+train,truth/RealLife-Deception-Detection/Male/Marvin_Anderson/trial_truth_022.mp4,Marvin_Anderson,Truth,Truth,0.4340273,True,1.0
+train,deception/RealLife-Deception-Detection/Female/Jodi_Arias/trial_lie_027.mp4,Jodi_Arias,Lie,Lie,0.5618722,True,1.0
+train,truth/DOLOS/Female/Ulrika Jonsson/LS_WILTY_EP3_truth1.mp4,Ulrika Jonsson,Truth,Truth,0.49739343,True,1.0
+train,deception/DOLOS/Male/Bob/YW_WILTY_EP56_lie4.mp4,Bob,Lie,Lie,0.5005041,True,1.0
+train,deception/DOLOS/Male/Russell Howard/LS_WILTY_EP5_lie1.mp4,Russell Howard,Lie,Truth,0.41214886,False,1.0
+train,deception/DOLOS/Male/Harry Enfield/LS_WILTY_EP6_lie6.mp4,Harry Enfield,Lie,Truth,0.4731552,False,1.0
+train,truth/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_truth8.mp4,David O_Doherty,Truth,Truth,0.484446,True,1.0
+train,deception/DOLOS/Male/Lee/LS_WILTY_EP76_lie12.mp4,Lee,Lie,Lie,0.538394,True,1.0
+train,truth/DOLOS/Male/Rhod Gilbert/BRI_WILTY_EP57_truth_32.mp4,Rhod Gilbert,Truth,Lie,0.5019255,False,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP62_truth_5.mp4,Bob Mortimer,Truth,Lie,0.50775105,False,1.0
+train,truth/DOLOS/Male/Bob Mortimer/BRI_WILTY_EP66_truth_8.mp4,Bob Mortimer,Truth,Truth,0.49245462,True,1.0
+train,deception/DOLOS/Female/Fiona Bruce/BRI_WILTY_EP64_lie_10.mp4,Fiona Bruce,Lie,Truth,0.46474355,False,0.995
+train,deception/DOLOS/Male/Xander/YW_WILTY_EP56_lie7.mp4,Xander,Lie,Lie,0.5388916,True,1.0
+train,truth/DOLOS/Male/Robert Webb/SB_WILTY_EP42_truth7.mp4,Robert Webb,Truth,Truth,0.31011778,True,1.0
+train,truth/RealLife-Deception-Detection/Female/Mitchelle_Blair/trial_truth_049.mp4,Mitchelle_Blair,Truth,Truth,0.34107083,True,0.995
+train,truth/DOLOS/Male/Micky Flanagan/BRI_WILTY_EP64_truth_2.mp4,Micky Flanagan,Truth,Truth,0.43447986,True,1.0
+train,truth/DOLOS/Female/Fern Britton/AN_WILTY_EP23_truth9.mp4,Fern Britton,Truth,Truth,0.29934493,True,1.0
+train,deception/DOLOS/Male/Lee/LS_WILTY_EP75_lie10.mp4,Lee,Lie,Lie,0.5302581,True,1.0
+train,truth/DOLOS/Male/McKinsey/YW_WILTY_EP46_truth3.mp4,McKinsey,Truth,Truth,0.427256,True,1.0
+train,deception/DOLOS/Male/Xander/YW_WILTY_EP56_lie8.mp4,Xander,Lie,Lie,0.5319651,True,1.0
+train,deception/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_lie4.mp4,David O_Doherty,Lie,Lie,0.55984306,True,1.0
+train,deception/DOLOS/Male/Lee/SB_WILTY_EP42_lie7.mp4,Lee,Lie,Truth,0.4824679,False,1.0
+train,deception/DOLOS/Male/Frankie Boyle/AN_WILTY_EP19_lie8.mp4,Frankie Boyle,Lie,Truth,0.4532694,False,1.0
+train,truth/DOLOS/Female/Alex/LS_WILTY_EP73_ true14.mp4,Alex,Truth,Truth,0.4336747,True,1.0
+train,deception/DOLOS/Male/Neil Morrissey/LS_WILTY_EP4_lie2.mp4,Neil Morrissey,Lie,Truth,0.49706632,False,0.945
+train,truth/DOLOS/Male/David/YW_WILTY_EP49_truth13.mp4,David,Truth,Lie,0.5238671,False,1.0
+train,truth/DOLOS/Male/Jon Richardson/BRI_WILTY_EP62_truth_10.mp4,Jon Richardson,Truth,Truth,0.46747115,True,1.0
+train,truth/DOLOS/Female/Miranda/YW_WILTY_EP50_truth12.mp4,Miranda,Truth,Lie,0.50903857,False,1.0
+train,deception/DOLOS/Male/Dale/YW_WILTY_EP50_lie5.mp4,Dale,Lie,Truth,0.44669673,False,1.0
+train,truth/DOLOS/Female/Ruth Jones/AN_WILTY_EP27_truth9.mp4,Ruth Jones,Truth,Truth,0.3439713,True,1.0
+train,truth/DOLOS/Male/Vernon Kay/BRI_WILTY_EP57_truth_12.mp4,Vernon Kay,Truth,Lie,0.53712916,False,1.0
+train,deception/DOLOS/Male/Kian Egan/BRI_WILTY_EP66_lie_12.mp4,Kian Egan,Lie,Truth,0.39436176,False,1.0
+train,deception/DOLOS/Male/Stephen Mangan/BRI_WILTY_EP58_lie_1.mp4,Stephen Mangan,Lie,Lie,0.52438045,True,1.0
+train,deception/DOLOS/Female/Deborah Meaden/SB_WILTY_EP35_lie2.mp4,Deborah Meaden,Lie,Truth,0.48809502,False,1.0
+train,truth/DOLOS/Male/Greg/YW_WILTY_EP44_truth15.mp4,Greg,Truth,Lie,0.53798485,False,1.0
+train,truth/DOLOS/Female/Miranda Hart/SB_WILTY_EP41_truth4.mp4,Miranda Hart,Truth,Lie,0.532124,False,0.98
+train,deception/DOLOS/Male/Frankie Boyle/AN_WILTY_EP19_lie10.mp4,Frankie Boyle,Lie,Lie,0.50010145,True,1.0
+train,truth/DOLOS/Male/Richard/YW_WILTY_EP53_truth7.mp4,Richard,Truth,Lie,0.512413,False,1.0
+train,truth/RealLife-Deception-Detection/Female/Amanda_Hayes/trial_truth_059.mp4,Amanda_Hayes,Truth,Lie,0.5480861,False,1.0
+train,deception/DOLOS/Male/David/YW_WILTY_EP51_lie3.mp4,David,Lie,Lie,0.5132453,True,1.0
+train,truth/DOLOS/Male/Lee/YW_WILTY_EP50_truth11.mp4,Lee,Truth,Lie,0.5278168,False,1.0
+train,deception/DOLOS/Female/Sue/YW_WILTY_EP47_lie14.mp4,Sue,Lie,Truth,0.44469398,False,1.0
+train,deception/DOLOS/Female/Miranda Hart/AN_WILTY_EP18_lie10.mp4,Miranda Hart,Lie,Lie,0.5030547,True,1.0
+train,deception/DOLOS/Male/David/SB_WILTY_EP32_lie9.mp4,David,Lie,Truth,0.47621787,False,0.905
+train,deception/DOLOS/Male/Kevin Bridges/SB_WILTY_EP29_lie1.mp4,Kevin Bridges,Lie,Lie,0.5690888,True,1.0
+train,deception/DOLOS/Female/Sally/YW_WILTY_EP51_lie4.mp4,Sally,Lie,Truth,0.4727094,False,1.0
+train,truth/DOLOS/Male/David/LS_WILTY_EP75_true4.mp4,David,Truth,Truth,0.46429572,True,0.985
+train,truth/DOLOS/Male/Ronnie Corbert/SB_WILTY_EP31_truth3.mp4,Ronnie Corbert,Truth,Truth,0.38467875,True,1.0
+train,truth/DOLOS/Male/David O_Doherty/YW_WILTY_EP43_truth5.mp4,David O_Doherty,Truth,Truth,0.47180924,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP5_truth7.mp4,David Mitchell,Truth,Lie,0.5300521,False,1.0
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP60_lie_17.mp4,David Mitchell,Lie,Lie,0.50823045,True,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP57_truth_24.mp4,David Mitchell,Truth,Lie,0.54655844,False,1.0
+val,truth/DOLOS/Female/Emily/YW_WILTY_EP55_truth7.mp4,Emily,Truth,Truth,0.4527253,True,1.0
+val,truth/DOLOS/Male/Graeme Garden/LS_WILTY_EP14_truth6.mp4,Graeme Garden,Truth,Lie,0.52859795,False,1.0
+val,truth/DOLOS/Female/Tara Palmer-Tomkinson/LS_WILTY_EP6_truth5.mp4,Tara Palmer-Tomkinson,Truth,Truth,0.4212856,True,1.0
+val,truth/DOLOS/Female/Susan Calman/BRI_WILTY_EP61_truth_13.mp4,Susan Calman,Truth,Lie,0.5533149,False,0.97
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP19_lie13.mp4,David Mitchell,Lie,Truth,0.46832788,False,1.0
+val,truth/DOLOS/Female/Emily/YW_WILTY_EP55_truth6.mp4,Emily,Truth,Truth,0.47635713,True,1.0
+val,truth/DOLOS/Female/Joanna Page/SB_WILTY_EP37_truth1.mp4,Joanna Page,Truth,Truth,0.4743554,True,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP5_lie7.mp4,David Mitchell,Lie,Lie,0.5457297,True,0.99
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP24_lie10.mp4,David Mitchell,Lie,Lie,0.51511896,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP22_lie27.mp4,David Mitchell,Lie,Lie,0.54442525,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP1_truth7.mp4,David Mitchell,Truth,Lie,0.5870549,False,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP4_lie6.mp4,David Mitchell,Lie,Lie,0.52001286,True,1.0
+val,deception/DOLOS/Male/Dara Ó Briain/BRI_WILTY_EP57_lie_22.mp4,Dara Ó Briain,Lie,Truth,0.457328,False,0.99
+val,deception/DOLOS/Male/David Mitchell/YW_WILTY_EP43_lie8.mp4,David Mitchell,Lie,Lie,0.52543056,True,1.0
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP60_lie_18.mp4,David Mitchell,Lie,Truth,0.4871567,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP25_lie1.mp4,David Mitchell,Lie,Truth,0.48349765,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP18_lie22.mp4,David Mitchell,Lie,Lie,0.53177094,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP3_truth3.mp4,David Mitchell,Truth,Lie,0.5022817,False,1.0
+val,truth/DOLOS/Female/Joanna Page/SB_WILTY_EP37_truth3.mp4,Joanna Page,Truth,Truth,0.49433076,True,1.0
+val,truth/DOLOS/Female/Joanna Page/SB_WILTY_EP37_truth2.mp4,Joanna Page,Truth,Truth,0.46919805,True,1.0
+val,truth/DOLOS/Male/Dara Ó Briain/BRI_WILTY_EP57_truth_3.mp4,Dara Ó Briain,Truth,Truth,0.45915654,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP26_lie15.mp4,David Mitchell,Lie,Lie,0.5373812,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP5_truth8.mp4,David Mitchell,Truth,Lie,0.55748147,False,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP3_lie7.mp4,David Mitchell,Lie,Lie,0.5255061,True,1.0
+val,deception/DOLOS/Female/Patsy/YW_WILTY_EP53_lie1.mp4,Patsy,Lie,Lie,0.52378905,True,1.0
+val,truth/DOLOS/Male/Bruno Tonioli/BRI_WILTY_EP65_truth_6.mp4,Bruno Tonioli,Truth,Truth,0.45378506,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP3_truth2.mp4,David Mitchell,Truth,Lie,0.53972626,False,1.0
+val,deception/DOLOS/Female/Josie/YW_WILTY_EP54_lie4.mp4,Josie,Lie,Truth,0.34960192,False,1.0
+val,truth/DOLOS/Male/Duncan Bannatyne/LS_WILTY_EP1_truth3.mp4,Duncan Bannatyne,Truth,Truth,0.494095,True,1.0
+val,truth/DOLOS/Male/Michael Aspel/LS_WILTY_EP10_truth6.mp4,Michael Aspel,Truth,Truth,0.47001866,True,0.92
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP57_truth_25.mp4,David Mitchell,Truth,Lie,0.5371145,False,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP64_truth_16.mp4,David Mitchell,Truth,Lie,0.55195004,False,1.0
+val,truth/DOLOS/Male/Bruno Tonioli/BRI_WILTY_EP65_truth_4.mp4,Bruno Tonioli,Truth,Truth,0.38940156,True,0.97
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP58_lie_22.mp4,David Mitchell,Lie,Lie,0.5498871,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP16_lie18.mp4,David Mitchell,Lie,Truth,0.49433675,False,1.0
+val,deception/DOLOS/Female/Katherine/YW_WILTY_EP43_lie9.mp4,Katherine,Lie,Truth,0.34419197,False,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP13_lie10.mp4,David Mitchell,Lie,Lie,0.57056785,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP10_truth8.mp4,David Mitchell,Truth,Truth,0.4992562,True,1.0
+val,deception/DOLOS/Male/Patrick McGuinness/LS_WILTY_EP2_lie7.mp4,Patrick McGuinness,Lie,Lie,0.5198652,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP18_lie21.mp4,David Mitchell,Lie,Lie,0.5454965,True,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP57_truth_26.mp4,David Mitchell,Truth,Lie,0.5062804,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP17_lie14.mp4,David Mitchell,Lie,Truth,0.4941502,False,1.0
+val,truth/DOLOS/Female/Christine Bleakley/AN_WILTY_EP19_truth20.mp4,Christine Bleakley,Truth,Lie,0.5047938,False,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP14_truth7.mp4,David Mitchell,Truth,Lie,0.5416445,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP25_lie2.mp4,David Mitchell,Lie,Lie,0.5305607,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP13_truth6.mp4,David Mitchell,Truth,Truth,0.48852152,True,1.0
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP57_lie_16.mp4,David Mitchell,Lie,Lie,0.5589399,True,0.92
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP13_lie9.mp4,David Mitchell,Lie,Lie,0.543963,True,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP11_lie13.mp4,David Mitchell,Lie,Truth,0.46870625,False,1.0
+val,deception/DOLOS/Male/Dara/YW_WILTY_EP47_lie2.mp4,Dara,Lie,Truth,0.48203164,False,1.0
+val,truth/DOLOS/Male/Warwick Davis/BRI_WILTY_EP59_truth_5.mp4,Warwick Davis,Truth,Truth,0.42049354,True,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP61_truth_33.mp4,David Mitchell,Truth,Lie,0.5267903,False,0.995
+val,truth/DOLOS/Male/Duncan Bannatyne/LS_WILTY_EP1_truth5.mp4,Duncan Bannatyne,Truth,Lie,0.5136319,False,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP1_truth6.mp4,David Mitchell,Truth,Lie,0.5146183,False,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP57_truth_27.mp4,David Mitchell,Truth,Truth,0.49368134,True,1.0
+val,truth/DOLOS/Male/Marcus Brigstocke/AN_WILTY_EP17_truth4.mp4,Marcus Brigstocke,Truth,Truth,0.43435237,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP21_lie18.mp4,David Mitchell,Lie,Lie,0.5163634,True,0.87
+val,truth/DOLOS/Female/Clara/LS_WILTY_EP76_true6.mp4,Clara,Truth,Lie,0.5028162,False,1.0
+val,truth/DOLOS/Female/Susan Calman/BRI_WILTY_EP61_truth_15.mp4,Susan Calman,Truth,Truth,0.3882944,True,1.0
+val,truth/DOLOS/Male/David Mitchell/AN_WILTY_EP16_truth22.mp4,David Mitchell,Truth,Lie,0.54803586,False,0.93
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP57_lie_17.mp4,David Mitchell,Lie,Lie,0.55190873,True,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP4_lie5.mp4,David Mitchell,Lie,Truth,0.48770306,False,1.0
+val,deception/DOLOS/Male/Dara Ó Briain/LS_WILTY_EP10_lie9.mp4,Dara Ó Briain,Lie,Lie,0.5149166,True,0.965
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP4_lie11.mp4,David Mitchell,Lie,Lie,0.55162764,True,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP4_lie14.mp4,David Mitchell,Lie,Lie,0.5072254,True,1.0
+val,truth/DOLOS/Male/Sir Terry Wogan/SB_WILTY_EP42_truth1.mp4,Sir Terry Wogan,Truth,Lie,0.54365814,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP27_lie1.mp4,David Mitchell,Lie,Truth,0.4902596,False,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP9_lie18.mp4,David Mitchell,Lie,Lie,0.5841338,True,1.0
+val,deception/DOLOS/Male/Sir Terry Wogan/SB_WILTY_EP42_lie15.mp4,Sir Terry Wogan,Lie,Lie,0.5679309,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP21_lie11.mp4,David Mitchell,Lie,Lie,0.5319803,True,1.0
+val,truth/DOLOS/Male/Warwick Davis/BRI_WILTY_EP59_truth_7.mp4,Warwick Davis,Truth,Truth,0.45413518,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP3_truth6.mp4,David Mitchell,Truth,Truth,0.4800806,True,0.995
+val,deception/DOLOS/Male/Dara Ó Briain/LS_WILTY_EP3_lie12.mp4,Dara Ó Briain,Lie,Truth,0.43742818,False,1.0
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP58_lie_23.mp4,David Mitchell,Lie,Lie,0.5009263,True,1.0
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP58_lie_24.mp4,David Mitchell,Lie,Lie,0.5272846,True,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP64_truth_12.mp4,David Mitchell,Truth,Lie,0.5420869,False,0.94
+val,deception/DOLOS/Male/Dara/YW_WILTY_EP47_lie3.mp4,Dara,Lie,Lie,0.5036381,True,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP3_truth5.mp4,David Mitchell,Truth,Lie,0.5617085,False,1.0
+val,truth/DOLOS/Female/Joanna Page/SB_WILTY_EP37_truth4.mp4,Joanna Page,Truth,Truth,0.43919602,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP25_lie7.mp4,David Mitchell,Lie,Truth,0.45483664,False,1.0
+val,deception/DOLOS/Female/Josie/YW_WILTY_EP54_lie3.mp4,Josie,Lie,Lie,0.51887774,True,1.0
+val,deception/DOLOS/Male/Dara/YW_WILTY_EP47_lie1.mp4,Dara,Lie,Lie,0.51068884,True,0.95
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP63_lie_27.mp4,David Mitchell,Lie,Lie,0.56801945,True,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP61_truth_35.mp4,David Mitchell,Truth,Lie,0.5183341,False,1.0
+val,deception/DOLOS/Male/Dara Ó Briain/BRI_WILTY_EP57_lie_23.mp4,Dara Ó Briain,Lie,Lie,0.5481991,True,1.0
+val,truth/DOLOS/Female/Tara Palmer-Tomkinson/LS_WILTY_EP6_truth4.mp4,Tara Palmer-Tomkinson,Truth,Truth,0.49541664,True,1.0
+val,deception/DOLOS/Female/Tara Palmer-Tomkinson/LS_WILTY_EP6_lie2.mp4,Tara Palmer-Tomkinson,Lie,Lie,0.5014947,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP24_lie15.mp4,David Mitchell,Lie,Lie,0.51809144,True,1.0
+val,deception/DOLOS/Male/Sir Terry Wogan/SB_WILTY_EP42_lie16.mp4,Sir Terry Wogan,Lie,Lie,0.58082634,True,1.0
+val,deception/DOLOS/Male/David Mitchell/YW_WILTY_EP43_lie12.mp4,David Mitchell,Lie,Truth,0.4832815,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP18_lie20.mp4,David Mitchell,Lie,Lie,0.52067834,True,0.875
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP24_lie16.mp4,David Mitchell,Lie,Lie,0.5154315,True,1.0
+val,truth/DOLOS/Female/Katherine/YW_WILTY_EP43_truth3.mp4,Katherine,Truth,Truth,0.3358741,True,1.0
+val,deception/DOLOS/Female/Katherine/YW_WILTY_EP43_lie7.mp4,Katherine,Lie,Truth,0.42554092,False,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP10_lie10.mp4,David Mitchell,Lie,Lie,0.5595728,True,0.855
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP19_lie12.mp4,David Mitchell,Lie,Truth,0.45126292,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP15_lie10.mp4,David Mitchell,Lie,Lie,0.51291394,True,0.885
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP24_lie17.mp4,David Mitchell,Lie,Truth,0.488896,False,1.0
+val,truth/DOLOS/Female/Tara Palmer-Tomkinson/LS_WILTY_EP6_truth1.mp4,Tara Palmer-Tomkinson,Truth,Truth,0.41087732,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP25_lie3.mp4,David Mitchell,Lie,Truth,0.47516394,False,1.0
+val,truth/DOLOS/Female/Susan Calman/BRI_WILTY_EP61_truth_16.mp4,Susan Calman,Truth,Truth,0.46462715,True,1.0
+val,deception/DOLOS/Male/Jon/LS_WILTY_EP73_ lie6.mp4,Jon,Lie,Truth,0.3467876,False,1.0
+val,deception/DOLOS/Male/Sir Terry Wogan/SB_WILTY_EP42_lie18.mp4,Sir Terry Wogan,Lie,Lie,0.5830919,True,0.915
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP64_truth_19.mp4,David Mitchell,Truth,Lie,0.5328704,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP17_lie13.mp4,David Mitchell,Lie,Lie,0.5843514,True,0.88
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP15_lie13.mp4,David Mitchell,Lie,Lie,0.518716,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP15_lie18.mp4,David Mitchell,Lie,Truth,0.44383386,False,1.0
+val,truth/DOLOS/Female/Emily/YW_WILTY_EP55_truth5.mp4,Emily,Truth,Lie,0.5125916,False,1.0
+val,deception/DOLOS/Female/Tara Palmer-Tomkinson/LS_WILTY_EP6_lie3.mp4,Tara Palmer-Tomkinson,Lie,Truth,0.45107993,False,1.0
+val,truth/DOLOS/Male/Bruno Tonioli/BRI_WILTY_EP65_truth_13.mp4,Bruno Tonioli,Truth,Truth,0.45246124,True,0.94
+val,truth/DOLOS/Female/Jo Brand/AN_WILTY_EP15_truth8.mp4,Jo Brand,Truth,Truth,0.45988843,True,0.97
+val,truth/DOLOS/Male/Bruno Tonioli/BRI_WILTY_EP65_truth_1.mp4,Bruno Tonioli,Truth,Truth,0.48069555,True,1.0
+val,truth/DOLOS/Male/Michael Aspel/LS_WILTY_EP10_truth4.mp4,Michael Aspel,Truth,Truth,0.4961865,True,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP64_truth_20.mp4,David Mitchell,Truth,Truth,0.47241363,True,1.0
+val,deception/DOLOS/Female/Katherine/YW_WILTY_EP43_lie10.mp4,Katherine,Lie,Truth,0.39424145,False,1.0
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP60_lie_21.mp4,David Mitchell,Lie,Lie,0.54135835,True,1.0
+val,deception/DOLOS/Male/Patrick McGuinness/LS_WILTY_EP2_lie10.mp4,Patrick McGuinness,Lie,Truth,0.47746077,False,0.985
+val,truth/DOLOS/Female/Joanna Page/SB_WILTY_EP37_truth6.mp4,Joanna Page,Truth,Truth,0.47459614,True,1.0
+val,deception/DOLOS/Male/Jon/LS_WILTY_EP73_ lie2.mp4,Jon,Lie,Truth,0.40354013,False,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP11_lie12.mp4,David Mitchell,Lie,Lie,0.52624595,True,1.0
+val,deception/DOLOS/Male/Warwick Davis/BRI_WILTY_EP59_lie_14.mp4,Warwick Davis,Lie,Truth,0.434849,False,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP57_truth_29.mp4,David Mitchell,Truth,Lie,0.53933895,False,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP64_truth_17.mp4,David Mitchell,Truth,Lie,0.51399916,False,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP5_truth6.mp4,David Mitchell,Truth,Lie,0.5893324,False,1.0
+val,deception/DOLOS/Female/Patsy/YW_WILTY_EP53_lie2.mp4,Patsy,Lie,Lie,0.5429924,True,1.0
+val,deception/DOLOS/Male/Sir Terry Wogan/SB_WILTY_EP42_lie19.mp4,Sir Terry Wogan,Lie,Lie,0.52410823,True,1.0
+val,truth/DOLOS/Male/David Mitchell/AN_WILTY_EP16_truth23.mp4,David Mitchell,Truth,Truth,0.4922653,True,1.0
+val,deception/DOLOS/Female/Christine Bleakley/AN_WILTY_EP19_lie1.mp4,Christine Bleakley,Lie,Lie,0.5101112,True,0.895
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP27_lie4.mp4,David Mitchell,Lie,Truth,0.46733785,False,1.0
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP3_truth4.mp4,David Mitchell,Truth,Lie,0.5414425,False,1.0
+val,truth/RealLife-Deception-Detection/Female/Martin_Macneill/trial_truth_027.mp4,Martin_Macneill,Truth,Truth,0.32073545,True,1.0
+val,truth/DOLOS/Female/Tara Palmer-Tomkinson/LS_WILTY_EP6_truth3.mp4,Tara Palmer-Tomkinson,Truth,Lie,0.51740295,False,1.0
+val,deception/DOLOS/Male/David Mitchell/YW_WILTY_EP43_lie11.mp4,David Mitchell,Lie,Lie,0.59611225,True,1.0
+val,truth/DOLOS/Male/Marcus Brigstocke/AN_WILTY_EP17_truth3.mp4,Marcus Brigstocke,Truth,Truth,0.45755506,True,1.0
+val,truth/DOLOS/Male/Dara Ó Briain/BRI_WILTY_EP57_truth_2.mp4,Dara Ó Briain,Truth,Truth,0.46573457,True,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP11_lie11.mp4,David Mitchell,Lie,Lie,0.50116587,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP15_lie12.mp4,David Mitchell,Lie,Lie,0.5080179,True,1.0
+val,truth/DOLOS/Male/Marcus Brigstocke/AN_WILTY_EP17_truth6.mp4,Marcus Brigstocke,Truth,Lie,0.5230364,False,0.92
+val,truth/DOLOS/Female/Jo Brand/AN_WILTY_EP15_truth9.mp4,Jo Brand,Truth,Truth,0.4644453,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP25_lie11.mp4,David Mitchell,Lie,Lie,0.52928305,True,1.0
+val,truth/DOLOS/Male/Michael Aspel/LS_WILTY_EP10_truth2.mp4,Michael Aspel,Truth,Truth,0.4641911,True,0.99
+val,truth/DOLOS/Male/Sir Terry Wogan/SB_WILTY_EP42_truth2.mp4,Sir Terry Wogan,Truth,Lie,0.5404022,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP27_lie3.mp4,David Mitchell,Lie,Lie,0.5052073,True,1.0
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP60_lie_9.mp4,David Mitchell,Lie,Truth,0.49883023,False,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP4_lie13.mp4,David Mitchell,Lie,Lie,0.5518426,True,1.0
+val,deception/DOLOS/Male/Dara Ó Briain/BRI_WILTY_EP57_lie_21.mp4,Dara Ó Briain,Lie,Lie,0.53846276,True,1.0
+val,truth/DOLOS/Male/Marcus Brigstocke/AN_WILTY_EP17_truth2.mp4,Marcus Brigstocke,Truth,Truth,0.42863098,True,1.0
+val,truth/DOLOS/Male/Warwick Davis/BRI_WILTY_EP59_truth_4.mp4,Warwick Davis,Truth,Truth,0.3753337,True,0.885
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP14_truth8.mp4,David Mitchell,Truth,Lie,0.5711288,False,0.975
+val,deception/DOLOS/Male/Dara Ó Briain/LS_WILTY_EP10_lie6.mp4,Dara Ó Briain,Lie,Truth,0.439292,False,1.0
+val,deception/DOLOS/Male/Warwick Davis/BRI_WILTY_EP59_lie_10.mp4,Warwick Davis,Lie,Truth,0.41083503,False,0.94
+val,truth/DOLOS/Male/Dara Ó Briain/BRI_WILTY_EP57_truth_1.mp4,Dara Ó Briain,Truth,Truth,0.4881315,True,1.0
+val,deception/DOLOS/Female/Tara Palmer-Tomkinson/LS_WILTY_EP6_lie5.mp4,Tara Palmer-Tomkinson,Lie,Truth,0.49034232,False,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP16_lie17.mp4,David Mitchell,Lie,Truth,0.46160316,False,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP3_lie6.mp4,David Mitchell,Lie,Truth,0.49836558,False,1.0
+val,deception/DOLOS/Male/Graeme Garden/LS_WILTY_EP14_lie3.mp4,Graeme Garden,Lie,Lie,0.5359174,True,1.0
+val,truth/DOLOS/Male/David Mitchell/AN_WILTY_EP21_truth21.mp4,David Mitchell,Truth,Truth,0.49026322,True,1.0
+val,truth/DOLOS/Male/Graeme Garden/LS_WILTY_EP14_truth5.mp4,Graeme Garden,Truth,Truth,0.4866126,True,1.0
+val,deception/DOLOS/Male/David Mitchell/LS_WILTY_EP4_lie15.mp4,David Mitchell,Lie,Lie,0.53520155,True,1.0
+val,deception/DOLOS/Male/David Mitchell/BRI_WILTY_EP57_lie_20.mp4,David Mitchell,Lie,Lie,0.5403205,True,0.88
+val,deception/DOLOS/Male/Dara Ó Briain/BRI_WILTY_EP57_lie_11.mp4,Dara Ó Briain,Lie,Truth,0.41582903,False,0.905
+val,truth/DOLOS/Male/David Mitchell/LS_WILTY_EP10_truth7.mp4,David Mitchell,Truth,Truth,0.48691285,True,1.0
+val,deception/DOLOS/Female/Clara/LS_WILTY_EP76_lie11.mp4,Clara,Lie,Lie,0.50417346,True,1.0
+val,truth/RealLife-Deception-Detection/Female/Edgar_Collazo/trial_truth_052.mp4,Edgar_Collazo,Truth,Truth,0.20366482,True,0.995
+val,truth/DOLOS/Male/David Mitchell/AN_WILTY_EP16_truth24.mp4,David Mitchell,Truth,Truth,0.45872864,True,1.0
+val,deception/DOLOS/Male/David Mitchell/AN_WILTY_EP25_lie10.mp4,David Mitchell,Lie,Lie,0.56813425,True,1.0
+val,deception/DOLOS/Male/Jon/LS_WILTY_EP73_ lie5.mp4,Jon,Lie,Truth,0.37738484,False,1.0
+val,deception/DOLOS/Male/Warwick Davis/BRI_WILTY_EP59_lie_15.mp4,Warwick Davis,Lie,Truth,0.45315573,False,1.0
+val,truth/DOLOS/Male/Sir Terry Wogan/SB_WILTY_EP42_truth3.mp4,Sir Terry Wogan,Truth,Truth,0.49698052,True,1.0
+val,truth/DOLOS/Male/David Mitchell/BRI_WILTY_EP61_truth_34.mp4,David Mitchell,Truth,Truth,0.454178,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP12_lie13.mp4,Lee Mack,Lie,Lie,0.5101302,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP61_lie_30.mp4,Lee Mack,Lie,Truth,0.4755349,False,1.0
+test,truth/RealLife-Deception-Detection/Female/Bessman_Okafor/trial_truth_031.mp4,Bessman_Okafor,Truth,Truth,0.21414062,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP62_lie_27.mp4,Lee Mack,Lie,Lie,0.52111673,True,0.995
+test,deception/DOLOS/Female/Katy Wix/SB_WILTY_EP42_lie4.mp4,Katy Wix,Lie,Lie,0.5057529,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP65_lie_15.mp4,Lee Mack,Lie,Lie,0.53949535,True,1.0
+test,truth/DOLOS/Male/John Barrowman/LS_WILTY_EP2_truth4.mp4,John Barrowman,Truth,Lie,0.52133816,False,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP22_lie26.mp4,Lee Mack,Lie,Lie,0.55675554,True,1.0
+test,truth/DOLOS/Male/Lee Mack/AN_WILTY_EP25_truth6.mp4,Lee Mack,Truth,Lie,0.5328041,False,1.0
+test,deception/DOLOS/Male/David Harewood/BRI_WILTY_EP62_lie_14.mp4,David Harewood,Lie,Lie,0.5506206,True,1.0
+test,deception/DOLOS/Male/Rod/YW_WILTY_EP46_lie1.mp4,Rod,Lie,Lie,0.5133258,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP61_lie_29.mp4,Lee Mack,Lie,Lie,0.5402343,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP7_lie10.mp4,Lee Mack,Lie,Truth,0.49255928,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP12_lie11.mp4,Lee Mack,Lie,Lie,0.5016757,True,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP16_lie20.mp4,Lee Mack,Lie,Truth,0.4179718,False,0.96
+test,deception/DOLOS/Female/Sarah Millican/BRI_WILTY_EP62_lie_29.mp4,Sarah Millican,Lie,Truth,0.48813695,False,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP62_lie_16.mp4,Lee Mack,Lie,Lie,0.5010489,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP9_lie13.mp4,Lee Mack,Lie,Truth,0.4972723,False,1.0
+test,truth/DOLOS/Male/Bradley/YW_WILTY_EP54_truth3.mp4,Bradley,Truth,Truth,0.45915863,True,1.0
+test,deception/DOLOS/Male/Terry Christian/AN_WILTY_EP17_lie19.mp4,Terry Christian,Lie,Truth,0.47951075,False,1.0
+test,truth/RealLife-Deception-Detection/Female/Bessman_Okafor/trial_truth_036.mp4,Bessman_Okafor,Truth,Truth,0.37407804,True,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP17_lie8.mp4,Lee Mack,Lie,Lie,0.5398981,True,1.0
+test,truth/DOLOS/Male/Lee Mack/LS_WILTY_EP4_truth6.mp4,Lee Mack,Truth,Lie,0.5450139,False,0.945
+test,truth/DOLOS/Male/Bradley/YW_WILTY_EP54_truth7.mp4,Bradley,Truth,Lie,0.5164931,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP13_lie12.mp4,Lee Mack,Lie,Lie,0.52769285,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP11_lie8.mp4,Lee Mack,Lie,Lie,0.5566133,True,1.0
+test,deception/DOLOS/Female/Nina/YW_WILTY_EP44_lie6.mp4,Nina,Lie,Truth,0.3672684,False,1.0
+test,deception/DOLOS/Male/Chris Addison/SB_WILTY_EP37_lie8.mp4,Chris Addison,Lie,Truth,0.4125684,False,1.0
+test,deception/DOLOS/Female/Sarah Millican/SB_WILTY_EP32_lie7.mp4,Sarah Millican,Lie,Truth,0.48669308,False,1.0
+test,truth/DOLOS/Male/Sanjeev Bhaskar OBE/AN_WILTY_EP23_truth5.mp4,Sanjeev Bhaskar OBE,Truth,Lie,0.572813,False,1.0
+test,deception/DOLOS/Male/Bradley/YW_WILTY_EP54_lie1.mp4,Bradley,Lie,Lie,0.520983,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP11_lie6.mp4,Lee Mack,Lie,Lie,0.5642093,True,0.905
+test,truth/DOLOS/Male/Terry Christian/AN_WILTY_EP17_truth10.mp4,Terry Christian,Truth,Lie,0.50660574,False,1.0
+test,truth/DOLOS/Male/Brian Cox/SB_WILTY_EP29_truth3.mp4,Brian Cox,Truth,Lie,0.58713704,False,1.0
+test,truth/DOLOS/Female/Keeley Hawes/AN_WILTY_EP28_truth7.mp4,Keeley Hawes,Truth,Truth,0.4429078,True,1.0
+test,truth/DOLOS/Male/Lee Mack/LS_WILTY_EP5_truth12.mp4,Lee Mack,Truth,Lie,0.5581528,False,0.93
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP19_lie17.mp4,Lee Mack,Lie,Lie,0.5313472,True,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP16_lie21.mp4,Lee Mack,Lie,Truth,0.47343206,False,1.0
+test,deception/DOLOS/Male/Danny Wallace/AN_WILTY_EP21_lie7.mp4,Danny Wallace,Lie,Truth,0.46261784,False,1.0
+test,truth/DOLOS/Male/Lee Mack/LS_WILTY_EP5_truth13.mp4,Lee Mack,Truth,Truth,0.44904563,True,1.0
+test,truth/DOLOS/Male/Miles/YW_WILTY_EP49_truth9.mp4,Miles,Truth,Lie,0.5571835,False,1.0
+test,truth/RealLife-Deception-Detection/Female/Bessman_Okafor/trial_truth_033.mp4,Bessman_Okafor,Truth,Truth,0.15282679,True,1.0
+test,truth/DOLOS/Female/Lorraine/YW_WILTY_EP47_truth1.mp4,Lorraine,Truth,Truth,0.25500154,True,1.0
+test,truth/DOLOS/Male/Bradley/YW_WILTY_EP54_truth5.mp4,Bradley,Truth,Truth,0.49473444,True,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP21_lie13.mp4,Lee Mack,Lie,Truth,0.453103,False,0.995
+test,truth/DOLOS/Male/Lee Mack/BRI_WILTY_EP63_truth_31.mp4,Lee Mack,Truth,Lie,0.5526684,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP2_lie8.mp4,Lee Mack,Lie,Lie,0.5464338,True,1.0
+test,truth/DOLOS/Male/Lee Mack/BRI_WILTY_EP66_truth_16.mp4,Lee Mack,Truth,Truth,0.41607717,True,1.0
+test,truth/DOLOS/Male/Lee Mack/BRI_WILTY_EP59_truth_12.mp4,Lee Mack,Truth,Truth,0.49300224,True,0.92
+test,truth/DOLOS/Male/Lee Mack/BRI_WILTY_EP66_truth_18.mp4,Lee Mack,Truth,Truth,0.41253647,True,0.985
+test,truth/DOLOS/Male/Jack Dee/AN_WILTY_EP26_truth3.mp4,Jack Dee,Truth,Lie,0.5084286,False,1.0
+test,truth/DOLOS/Male/John Barrowman/LS_WILTY_EP2_truth2.mp4,John Barrowman,Truth,Lie,0.5033844,False,1.0
+test,truth/RealLife-Deception-Detection/Female/Bessman_Okafor/trial_truth_032.mp4,Bessman_Okafor,Truth,Truth,0.13017718,True,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP21_lie15.mp4,Lee Mack,Lie,Lie,0.53615546,True,1.0
+test,truth/DOLOS/Male/Bradley/YW_WILTY_EP54_truth6.mp4,Bradley,Truth,Truth,0.45638025,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP64_lie_24.mp4,Lee Mack,Lie,Lie,0.5528456,True,1.0
+test,deception/DOLOS/Female/Sarah Millican/SB_WILTY_EP31_lie6.mp4,Sarah Millican,Lie,Truth,0.44872275,False,1.0
+test,deception/DOLOS/Male/Rod/YW_WILTY_EP46_lie2.mp4,Rod,Lie,Lie,0.51737803,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP7_lie8.mp4,Lee Mack,Lie,Lie,0.5037629,True,0.885
+test,truth/DOLOS/Male/Peter Serafinowicz/LS_WILTY_EP11_truth3.mp4,Peter Serafinowicz,Truth,Truth,0.31837404,True,1.0
+test,deception/DOLOS/Male/Danny Wallace/AN_WILTY_EP21_lie6.mp4,Danny Wallace,Lie,Truth,0.47380266,False,1.0
+test,truth/DOLOS/Male/Lee Mack/BRI_WILTY_EP59_truth_18.mp4,Lee Mack,Truth,Lie,0.5205825,False,1.0
+test,deception/DOLOS/Male/Larry Lamb/AN_WILTY_EP15_lie17.mp4,Larry Lamb,Lie,Lie,0.5121155,True,1.0
+test,deception/DOLOS/Male/Phil Daniels/LS_WILTY_EP14_lie1.mp4,Phil Daniels,Lie,Truth,0.45380718,False,0.975
+test,truth/DOLOS/Male/Lee Mack/BRI_WILTY_EP59_truth_19.mp4,Lee Mack,Truth,Lie,0.53882796,False,1.0
+test,truth/DOLOS/Male/Nigel/YW_WILTY_EP44_truth3.mp4,Nigel,Truth,Truth,0.41748154,True,1.0
+test,truth/DOLOS/Male/Miles/YW_WILTY_EP49_truth5.mp4,Miles,Truth,Lie,0.5734978,False,1.0
+test,truth/DOLOS/Male/Rod/YW_WILTY_EP46_truth12.mp4,Rod,Truth,Lie,0.5960588,False,1.0
+test,deception/DOLOS/Male/Brian Cox/SB_WILTY_EP29_lie2.mp4,Brian Cox,Lie,Lie,0.52963454,True,1.0
+test,truth/DOLOS/Male/Lee Mack/LS_WILTY_EP6_truth6.mp4,Lee Mack,Truth,Truth,0.45597023,True,1.0
+test,deception/DOLOS/Male/Chris Addison/SB_WILTY_EP38_lie2.mp4,Chris Addison,Lie,Truth,0.46878135,False,1.0
+test,deception/DOLOS/Female/Victoria/YW_WILTY_EP46_lie8.mp4,Victoria,Lie,Truth,0.423507,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP2_lie9.mp4,Lee Mack,Lie,Lie,0.57070434,True,0.925
+test,deception/DOLOS/Male/Terry Christian/AN_WILTY_EP17_lie16.mp4,Terry Christian,Lie,Lie,0.5118104,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP58_lie_31.mp4,Lee Mack,Lie,Truth,0.4970182,False,0.92
+test,deception/DOLOS/Male/David Harewood/BRI_WILTY_EP62_lie_18.mp4,David Harewood,Lie,Truth,0.40599185,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP2_lie6.mp4,Lee Mack,Lie,Lie,0.5157646,True,0.93
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP14_lie8.mp4,Lee Mack,Lie,Truth,0.42006743,False,1.0
+test,truth/DOLOS/Male/Rod/YW_WILTY_EP51_truth4.mp4,Rod,Truth,Truth,0.43472022,True,1.0
+test,truth/DOLOS/Male/Lee Mack/AN_WILTY_EP18_truth19.mp4,Lee Mack,Truth,Lie,0.55403394,False,1.0
+test,deception/DOLOS/Male/Rod/YW_WILTY_EP51_lie1.mp4,Rod,Lie,Truth,0.4259272,False,1.0
+test,deception/DOLOS/Female/Katy Wix/SB_WILTY_EP42_lie9.mp4,Katy Wix,Lie,Lie,0.5473975,True,0.985
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP12_lie9.mp4,Lee Mack,Lie,Lie,0.53043556,True,0.88
+test,truth/DOLOS/Female/Keeley Hawes/AN_WILTY_EP28_truth10.mp4,Keeley Hawes,Truth,Truth,0.49113196,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP58_lie_33.mp4,Lee Mack,Lie,Truth,0.47971144,False,1.0
+test,deception/DOLOS/Female/Catherine/LS_WILTY_EP72_lie16.mp4,Catherine,Lie,Truth,0.48535565,False,1.0
+test,truth/DOLOS/Male/Sanjeev Bhaskar OBE/AN_WILTY_EP23_truth4.mp4,Sanjeev Bhaskar OBE,Truth,Lie,0.6183141,False,1.0
+test,deception/DOLOS/Female/Nina/YW_WILTY_EP44_lie11.mp4,Nina,Lie,Truth,0.36742216,False,1.0
+test,truth/DOLOS/Male/Phil Daniels/LS_WILTY_EP14_truth2.mp4,Phil Daniels,Truth,Truth,0.41405496,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP12_lie12.mp4,Lee Mack,Lie,Lie,0.51768494,True,1.0
+test,deception/DOLOS/Male/Danny Wallace/AN_WILTY_EP21_lie5.mp4,Danny Wallace,Lie,Lie,0.5242176,True,0.995
+test,truth/DOLOS/Male/Sanjeev Bhaskar OBE/AN_WILTY_EP23_truth3.mp4,Sanjeev Bhaskar OBE,Truth,Lie,0.5695713,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP1_lie6.mp4,Lee Mack,Lie,Lie,0.57622486,True,1.0
+test,truth/RealLife-Deception-Detection/Female/Bessman_Okafor/trial_truth_035.mp4,Bessman_Okafor,Truth,Truth,0.3436471,True,1.0
+test,deception/DOLOS/Female/Nina/YW_WILTY_EP44_lie10.mp4,Nina,Lie,Truth,0.41686925,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP14_lie7.mp4,Lee Mack,Lie,Truth,0.43891436,False,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP16_lie19.mp4,Lee Mack,Lie,Lie,0.5214805,True,1.0
+test,truth/DOLOS/Male/Peter Serafinowicz/LS_WILTY_EP11_truth5.mp4,Peter Serafinowicz,Truth,Truth,0.4595246,True,1.0
+test,truth/DOLOS/Male/Lee Mack/BRI_WILTY_EP66_truth_15.mp4,Lee Mack,Truth,Lie,0.5097016,False,1.0
+test,truth/DOLOS/Male/Miles/YW_WILTY_EP49_truth6.mp4,Miles,Truth,Lie,0.5483384,False,1.0
+test,truth/DOLOS/Female/Lorraine/YW_WILTY_EP47_truth2.mp4,Lorraine,Truth,Truth,0.281414,True,1.0
+test,truth/DOLOS/Female/Keeley Hawes/AN_WILTY_EP28_truth8.mp4,Keeley Hawes,Truth,Truth,0.38625023,True,1.0
+test,truth/DOLOS/Male/Richard E Grant/AN_WILTY_EP24_truth8.mp4,Richard E Grant,Truth,Truth,0.4933638,True,1.0
+test,truth/DOLOS/Male/Bradley/YW_WILTY_EP54_truth4.mp4,Bradley,Truth,Truth,0.4530235,True,1.0
+test,truth/DOLOS/Male/Terry Christian/AN_WILTY_EP17_truth12.mp4,Terry Christian,Truth,Truth,0.48405132,True,1.0
+test,deception/DOLOS/Female/Ronni Ancona/AN_WILTY_EP21_lie9.mp4,Ronni Ancona,Lie,Truth,0.42323187,False,1.0
+test,truth/DOLOS/Male/Greg Rutherford/BRI_WILTY_EP63_truth_26.mp4,Greg Rutherford,Truth,Lie,0.50169176,False,1.0
+test,truth/DOLOS/Male/Jack Dee/AN_WILTY_EP26_truth7.mp4,Jack Dee,Truth,Lie,0.55502063,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP13_lie13.mp4,Lee Mack,Lie,Truth,0.4875135,False,1.0
+test,deception/DOLOS/Male/Peter Serafinowicz/AN_WILTY_EP27_lie12.mp4,Peter Serafinowicz,Lie,Lie,0.5489955,True,1.0
+test,deception/DOLOS/Male/Sir Chris Hoy/AN_WILTY_EP21_lie1.mp4,Sir Chris Hoy,Lie,Lie,0.5500407,True,0.915
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP64_lie_23.mp4,Lee Mack,Lie,Lie,0.5593345,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP12_lie10.mp4,Lee Mack,Lie,Lie,0.5491554,True,1.0
+test,truth/DOLOS/Male/Jack Dee/AN_WILTY_EP26_truth4.mp4,Jack Dee,Truth,Lie,0.52982146,False,1.0
+test,truth/DOLOS/Male/Jack Dee/AN_WILTY_EP26_truth8.mp4,Jack Dee,Truth,Lie,0.53079844,False,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP58_lie_32.mp4,Lee Mack,Lie,Truth,0.44771796,False,1.0
+test,truth/DOLOS/Male/Miles/YW_WILTY_EP49_truth8.mp4,Miles,Truth,Lie,0.57457775,False,1.0
+test,deception/DOLOS/Female/Catherine/LS_WILTY_EP72_lie14.mp4,Catherine,Lie,Truth,0.49894997,False,1.0
+test,deception/DOLOS/Male/Larry Lamb/AN_WILTY_EP15_lie15.mp4,Larry Lamb,Lie,Truth,0.4725776,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP11_lie9.mp4,Lee Mack,Lie,Lie,0.5383333,True,1.0
+test,truth/DOLOS/Male/Lee Mack/BRI_WILTY_EP59_truth_17.mp4,Lee Mack,Truth,Lie,0.53909147,False,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP20_lie15.mp4,Lee Mack,Lie,Truth,0.29720765,False,0.99
+test,truth/DOLOS/Male/Larry Lamb/AN_WILTY_EP15_truth3.mp4,Larry Lamb,Truth,Truth,0.45833054,True,1.0
+test,deception/DOLOS/Female/Nina/YW_WILTY_EP44_lie9.mp4,Nina,Lie,Lie,0.5072577,True,1.0
+test,truth/DOLOS/Female/Sarah Millican/SB_WILTY_EP31_truth7.mp4,Sarah Millican,Truth,Truth,0.4505818,True,1.0
+test,truth/DOLOS/Male/Richard E Grant/AN_WILTY_EP24_truth11.mp4,Richard E Grant,Truth,Truth,0.49389848,True,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP22_lie17.mp4,Lee Mack,Lie,Truth,0.4921824,False,1.0
+test,truth/DOLOS/Male/Brian Cox/SB_WILTY_EP29_truth1.mp4,Brian Cox,Truth,Lie,0.5501427,False,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP61_lie_31.mp4,Lee Mack,Lie,Truth,0.49978024,False,1.0
+test,truth/DOLOS/Male/Phil Daniels/LS_WILTY_EP14_truth1.mp4,Phil Daniels,Truth,Lie,0.5278457,False,1.0
+test,truth/DOLOS/Female/Wendy Richard/LS_WILTY_EP5_truth11.mp4,Wendy Richard,Truth,Lie,0.51149476,False,0.97
+test,truth/RealLife-Deception-Detection/Male/Randy_Mills/trial_truth_021.mp4,Randy_Mills,Truth,Lie,0.5292602,False,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP61_lie_28.mp4,Lee Mack,Lie,Lie,0.5514034,True,1.0
+test,truth/RealLife-Deception-Detection/Male/Alan_Newton/trial_truth_023.mp4,Alan_Newton,Truth,Truth,0.23170483,True,1.0
+test,truth/DOLOS/Male/Peter Serafinowicz/LS_WILTY_EP11_truth4.mp4,Peter Serafinowicz,Truth,Truth,0.3747314,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP60_lie_24.mp4,Lee Mack,Lie,Lie,0.5148446,True,1.0
+test,deception/DOLOS/Male/Terry Christian/AN_WILTY_EP17_lie18.mp4,Terry Christian,Lie,Truth,0.49530786,False,0.97
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP20_lie10.mp4,Lee Mack,Lie,Lie,0.5052299,True,1.0
+test,deception/DOLOS/Female/Sarah Millican/SB_WILTY_EP32_lie6.mp4,Sarah Millican,Lie,Truth,0.4427031,False,0.94
+test,truth/DOLOS/Female/Keeley Hawes/AN_WILTY_EP28_truth9.mp4,Keeley Hawes,Truth,Truth,0.39840755,True,1.0
+test,truth/DOLOS/Male/Lee Mack/LS_WILTY_EP4_truth2.mp4,Lee Mack,Truth,Lie,0.53132486,False,1.0
+test,truth/DOLOS/Male/Lee Mack/AN_WILTY_EP25_truth5.mp4,Lee Mack,Truth,Lie,0.5321503,False,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP62_lie_15.mp4,Lee Mack,Lie,Truth,0.4533479,False,1.0
+test,deception/DOLOS/Male/Larry Lamb/AN_WILTY_EP15_lie16.mp4,Larry Lamb,Lie,Truth,0.49532327,False,0.905
+test,truth/RealLife-Deception-Detection/Female/Bessman_Okafor/trial_truth_038.mp4,Bessman_Okafor,Truth,Truth,0.32884118,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP60_lie_22.mp4,Lee Mack,Lie,Lie,0.5311026,True,1.0
+test,truth/RealLife-Deception-Detection/Female/Bessman_Okafor/trial_truth_034.mp4,Bessman_Okafor,Truth,Truth,0.15932655,True,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP5_lie6.mp4,Lee Mack,Lie,Lie,0.5186588,True,0.96
+test,deception/DOLOS/Male/Danny Wallace/AN_WILTY_EP21_lie8.mp4,Danny Wallace,Lie,Lie,0.52793646,True,0.89
+test,deception/DOLOS/Female/Catherine/LS_WILTY_EP72_lie15.mp4,Catherine,Lie,Truth,0.4120377,False,1.0
+test,truth/DOLOS/Male/Richard E Grant/AN_WILTY_EP24_truth12.mp4,Richard E Grant,Truth,Lie,0.5127911,False,1.0
+test,truth/DOLOS/Male/John Barrowman/LS_WILTY_EP2_truth1.mp4,John Barrowman,Truth,Lie,0.5507373,False,0.915
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP9_lie15.mp4,Lee Mack,Lie,Truth,0.49383396,False,1.0
+test,deception/DOLOS/Male/Lee Mack/LS_WILTY_EP14_lie10.mp4,Lee Mack,Lie,Truth,0.4478271,False,1.0
+test,truth/DOLOS/Male/Rod/YW_WILTY_EP46_truth11.mp4,Rod,Truth,Truth,0.47359425,True,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP19_lie15.mp4,Lee Mack,Lie,Lie,0.5176567,True,1.0
+test,truth/DOLOS/Male/Bradley/YW_WILTY_EP54_truth8.mp4,Bradley,Truth,Lie,0.543908,False,1.0
+test,truth/DOLOS/Male/Jack Dee/AN_WILTY_EP26_truth9.mp4,Jack Dee,Truth,Truth,0.47735283,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP62_lie_25.mp4,Lee Mack,Lie,Truth,0.48525476,False,1.0
+test,deception/DOLOS/Female/Katy Wix/SB_WILTY_EP42_lie10.mp4,Katy Wix,Lie,Truth,0.49360457,False,1.0
+test,deception/DOLOS/Male/Lee Mack/AN_WILTY_EP20_lie16.mp4,Lee Mack,Lie,Truth,0.40020993,False,1.0
+test,truth/DOLOS/Male/Phil Daniels/LS_WILTY_EP14_truth3.mp4,Phil Daniels,Truth,Truth,0.43525124,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP59_deception_26.mp4,Lee Mack,Lie,Truth,0.48657393,False,1.0
+test,truth/DOLOS/Male/Lee Mack/AN_WILTY_EP25_truth4.mp4,Lee Mack,Truth,Truth,0.4358758,True,1.0
+test,deception/DOLOS/Male/Lee Mack/BRI_WILTY_EP60_lie_23.mp4,Lee Mack,Lie,Truth,0.47482786,False,1.0
+test,truth/DOLOS/Male/Miles/YW_WILTY_EP49_truth7.mp4,Miles,Truth,Lie,0.58426917,False,1.0
+test,truth/DOLOS/Male/Jack Dee/AN_WILTY_EP26_truth6.mp4,Jack Dee,Truth,Lie,0.5547846,False,1.0
+test,truth/DOLOS/Male/Lee Mack/AN_WILTY_EP18_truth13.mp4,Lee Mack,Truth,Lie,0.5424842,False,1.0

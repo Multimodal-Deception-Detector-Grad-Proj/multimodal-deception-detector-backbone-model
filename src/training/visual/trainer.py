@@ -13,11 +13,16 @@ from torch.utils.data import DataLoader
 
 
 class Trainer:
-    """AdamW + (optionally class-weighted) CE, early stopping on validation macro-F1."""
+    """AdamW + (optionally class-weighted) CE, early stopping on validation macro-F1.
+
+    Batches are (x, y, idx[, mask]). If a mask is present and cfg.use_mask (default True)
+    it is passed to the model; otherwise the model runs unmasked.
+    """
 
     def __init__(self, model: nn.Module, cfg, class_weights: Optional[torch.Tensor] = None):
         self.cfg = cfg
         self.device = torch.device(cfg.device)
+        self.use_mask = bool(getattr(cfg, "use_mask", True))
         self.model = model.to(self.device)
         w = class_weights.to(self.device) if (class_weights is not None and cfg.class_weighted_loss) else None
         self.criterion = nn.CrossEntropyLoss(weight=w)
@@ -28,14 +33,18 @@ class Trainer:
         self.best_state, self.best_epoch = None, -1
         self.history = []
 
+    def _forward(self, x: torch.Tensor, mask: Optional[torch.Tensor]) -> torch.Tensor:
+        return self.model(x, mask) if (self.use_mask and mask is not None) else self.model(x)
+
     def _run_epoch(self, loader: DataLoader, train: bool):
         self.model.train(train)
         total, losses, preds, ys = 0.0, 0, [], []
         with torch.set_grad_enabled(train):
-            for x, y, _ in loader:
+            for x, y, _, *rest in loader:
+                mask = rest[0].to(self.device) if rest else None
                 x, y = x.to(self.device), y.to(self.device)
                 with torch.autocast(self.device.type, enabled=self.use_amp):
-                    logits = self.model(x)
+                    logits = self._forward(x, mask)
                     loss = self.criterion(logits.float(), y)
                 if train:
                     self.opt.zero_grad(set_to_none=True)

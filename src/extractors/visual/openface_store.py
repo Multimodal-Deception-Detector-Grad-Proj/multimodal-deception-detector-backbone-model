@@ -4,11 +4,15 @@ import logging
 import tempfile
 import time
 from typing import Optional
-
+import os
+import sys
 import pandas as pd
-
-from .caching import DiskCache, legacy_key
-from .status import StageReport, run_tasks
+project_root = os.path.abspath(os.path.join(os.getcwd(), ".."))
+if project_root not in sys.path:
+    sys.path.append(project_root)
+os.environ["LIBGL_ALWAYS_SOFTWARE"] = "1"
+from notebooks.eda.visual.caching import DiskCache, legacy_key
+from notebooks.eda.visual.status import StageReport, run_tasks
 
 logger = logging.getLogger(__name__)
 
