@@ -1,9 +1,16 @@
 torch>=2.0.0
 torchvision
+transformers>=4.40
+sentencepiece
+protobuf
+whisperx
 opencv-python
-matplotlib
 numpy
 pandas
+pillow
+pyyaml
+matplotlib
 seaborn
 huggingface_hub
 scenedetect>=0.7.2
+pytest

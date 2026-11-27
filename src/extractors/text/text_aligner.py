@@ -1,65 +1,75 @@
 import numpy as np
 import torch
 from transformers import AutoTokenizer
-from src.common.constants import L_TXT, TEXT_ENCODER
+from src.common.constants import L_TXT, TARGET_T, TEXT_ENCODER
 
 
 class TokenAligner:
 
-    def __init__(self, model_name: str = TEXT_ENCODER, max_len: int = L_TXT):
+    def __init__(self, model_name: str = TEXT_ENCODER, max_len: int = L_TXT, target_t: int = TARGET_T):
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.max_len = max_len
+        self.target_t = target_t
+
+    @staticmethod
+    def _fill_missing_times(word_segments: list) -> list:
+        """Untimed words (e.g. '2019') inherit prev word's end as start and the
+        next timed word's start as end, instead of collapsing to frame 0."""
+        words = []
+        prev_end = 0.0
+        for seg in word_segments:
+            start, end = seg.get("start"), seg.get("end")
+            words.append({"word": seg["word"].strip(), "start": start, "end": end, "_prev_end": prev_end})
+            if end is not None:
+                prev_end = end
+        next_start = None
+        for w in reversed(words):
+            if w["start"] is None:
+                w["start"] = w["_prev_end"]
+                w["end"] = next_start if next_start is not None and next_start >= w["start"] else w["start"]
+            elif w["end"] is None:
+                w["end"] = w["start"]
+            next_start = w["start"]
+        return words
 
     def align_clip(self, word_segments: list, clip_fps: float) -> dict:
+        token_ids, frame_spans = [], []
 
-        token_ids = []
-        frame_spans = []
+        token_ids.append(self.tokenizer.cls_token_id)
+        frame_spans.append((0, 0))
 
-        # Add [CLS] special token at position 0
-        cls_id = self.tokenizer.cls_token_id
-        token_ids.append(cls_id)
-        frame_spans.append((0, 0))  # [CLS] spans start of video
+        for seg in self._fill_missing_times(word_segments):
+            if not seg["word"]:
+                continue
+            start_frame = int(np.floor(seg["start"] * clip_fps))
+            end_frame = int(np.ceil(seg["end"] * clip_fps))
 
-        for segment in word_segments:
-            word = segment["word"].strip()
-            start_time = segment.get("start") if segment.get("start") is not None else 0.0
-            end_time = segment.get("end") if segment.get("end") is not None else start_time # this is to fix the issue of None values for start and end times in whisperX when it gets unknown words like "2019" or "$5". We set the end_time to be the same as start_time in such cases, so that the word is still included in the alignment but with a zero-length span.(sorry for the long comment, but I wanted to explain the reasoning behind this change)
+            # Words starting at/after the T-frame window are outside the shared clock: drop.
+            if start_frame >= self.target_t:
+                break
+            end_frame = max(min(end_frame, self.target_t - 1), start_frame)
 
-            # Convert seconds to discrete frame indices based on clip FPS
-            start_frame = int(np.floor(start_time * clip_fps))
-            end_frame = int(np.ceil(end_time * clip_fps))
-
-            # DeBERTa tokenization (handles sub-word splitting)
-            sub_tokens = self.tokenizer.encode(word, add_special_tokens=False)
-
-            for sub_id in sub_tokens:
-                if len(token_ids) < self.max_len - 1:  # Reserve slot for [SEP]
+            for sub_id in self.tokenizer.encode(seg["word"], add_special_tokens=False):
+                if len(token_ids) < self.max_len - 1:  # reserve slot for [SEP]
                     token_ids.append(sub_id)
                     frame_spans.append((start_frame, end_frame))
                 else:
                     break
-            
             if len(token_ids) >= self.max_len - 1:
                 break
 
-        # Add [SEP] special token at the end
-        sep_id = self.tokenizer.sep_token_id
-        token_ids.append(sep_id)
-        last_frame = frame_spans[-1][1] if frame_spans else 0
+        token_ids.append(self.tokenizer.sep_token_id)
+        last_frame = frame_spans[-1][1]
         frame_spans.append((last_frame, last_frame))
 
-        # Padding up to L_TXT = 56
         seq_len = len(token_ids)
         pad_len = self.max_len - seq_len
-
-        pad_id = self.tokenizer.pad_token_id
-        token_ids.extend([pad_id] * pad_len)
-        frame_spans.extend([(0, 0)] * pad_len)  # Padded tokens span no frames
-
+        token_ids.extend([self.tokenizer.pad_token_id] * pad_len)
+        frame_spans.extend([(0, 0)] * pad_len)
         text_mask = [1] * seq_len + [0] * pad_len
 
         return {
             "input_ids": torch.tensor(token_ids, dtype=torch.long),
             "text_mask": torch.tensor(text_mask, dtype=torch.bool),
-            "alignment_indices": torch.tensor(frame_spans, dtype=torch.long),  # Shape: [56, 2]
+            "alignment_indices": torch.tensor(frame_spans, dtype=torch.long),
         }

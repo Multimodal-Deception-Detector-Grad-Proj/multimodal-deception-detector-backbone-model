@@ -10,3 +10,10 @@ transcribe:
   initial_prompt: null
   align_model: null             # null = default wav2vec2 model for the language
   cache_dir: data/processed/transcripts
+
+text_encoder:
+  model_name: microsoft/deberta-v3-base
+  max_len: 56
+
+export:
+  text_dir: data/processed/text

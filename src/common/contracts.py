@@ -1,5 +1,5 @@
 import torch
-from .constants import D_TXT, L_TXT
+from .constants import D_TXT, L_TXT, TARGET_T 
 
 
 def check_text_sample(d: dict):
@@ -32,3 +32,4 @@ def verify_text_tensors(text_feats: torch.Tensor, alignment_indices: torch.Tenso
     # 4. Temporal Logic Constraints
     assert (alignment_indices >= 0).all(), "Frame indices cannot be negative"
     assert (alignment_indices[:, 0] <= alignment_indices[:, 1]).all(), "Start frames cannot occur after end frames"
+    assert (alignment_indices < TARGET_T).all(), f"Frame indices must be < T={TARGET_T}"
