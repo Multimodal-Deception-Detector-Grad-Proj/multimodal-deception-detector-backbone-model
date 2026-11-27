@@ -1,5 +1,5 @@
 transcribe:
-  model_size: medium.en
+  model_size: small.en
   language: en
   device: auto                  # auto | cuda | cpu
   compute_type: float16         # forced to int8 on CPU

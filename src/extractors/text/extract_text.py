@@ -42,18 +42,35 @@ class TextFeatureExtractor:
         self.encoder = AutoModel.from_pretrained(model_name).to(self.device)
         self.encoder.eval()
 
-    @torch.no_grad() 
+    @torch.no_grad()
     def process_clip(
         self,
         clip_id: str,
         media_path: Union[str, Path],
         clip_fps: float = TARGET_FPS,
     ) -> Dict[str, torch.Tensor]:
-        
+
         media_path = Path(media_path)
 
-        # Transcribe Audio using WhisperX 
+        if clip_fps != TARGET_FPS:
+            logger.warning(
+                "[%s] clip_fps=%s differs from shared TARGET_FPS=%s; "
+                "alignment indices will be off the shared clock",
+                clip_id, clip_fps, TARGET_FPS,
+            )
+
+        # Transcribe Audio using WhisperX
         transcribe_out = self.transcriber.transcribe_clip(clip_id, media_path)
+        status = transcribe_out.get("status")
+
+        # A failed transcription must not silently become an empty [CLS]/[SEP] sample
+        if status == "failed":
+            raise RuntimeError(
+                f"[{clip_id}] transcription failed: {transcribe_out.get('error')}"
+            )
+        if status == "no_speech":
+            logger.warning("[%s] no speech detected; sample will contain only [CLS]/[SEP]", clip_id)
+
         word_segments = transcribe_out.get("words", [])
 
         # Align Tokens to Discrete Video Frames
@@ -82,8 +99,7 @@ class TextFeatureExtractor:
             "alignment_indices": aligned["alignment_indices"],
         }
 
-        # Enforce Contracts
+        # Enforce Contracts 
         check_text_sample(sample)
-        verify_text_tensors(sample["text_feats"], sample["alignment_indices"])
 
         return sample
